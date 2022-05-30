@@ -1,0 +1,31 @@
+.features {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    width: 100%;
+  }
+  
+  .feature_card {
+    border: 1px solid #BFD2FD;
+    border-radius: 4px;
+    margin: 10px;
+    padding-top: 10px;
+  }
+
+  .feature_card p {
+    font-size: 14px;
+    font-family: var(--ifm-font-family-monospace);
+  }
+
+  .feature_card h3 {
+    margin-bottom: -5px;
+    margin-top: 10px;
+  }
+  
+  .featureSvg {
+    height: 200px;
+    width: 200px;
+  }
+  
+  
+  

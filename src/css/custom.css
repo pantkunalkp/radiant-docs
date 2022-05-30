@@ -1,0 +1,59 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2c63e5;
+  --ifm-color-primary-dark: #1b54db;
+  --ifm-color-primary-darker: #194fcf;
+  --ifm-color-primary-darkest: #1541aa;
+  --ifm-color-primary-light: #4475e8;
+  --ifm-color-primary-lighter: #507ee9;
+  --ifm-color-primary-lightest: #7599ee;
+
+  --ifm-color-secondary: #ffcd59;
+  --ifm-color-secondary-dark: #ffc337;
+  --ifm-color-secondary-darker: #ffbd25;
+  --ifm-color-secondary-darkest: #f1a800;
+  --ifm-color-secondary-light: #ffd77b;
+  --ifm-color-secondary-lighter: #ffdd8d;
+  --ifm-color-secondary-lightest: #ffecc0;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-font-family-base: Poppins sans-serif system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --ifm-font-family-monospace: 'Source Sans Pro' sans-serif SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.hero__title {
+  color: var(--ifm-color-secondary);
+}
+
+h1 {
+  color: var(--ifm-color-primary);
+  font-family: var(--ifm-font-family-base);
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 84px;
+  letter-spacing: 0em;
+}
+
+
+
