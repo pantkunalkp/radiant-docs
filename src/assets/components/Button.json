@@ -1,0 +1,184 @@
+{
+    "tags": {},
+    "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Button.tsx",
+    "description": "",
+    "displayName": "Column",
+    "methods": [],
+    "props": {
+     "action": {
+      "defaultValue": null,
+      "description": "A ref for imperative actions. It currently only supports `focusVisible()` action.",
+      "name": "action",
+      "declarations": [
+       {
+        "fileName": "radiant/src/Button/ButtonProps.ts",
+        "name": "TypeLiteral"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "React.Ref<{ focusVisible(): void; }>"
+      }
+     },
+     "color": {
+      "defaultValue": {
+       "value": "'primary'"
+      },
+      "description": "The color of the component. It supports those theme colors that make sense for this component.",
+      "name": "color",
+      "declarations": [
+       {
+        "fileName": "radiant/src/Button/ButtonProps.ts",
+        "name": "TypeLiteral"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+      }
+     },
+     "disabled": {
+      "defaultValue": {
+       "value": "false"
+      },
+      "description": "If `true`, the component is disabled.",
+      "name": "disabled",
+      "declarations": [
+       {
+        "fileName": "radiant/src/Button/ButtonProps.ts",
+        "name": "TypeLiteral"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "boolean"
+      }
+     },
+     "endIcon": {
+      "defaultValue": null,
+      "description": "Element placed after the children.",
+      "name": "endIcon",
+      "declarations": [
+       {
+        "fileName": "radiant/src/Button/ButtonProps.ts",
+        "name": "TypeLiteral"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "React.ReactNode"
+      }
+     },
+     "focusVisibleClassName": {
+      "defaultValue": null,
+      "description": "This prop can help identify which element has keyboard focus.\nThe class name will be applied when the element gains the focus through keyboard interaction.\nIt's a polyfill for the [CSS :focus-visible selector](https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo).\nThe rationale for using this feature [is explained here](https://github.com/WICG/focus-visible/blob/HEAD/explainer.md).\nA [polyfill can be used](https://github.com/WICG/focus-visible) to apply a `focus-visible` class to other components\nif needed.",
+      "name": "focusVisibleClassName",
+      "declarations": [
+       {
+        "fileName": "radiant/src/Button/ButtonProps.ts",
+        "name": "TypeLiteral"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "string"
+      }
+     },
+     "fullWidth": {
+      "defaultValue": {
+       "value": "false"
+      },
+      "description": "If `true`, the button will take up the full width of its container.",
+      "name": "fullWidth",
+      "declarations": [
+       {
+        "fileName": "radiant/src/Button/ButtonProps.ts",
+        "name": "TypeLiteral"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "boolean"
+      }
+     },
+     "size": {
+      "defaultValue": null,
+      "description": "The size of the component.",
+      "name": "size",
+      "declarations": [
+       {
+        "fileName": "radiant/src/Button/ButtonProps.ts",
+        "name": "TypeLiteral"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "\"sm\" | \"md\" | \"lg\""
+      }
+     },
+     "startIcon": {
+      "defaultValue": null,
+      "description": "Element placed before the children.",
+      "name": "startIcon",
+      "declarations": [
+       {
+        "fileName": "radiant/src/Button/ButtonProps.ts",
+        "name": "TypeLiteral"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "React.ReactNode"
+      }
+     },
+     "sx": {
+      "defaultValue": null,
+      "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+      "name": "sx",
+      "declarations": [
+       {
+        "fileName": "radiant/src/Button/ButtonProps.ts",
+        "name": "TypeLiteral"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "SxProps"
+      }
+     },
+     "tabIndex": {
+      "defaultValue": {
+       "value": "0"
+      },
+      "description": "",
+      "name": "tabIndex",
+      "declarations": [
+       {
+        "fileName": "radiant/src/Button/ButtonProps.ts",
+        "name": "TypeLiteral"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "any"
+      }
+     },
+     "variant": {
+      "defaultValue": {
+       "value": "'solid'"
+      },
+      "description": "The variant to use.",
+      "name": "variant",
+      "declarations": [
+       {
+        "fileName": "radiant/src/Button/ButtonProps.ts",
+        "name": "TypeLiteral"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+      }
+     }
+    }
+   }

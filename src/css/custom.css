@@ -55,5 +55,22 @@ h1 {
   letter-spacing: 0em;
 }
 
+table thead {
+  background-color: transparent;
+}
 
+table thead tr {
+  border-bottom: none;
+}
 
+table tr:nth-child(2n) {
+  background-color: transparent;
+}
+
+table td {
+ font-size: 0.875rem;
+}
+
+table th, table td {
+  border: none;
+}
