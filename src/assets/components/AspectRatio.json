@@ -1,0 +1,152 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/AspectRatio.tsx",
+ "description": "",
+ "displayName": "AspectRatio",
+ "methods": [],
+ "props": {
+  "color": {
+   "defaultValue": {
+    "value": "'neutral'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/AspectRatio/AspectRatioProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "children": {
+   "defaultValue": null,
+   "description": "Used to render icon or text elements inside the AspectRatio if `src` is not set.\nThis can be an element, or just a string.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/AspectRatio/AspectRatioProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "componentsProps": {
+   "defaultValue": {
+    "value": "{}"
+   },
+   "description": "The props used for each slot inside the AspectRatio.",
+   "name": "componentsProps",
+   "declarations": [
+    {
+     "fileName": "radiant/src/AspectRatio/AspectRatioProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "{ content: HTMLAttributes<HTMLDivElement> & { sx: SxProps; }; }"
+   }
+  },
+  "minHeight": {
+   "defaultValue": null,
+   "description": "The minimum calculated height of the element (not the CSS height).",
+   "name": "minHeight",
+   "declarations": [
+    {
+     "fileName": "radiant/src/AspectRatio/AspectRatioProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string | number"
+   }
+  },
+  "maxHeight": {
+   "defaultValue": null,
+   "description": "The maximum calculated height of the element (not the CSS height).",
+   "name": "maxHeight",
+   "declarations": [
+    {
+     "fileName": "radiant/src/AspectRatio/AspectRatioProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string | number"
+   }
+  },
+  "objectFit": {
+   "defaultValue": null,
+   "description": "The CSS object-fit value of the first-child.",
+   "name": "objectFit",
+   "declarations": [
+    {
+     "fileName": "radiant/src/AspectRatio/AspectRatioProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ObjectFit"
+   }
+  },
+  "ratio": {
+   "defaultValue": {
+    "value": "'16 / 9'"
+   },
+   "description": "The aspect-ratio of the element. The current implementation uses padding instead of the CSS aspect-ratio due to browser support.\nhttps://caniuse.com/?search=aspect-ratio",
+   "name": "ratio",
+   "declarations": [
+    {
+     "fileName": "radiant/src/AspectRatio/AspectRatioProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string | number"
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/AspectRatio/AspectRatioProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'soft'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/AspectRatio/AspectRatioProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  }
+ }
+}

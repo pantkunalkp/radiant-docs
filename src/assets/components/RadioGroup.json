@@ -1,0 +1,208 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/RadioGroup.tsx",
+ "description": "",
+ "displayName": "RadioGroup",
+ "methods": [],
+ "props": {
+  "className": {
+   "defaultValue": null,
+   "description": "Class name applied to the root element.",
+   "name": "className",
+   "declarations": [
+    {
+     "fileName": "radiant/src/RadioGroup/RadioGroupProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "component": {
+   "defaultValue": null,
+   "description": "The component used for the Root slot.\nEither a string to use a HTML element or a component.",
+   "name": "component",
+   "declarations": [
+    {
+     "fileName": "radiant/src/RadioGroup/RadioGroupProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ElementType<any>"
+   }
+  },
+  "color": {
+   "defaultValue": null,
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/RadioGroup/RadioGroupProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "defaultValue": {
+   "defaultValue": null,
+   "description": "The default value. Use when the component is not controlled.",
+   "name": "defaultValue",
+   "declarations": [
+    {
+     "fileName": "radiant/src/RadioGroup/RadioGroupProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "any"
+   }
+  },
+  "disableIcon": {
+   "defaultValue": null,
+   "description": "The radio's `disabledIcon` prop. If specified, the value is passed down to every radios under this element.",
+   "name": "disableIcon",
+   "declarations": [
+    {
+     "fileName": "radiant/src/RadioGroup/RadioGroupProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "name": {
+   "defaultValue": null,
+   "description": "The name used to reference the value of the control.\nIf you don't provide this prop, it falls back to a randomly generated name.",
+   "name": "name",
+   "declarations": [
+    {
+     "fileName": "radiant/src/RadioGroup/RadioGroupProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "overlay": {
+   "defaultValue": null,
+   "description": "The radio's `overlay` prop. If specified, the value is passed down to every radios under this element.",
+   "name": "overlay",
+   "declarations": [
+    {
+     "fileName": "radiant/src/RadioGroup/RadioGroupProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "onChange": {
+   "defaultValue": null,
+   "description": "Callback fired when a radio button is selected.\n@param event The event source of the callback.\nYou can pull out the new value by accessing `event.target.value` (string).",
+   "name": "onChange",
+   "declarations": [
+    {
+     "fileName": "radiant/src/RadioGroup/RadioGroupProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "(event: ChangeEvent<HTMLInputElement>) => void"
+   }
+  },
+  "row": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, flex direction is set to 'row'.",
+   "name": "row",
+   "declarations": [
+    {
+     "fileName": "radiant/src/RadioGroup/RadioGroupProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "size": {
+   "defaultValue": {
+    "value": "'md'"
+   },
+   "description": "The size of the component.",
+   "name": "size",
+   "declarations": [
+    {
+     "fileName": "radiant/src/RadioGroup/RadioGroupProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"sm\" | \"md\" | \"lg\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/RadioGroup/RadioGroupProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "value": {
+   "defaultValue": null,
+   "description": "Value of the selected radio button. The DOM API casts this to a string.",
+   "name": "value",
+   "declarations": [
+    {
+     "fileName": "radiant/src/RadioGroup/RadioGroupProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "any"
+   }
+  },
+  "variant": {
+   "defaultValue": null,
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/RadioGroup/RadioGroupProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  }
+ }
+}

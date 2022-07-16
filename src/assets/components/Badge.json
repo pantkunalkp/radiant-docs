@@ -1,0 +1,252 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Badge.tsx",
+ "description": "",
+ "displayName": "Badge",
+ "methods": [],
+ "props": {
+  "anchorOrigin": {
+   "defaultValue": {
+    "value": "{\nvertical: 'top',\nhorizontal: 'right',\n}"
+   },
+   "description": "The anchor of the badge.",
+   "name": "anchorOrigin",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Badge/BadgeProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "BadgeOrigin"
+   }
+  },
+  "badgeInset": {
+   "defaultValue": {
+    "value": "0"
+   },
+   "description": "The inset of the badge. Support shorthand syntax as described in https://developer.mozilla.org/en-US/docs/Web/CSS/inset.",
+   "name": "badgeInset",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Badge/BadgeProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string | number"
+   }
+  },
+  "color": {
+   "defaultValue": {
+    "value": "'primary'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Badge/BadgeProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "size": {
+   "defaultValue": {
+    "value": "'md'"
+   },
+   "description": "The size of the component.",
+   "name": "size",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Badge/BadgeProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"sm\" | \"md\" | \"lg\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Badge/BadgeProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'solid'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Badge/BadgeProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  },
+  "components": {
+   "defaultValue": {
+    "value": "{}"
+   },
+   "description": "The components used for each slot inside the Badge.\nEither a string to use a HTML element or a component.",
+   "name": "components",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+    "name": "BadgeUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+     "name": "BadgeUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "{ Root?: ElementType<any>; Badge?: ElementType<any>; }"
+   }
+  },
+  "componentsProps": {
+   "defaultValue": {
+    "value": "{}"
+   },
+   "description": "The props used for each slot inside the Badge.",
+   "name": "componentsProps",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+    "name": "BadgeUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+     "name": "BadgeUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "{ root?: SlotComponentProps<\"span\", BadgeUnstyledComponentsPropsOverrides, BadgeUnstyledOwnerState>; badge?: SlotComponentProps<...>; }"
+   }
+  },
+  "badgeContent": {
+   "defaultValue": null,
+   "description": "The content rendered within the badge.",
+   "name": "badgeContent",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+    "name": "BadgeUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+     "name": "BadgeUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "children": {
+   "defaultValue": null,
+   "description": "The badge will be added relative to this node.",
+   "name": "children",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+    "name": "BadgeUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+     "name": "BadgeUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "invisible": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the badge is invisible.",
+   "name": "invisible",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+    "name": "BadgeUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+     "name": "BadgeUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "max": {
+   "defaultValue": {
+    "value": "99"
+   },
+   "description": "Max count to show.",
+   "name": "max",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+    "name": "BadgeUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+     "name": "BadgeUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "number"
+   }
+  },
+  "showZero": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "Controls whether the badge is hidden when `badgeContent` is zero.",
+   "name": "showZero",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+    "name": "BadgeUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/BadgeUnstyled/BadgeUnstyled.types.d.ts",
+     "name": "BadgeUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  }
+ }
+}

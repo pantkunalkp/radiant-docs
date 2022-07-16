@@ -1,0 +1,54 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/FormLabel.tsx",
+ "description": "",
+ "displayName": "FormLabel",
+ "methods": [],
+ "props": {
+  "children": {
+   "defaultValue": null,
+   "description": "The content of the component.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormLabel/FormLabelProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "required": {
+   "defaultValue": null,
+   "description": "The asterisk is added if required=`true`",
+   "name": "required",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormLabel/FormLabelProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormLabel/FormLabelProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  }
+ }
+}

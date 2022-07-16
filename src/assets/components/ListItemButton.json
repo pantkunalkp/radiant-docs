@@ -1,0 +1,201 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/ListItemButton.tsx",
+ "description": "",
+ "displayName": "ListItemButton",
+ "methods": [],
+ "props": {
+  "action": {
+   "defaultValue": null,
+   "description": "A ref for imperative actions. It currently only supports `focusVisible()` action.",
+   "name": "action",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItemButton/ListItemButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "Ref<{ focusVisible(): void; }>"
+   }
+  },
+  "autoFocus": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the list item is focused during the first mount.\nFocus will also be triggered if the value changes from false to true.",
+   "name": "autoFocus",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItemButton/ListItemButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "color": {
+   "defaultValue": {
+    "value": "'neutral'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItemButton/ListItemButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "children": {
+   "defaultValue": null,
+   "description": "The content of the component.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItemButton/ListItemButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "classes": {
+   "defaultValue": null,
+   "description": "Override or extend the styles applied to the component.",
+   "name": "classes",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItemButton/ListItemButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "Partial<ListItemButtonClasses>"
+   }
+  },
+  "disabled": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the component is disabled.",
+   "name": "disabled",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItemButton/ListItemButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "focusVisibleClassName": {
+   "defaultValue": null,
+   "description": "This prop can help identify which element has keyboard focus.\nThe class name will be applied when the element gains the focus through keyboard interaction.\nIt's a polyfill for the [CSS :focus-visible selector](https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo).\nThe rationale for using this feature [is explained here](https://github.com/WICG/focus-visible/blob/HEAD/explainer.md).\nA [polyfill can be used](https://github.com/WICG/focus-visible) to apply a `focus-visible` class to other components\nif needed.",
+   "name": "focusVisibleClassName",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItemButton/ListItemButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "inset": {
+   "defaultValue": null,
+   "description": "The empty space on the side(s) of the separator.",
+   "name": "inset",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItemButton/ListItemButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"gutter\" | \"leftGutter\" | \"startAdornment\""
+   }
+  },
+  "selected": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "Use to apply selected styling.",
+   "name": "selected",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItemButton/ListItemButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'plain'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItemButton/ListItemButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItemButton/ListItemButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "tabIndex": {
+   "defaultValue": {
+    "value": "0"
+   },
+   "description": "",
+   "name": "tabIndex",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItemButton/ListItemButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "number"
+   }
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/CardOverflow.tsx",
+ "description": "",
+ "displayName": "CardOverflow",
+ "methods": [],
+ "props": {
+  "color": {
+   "defaultValue": {
+    "value": "'neutral'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CardOverflow/CardOverflowProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "children": {
+   "defaultValue": null,
+   "description": "Used to render icon or text elements inside the CardOverflow if `src` is not set.\nThis can be an element, or just a string.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CardOverflow/CardOverflowProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CardOverflow/CardOverflowProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'plain'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CardOverflow/CardOverflowProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  }
+ }
+}

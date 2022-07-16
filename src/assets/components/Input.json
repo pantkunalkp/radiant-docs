@@ -1,0 +1,541 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Input.tsx",
+ "description": "",
+ "displayName": "Input",
+ "methods": [],
+ "props": {
+  "defaultValue": {
+   "defaultValue": null,
+   "description": "The default value. Use when the component is not controlled.",
+   "name": "defaultValue",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+    "name": "UseInputParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+     "name": "UseInputParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "unknown"
+   }
+  },
+  "disabled": {
+   "defaultValue": null,
+   "description": "If `true`, the component is disabled.\nThe prop defaults to the value (`false`) inherited from the parent FormControl component.",
+   "name": "disabled",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+    "name": "UseInputParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+     "name": "UseInputParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "error": {
+   "defaultValue": null,
+   "description": "If `true`, the `input` will indicate an error.\nThe prop defaults to the value (`false`) inherited from the parent FormControl component.",
+   "name": "error",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+    "name": "UseInputParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+     "name": "UseInputParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "onBlur": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onBlur",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+    "name": "UseInputParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+     "name": "UseInputParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "FocusEventHandler<Element>"
+   }
+  },
+  "onClick": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onClick",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+    "name": "UseInputParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+     "name": "UseInputParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "MouseEventHandler<Element>"
+   }
+  },
+  "onChange": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onChange",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+    "name": "UseInputParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+     "name": "UseInputParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ChangeEventHandler<HTMLInputElement>"
+   }
+  },
+  "onFocus": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onFocus",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+    "name": "UseInputParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+     "name": "UseInputParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "FocusEventHandler<Element>"
+   }
+  },
+  "required": {
+   "defaultValue": null,
+   "description": "If `true`, the `input` element is required.\nThe prop defaults to the value (`false`) inherited from the parent FormControl component.",
+   "name": "required",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+    "name": "UseInputParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+     "name": "UseInputParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "value": {
+   "defaultValue": null,
+   "description": "The value of the `input` element, required for a controlled component.",
+   "name": "value",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+    "name": "UseInputParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/InputUnstyled/useInput.types.d.ts",
+     "name": "UseInputParameters"
+    },
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "unknown"
+   }
+  },
+  "aria-describedby": {
+   "defaultValue": null,
+   "description": "",
+   "name": "aria-describedby",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "aria-label": {
+   "defaultValue": null,
+   "description": "",
+   "name": "aria-label",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "aria-labelledby": {
+   "defaultValue": null,
+   "description": "",
+   "name": "aria-labelledby",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "autoComplete": {
+   "defaultValue": null,
+   "description": "This prop helps users to fill forms faster, especially on mobile devices.\nThe name can be confusing, as it's more like an autofill.\nYou can learn more about it [following the specification](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill).",
+   "name": "autoComplete",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "autoFocus": {
+   "defaultValue": null,
+   "description": "If `true`, the `input` element is focused during the first mount.",
+   "name": "autoFocus",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "className": {
+   "defaultValue": null,
+   "description": "Class name applied to the root element.",
+   "name": "className",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "classes": {
+   "defaultValue": null,
+   "description": "Override or extend the styles applied to the component.",
+   "name": "classes",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "Partial<InputClasses>"
+   }
+  },
+  "color": {
+   "defaultValue": {
+    "value": "'neutral'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "components": {
+   "defaultValue": null,
+   "description": "The components used for each slot inside the InputBase.\nEither a string to use a HTML element or a component.",
+   "name": "components",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "{ Root?: React.ElementType; Input?: React.ElementType; }"
+   }
+  },
+  "componentsProps": {
+   "defaultValue": {
+    "value": "{}"
+   },
+   "description": "The props used for each slot inside the Input.",
+   "name": "componentsProps",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "{ root?: React.ComponentPropsWithRef<\"div\">; input?: React.ComponentPropsWithRef<\"input\">; }"
+   }
+  },
+  "endDecorator": {
+   "defaultValue": null,
+   "description": "Trailing adornment for this input.",
+   "name": "endDecorator",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.ReactNode"
+   }
+  },
+  "fullWidth": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the button will take up the full width of its container.",
+   "name": "fullWidth",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "id": {
+   "defaultValue": null,
+   "description": "The id of the `input` element.",
+   "name": "id",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "name": {
+   "defaultValue": null,
+   "description": "Name attribute of the `input` element.",
+   "name": "name",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "onKeyDown": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onKeyDown",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.KeyboardEventHandler<HTMLInputElement>"
+   }
+  },
+  "onKeyUp": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onKeyUp",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.KeyboardEventHandler<HTMLInputElement>"
+   }
+  },
+  "placeholder": {
+   "defaultValue": null,
+   "description": "The short hint displayed in the `input` before the user enters a value.",
+   "name": "placeholder",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "readOnly": {
+   "defaultValue": null,
+   "description": "It prevents the user from changing the value of the field\n(not from interacting with the field).",
+   "name": "readOnly",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "startDecorator": {
+   "defaultValue": null,
+   "description": "Leading adornment for this input.",
+   "name": "startDecorator",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.ReactNode"
+   }
+  },
+  "size": {
+   "defaultValue": {
+    "value": "'md'"
+   },
+   "description": "The size of the component.",
+   "name": "size",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"sm\" | \"md\" | \"lg\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "type": {
+   "defaultValue": {
+    "value": "'plain'"
+   },
+   "description": "Type of the `input` element. It should be [a valid HTML5 input type](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Form_%3Cinput%3E_types).",
+   "name": "type",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'outlined'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Input/InputProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/FormHelperText.tsx",
+ "description": "",
+ "displayName": "FormHelperText",
+ "methods": [],
+ "props": {
+  "children": {
+   "defaultValue": null,
+   "description": "The content of the component.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormHelperText/FormHelperTextProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "classes": {
+   "defaultValue": null,
+   "description": "Override or extend the styles applied to the component.",
+   "name": "classes",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormHelperText/FormHelperTextProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "Partial<FormHelperTextClasses>"
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormHelperText/FormHelperTextProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  }
+ }
+}

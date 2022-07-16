@@ -1,0 +1,75 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Container.tsx",
+ "description": "",
+ "displayName": "Container",
+ "methods": [],
+ "props": {
+  "disableGutters": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the left and right padding is removed.",
+   "name": "disableGutters",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Container/ContainerProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "fixed": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "Set the max-width to match the min-width of the current breakpoint.\nThis is useful if you'd prefer to design for a fixed set of sizes\ninstead of trying to accommodate a fully fluid viewport.\nIt's fluid by default.",
+   "name": "fixed",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Container/ContainerProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "maxWidth": {
+   "defaultValue": {
+    "value": "'lg'"
+   },
+   "description": "Determine the max-width of the container.\nThe container width grows with the size of the screen.\nSet to `false` to disable `maxWidth`.",
+   "name": "maxWidth",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Container/ContainerProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "false | Breakpoint"
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Container/ContainerProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  }
+ }
+}

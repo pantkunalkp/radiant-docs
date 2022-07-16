@@ -1,0 +1,154 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Chip.tsx",
+ "description": "",
+ "displayName": "Chip",
+ "methods": [],
+ "props": {
+  "componentsProps": {
+   "defaultValue": {
+    "value": "{}"
+   },
+   "description": "The props used for each slot inside the Input.",
+   "name": "componentsProps",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Chip/ChipProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "{ root?: DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>; label?: DetailedHTMLProps<HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>; action?: HTMLAttributes<...> & { ...; }; startDecorator?: DetailedHTMLProps<...>; endDecorator?: DetailedHTMLProps<...>; }"
+   }
+  },
+  "children": {
+   "defaultValue": null,
+   "description": "The content of the component.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Chip/ChipProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "color": {
+   "defaultValue": {
+    "value": "'primary'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Chip/ChipProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "disabled": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the component is disabled.",
+   "name": "disabled",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Chip/ChipProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "endDecorator": {
+   "defaultValue": null,
+   "description": "Element placed after the children.",
+   "name": "endDecorator",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Chip/ChipProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "size": {
+   "defaultValue": {
+    "value": "'md'"
+   },
+   "description": "The size of the component.\nIt accepts theme values between 'sm' and 'lg'.",
+   "name": "size",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Chip/ChipProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"sm\" | \"md\" | \"lg\""
+   }
+  },
+  "startDecorator": {
+   "defaultValue": null,
+   "description": "Element placed before the children.",
+   "name": "startDecorator",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Chip/ChipProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Chip/ChipProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'solid'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Chip/ChipProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  }
+ }
+}

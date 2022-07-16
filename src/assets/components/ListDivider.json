@@ -1,0 +1,69 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/ListDivider.tsx",
+ "description": "",
+ "displayName": "ListDivider",
+ "methods": [],
+ "props": {
+  "children": {
+   "defaultValue": null,
+   "description": "The content of the component.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListDivider/ListDividerProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "classes": {
+   "defaultValue": null,
+   "description": "Override or extend the styles applied to the component.",
+   "name": "classes",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListDivider/ListDividerProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "Partial<ListDividerClasses>"
+   }
+  },
+  "inset": {
+   "defaultValue": null,
+   "description": "The empty space on the side(s) of the divider.\nThis prop has no effect on the divider if the nearest parent List has `row` prop set to `true`.",
+   "name": "inset",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListDivider/ListDividerProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"gutter\" | \"startDecorator\" | \"startContent\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListDivider/ListDividerProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  }
+ }
+}

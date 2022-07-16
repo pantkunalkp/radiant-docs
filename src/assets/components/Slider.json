@@ -1,0 +1,596 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Slider.tsx",
+ "description": "",
+ "displayName": "Slider",
+ "methods": [],
+ "props": {
+  "componentsProps": {
+   "defaultValue": {
+    "value": "{}\n{}"
+   },
+   "description": "The props used for each slot inside the Slider.",
+   "name": "componentsProps",
+   "parent": {
+    "fileName": "radiant/src/Slider/SliderProps.ts",
+    "name": "SliderOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/src/Slider/SliderProps.ts",
+     "name": "SliderOwnProps"
+    },
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "{ root?: SlotComponentProps<\"span\", SliderComponentsPropsOverrides, SliderOwnerState>; track?: SlotComponentProps<\"span\", SliderComponentsPropsOverrides, SliderOwnerState>; ... 5 more ...; input?: SlotComponentProps<...>; } & { ...; }"
+   }
+  },
+  "color": {
+   "defaultValue": {
+    "value": "'primary'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "parent": {
+    "fileName": "radiant/src/Slider/SliderProps.ts",
+    "name": "SliderOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/src/Slider/SliderProps.ts",
+     "name": "SliderOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "size": {
+   "defaultValue": {
+    "value": "'md'"
+   },
+   "description": "The size of the component.\nIt accepts theme values between 'sm' and 'lg'.",
+   "name": "size",
+   "parent": {
+    "fileName": "radiant/src/Slider/SliderProps.ts",
+    "name": "SliderOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/src/Slider/SliderProps.ts",
+     "name": "SliderOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"sm\" | \"md\" | \"lg\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "parent": {
+    "fileName": "radiant/src/Slider/SliderProps.ts",
+    "name": "SliderOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/src/Slider/SliderProps.ts",
+     "name": "SliderOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "aria-label": {
+   "defaultValue": null,
+   "description": "The label of the slider.",
+   "name": "aria-label",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "aria-labelledby": {
+   "defaultValue": null,
+   "description": "The id of the element containing a label for the slider.",
+   "name": "aria-labelledby",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "aria-valuetext": {
+   "defaultValue": null,
+   "description": "A string value that provides a user-friendly name for the current value of the slider.",
+   "name": "aria-valuetext",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "classes": {
+   "defaultValue": null,
+   "description": "Override or extend the styles applied to the component.",
+   "name": "classes",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "Partial<SliderUnstyledClasses>"
+   }
+  },
+  "components": {
+   "defaultValue": {
+    "value": "{}"
+   },
+   "description": "The components used for each slot inside the Slider.\nEither a string to use a HTML element or a component.",
+   "name": "components",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "{ Root?: React.ElementType; Track?: React.ElementType; Rail?: React.ElementType; Thumb?: React.ElementType; Mark?: React.ElementType; MarkLabel?: React.ElementType; ValueLabel?: React.ElementType; Input?: React.ElementType; }"
+   }
+  },
+  "defaultValue": {
+   "defaultValue": null,
+   "description": "The default value. Use when the component is not controlled.",
+   "name": "defaultValue",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "number | number[]"
+   }
+  },
+  "disabled": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the component is disabled.",
+   "name": "disabled",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "disableSwap": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the active thumb doesn't swap when moving pointer over a thumb while dragging another thumb.",
+   "name": "disableSwap",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "getAriaLabel": {
+   "defaultValue": null,
+   "description": "Accepts a function which returns a string value that provides a user-friendly name for the thumb labels of the slider.\nThis is important for screen reader users.\n@param index The thumb label's index to format.\n@returns",
+   "name": "getAriaLabel",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "(index: number) => string"
+   }
+  },
+  "getAriaValueText": {
+   "defaultValue": null,
+   "description": "Accepts a function which returns a string value that provides a user-friendly name for the current value of the slider.\nThis is important for screen reader users.\n@param value The thumb label's value to format.\n@param index The thumb label's index to format.\n@returns",
+   "name": "getAriaValueText",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "(value: number, index: number) => string"
+   }
+  },
+  "isRtl": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "Indicates whether the theme context has rtl direction. It is set automatically.",
+   "name": "isRtl",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "marks": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "Marks indicate predetermined values to which the user can move the slider.\nIf `true` the marks are spaced according the value of the `step` prop.\nIf an array, it should contain objects with `value` and an optional `label` keys.",
+   "name": "marks",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean | Mark[]"
+   }
+  },
+  "max": {
+   "defaultValue": {
+    "value": "100"
+   },
+   "description": "The maximum allowed value of the slider.\nShould not be equal to min.",
+   "name": "max",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "number"
+   }
+  },
+  "min": {
+   "defaultValue": {
+    "value": "0"
+   },
+   "description": "The minimum allowed value of the slider.\nShould not be equal to max.",
+   "name": "min",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "number"
+   }
+  },
+  "name": {
+   "defaultValue": null,
+   "description": "Name attribute of the hidden `input` element.",
+   "name": "name",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "onChange": {
+   "defaultValue": null,
+   "description": "Callback function that is fired when the slider's value changed.\n@param event The event source of the callback.\nYou can pull out the new value by accessing `event.target.value` (any).\n**Warning**: This is a generic event not a change event.\n@param value The new value.\n@param activeThumb Index of the currently moved thumb.",
+   "name": "onChange",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "(event: Event, value: number | number[], activeThumb: number) => void"
+   }
+  },
+  "onChangeCommitted": {
+   "defaultValue": null,
+   "description": "Callback function that is fired when the `mouseup` is triggered.\n@param event The event source of the callback. **Warning**: This is a generic event not a change event.\n@param value The new value.",
+   "name": "onChangeCommitted",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "(event: any, value: number | number[]) => void"
+   }
+  },
+  "orientation": {
+   "defaultValue": {
+    "value": "'horizontal'"
+   },
+   "description": "The component orientation.",
+   "name": "orientation",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"horizontal\" | \"vertical\""
+   }
+  },
+  "scale": {
+   "defaultValue": {
+    "value": "(x) => x"
+   },
+   "description": "A transformation function, to change the scale of the slider.",
+   "name": "scale",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "(value: number) => number"
+   }
+  },
+  "step": {
+   "defaultValue": {
+    "value": "1"
+   },
+   "description": "The granularity with which the slider can step through values. (A \"discrete\" slider.)\nThe `min` prop serves as the origin for the valid values.\nWe recommend (max - min) to be evenly divisible by the step.\n\nWhen step is `null`, the thumb can only be slid onto marks provided with the `marks` prop.",
+   "name": "step",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "number"
+   }
+  },
+  "tabIndex": {
+   "defaultValue": null,
+   "description": "Tab index attribute of the hidden `input` element.",
+   "name": "tabIndex",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "number"
+   }
+  },
+  "track": {
+   "defaultValue": {
+    "value": "'normal'"
+   },
+   "description": "The track presentation:\n\n- `normal` the track will render a bar representing the slider value.\n- `inverted` the track will render a bar representing the remaining slider value.\n- `false` the track will render without a bar.",
+   "name": "track",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "false | \"normal\" | \"inverted\""
+   }
+  },
+  "value": {
+   "defaultValue": null,
+   "description": "The value of the slider.\nFor ranged sliders, provide an array with two values.",
+   "name": "value",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "number | number[]"
+   }
+  },
+  "valueLabelDisplay": {
+   "defaultValue": {
+    "value": "'off'"
+   },
+   "description": "Controls when the value label is displayed:\n\n- `auto` the value label will display when the thumb is hovered or focused.\n- `on` will display persistently.\n- `off` will never display.",
+   "name": "valueLabelDisplay",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"on\" | \"off\" | \"auto\""
+   }
+  },
+  "valueLabelFormat": {
+   "defaultValue": {
+    "value": "(x) => x"
+   },
+   "description": "The format function the value label's value.\n\nWhen a function is provided, it should have the following signature:\n\n- {number} value The value label's value to format\n- {number} index The value label's index to format",
+   "name": "valueLabelFormat",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+    "name": "SliderUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SliderUnstyled/SliderUnstyled.types.d.ts",
+     "name": "SliderUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string | ((value: number, index: number) => React.ReactNode)"
+   }
+  }
+ }
+}

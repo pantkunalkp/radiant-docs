@@ -1,8 +1,8 @@
 {
  "tags": {},
- "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Button.tsx",
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/IconButton.tsx",
  "description": "",
- "displayName": "Button",
+ "displayName": "IconButton",
  "methods": [],
  "props": {
   "action": {
@@ -11,7 +11,7 @@
    "name": "action",
    "declarations": [
     {
-     "fileName": "radiant/src/Button/ButtonProps.ts",
+     "fileName": "radiant/src/IconButton/IconButtonProps.ts",
      "name": "TypeLiteral"
     }
    ],
@@ -28,7 +28,7 @@
    "name": "color",
    "declarations": [
     {
-     "fileName": "radiant/src/Button/ButtonProps.ts",
+     "fileName": "radiant/src/IconButton/IconButtonProps.ts",
      "name": "TypeLiteral"
     }
    ],
@@ -45,28 +45,13 @@
    "name": "disabled",
    "declarations": [
     {
-     "fileName": "radiant/src/Button/ButtonProps.ts",
+     "fileName": "radiant/src/IconButton/IconButtonProps.ts",
      "name": "TypeLiteral"
     }
    ],
    "required": false,
    "type": {
     "name": "boolean"
-   }
-  },
-  "endIcon": {
-   "defaultValue": null,
-   "description": "Element placed after the children.",
-   "name": "endIcon",
-   "declarations": [
-    {
-     "fileName": "radiant/src/Button/ButtonProps.ts",
-     "name": "TypeLiteral"
-    }
-   ],
-   "required": false,
-   "type": {
-    "name": "React.ReactNode"
    }
   },
   "focusVisibleClassName": {
@@ -75,7 +60,7 @@
    "name": "focusVisibleClassName",
    "declarations": [
     {
-     "fileName": "radiant/src/Button/ButtonProps.ts",
+     "fileName": "radiant/src/IconButton/IconButtonProps.ts",
      "name": "TypeLiteral"
     }
    ],
@@ -84,30 +69,13 @@
     "name": "string"
    }
   },
-  "fullWidth": {
-   "defaultValue": {
-    "value": "false"
-   },
-   "description": "If `true`, the button will take up the full width of its container.",
-   "name": "fullWidth",
-   "declarations": [
-    {
-     "fileName": "radiant/src/Button/ButtonProps.ts",
-     "name": "TypeLiteral"
-    }
-   ],
-   "required": false,
-   "type": {
-    "name": "boolean"
-   }
-  },
   "size": {
    "defaultValue": null,
    "description": "The size of the component.",
    "name": "size",
    "declarations": [
     {
-     "fileName": "radiant/src/Button/ButtonProps.ts",
+     "fileName": "radiant/src/IconButton/IconButtonProps.ts",
      "name": "TypeLiteral"
     }
    ],
@@ -116,28 +84,13 @@
     "name": "\"sm\" | \"md\" | \"lg\""
    }
   },
-  "startIcon": {
-   "defaultValue": null,
-   "description": "Element placed before the children.",
-   "name": "startIcon",
-   "declarations": [
-    {
-     "fileName": "radiant/src/Button/ButtonProps.ts",
-     "name": "TypeLiteral"
-    }
-   ],
-   "required": false,
-   "type": {
-    "name": "React.ReactNode"
-   }
-  },
   "sx": {
    "defaultValue": null,
    "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
    "name": "sx",
    "declarations": [
     {
-     "fileName": "radiant/src/Button/ButtonProps.ts",
+     "fileName": "radiant/src/IconButton/IconButtonProps.ts",
      "name": "TypeLiteral"
     }
    ],
@@ -154,7 +107,7 @@
    "name": "tabIndex",
    "declarations": [
     {
-     "fileName": "radiant/src/Button/ButtonProps.ts",
+     "fileName": "radiant/src/IconButton/IconButtonProps.ts",
      "name": "TypeLiteral"
     }
    ],
@@ -165,13 +118,13 @@
   },
   "variant": {
    "defaultValue": {
-    "value": "'solid'"
+    "value": "'soft'"
    },
    "description": "The variant to use.",
    "name": "variant",
    "declarations": [
     {
-     "fileName": "radiant/src/Button/ButtonProps.ts",
+     "fileName": "radiant/src/IconButton/IconButtonProps.ts",
      "name": "TypeLiteral"
     }
    ],

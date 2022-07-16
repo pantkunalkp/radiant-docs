@@ -1,0 +1,150 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Avatar.tsx",
+ "description": "",
+ "displayName": "Avatar",
+ "methods": [],
+ "props": {
+  "alt": {
+   "defaultValue": null,
+   "description": "Used in combination with `src` or `srcSet` to\nprovide an alt attribute for the rendered `img` element.",
+   "name": "alt",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Avatar/AvatarProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "children": {
+   "defaultValue": null,
+   "description": "Used to render icon or text elements inside the Avatar if `src` is not set.\nThis can be an element, or just a string.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Avatar/AvatarProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "color": {
+   "defaultValue": {
+    "value": "'neutral'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Avatar/AvatarProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "imgProps": {
+   "defaultValue": null,
+   "description": "[Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attributes) applied to the `img` element if the component is used to display an image.\nIt can be used to listen for the loading error event.",
+   "name": "imgProps",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Avatar/AvatarProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ImgHTMLAttributes<HTMLImageElement> & { sx?: SxProps; }"
+   }
+  },
+  "size": {
+   "defaultValue": {
+    "value": "'md'"
+   },
+   "description": "The size of the component.\nIt accepts theme values between 'sm' and 'lg'.",
+   "name": "size",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Avatar/AvatarProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"sm\" | \"md\" | \"lg\""
+   }
+  },
+  "src": {
+   "defaultValue": null,
+   "description": "The `src` attribute for the `img` element.",
+   "name": "src",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Avatar/AvatarProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "srcSet": {
+   "defaultValue": null,
+   "description": "The `srcSet` attribute for the `img` element.\nUse this attribute for responsive image display.",
+   "name": "srcSet",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Avatar/AvatarProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Avatar/AvatarProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'soft'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Avatar/AvatarProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  }
+ }
+}

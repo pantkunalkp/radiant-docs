@@ -1,0 +1,39 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/CardCover.tsx",
+ "description": "",
+ "displayName": "CardCover",
+ "methods": [],
+ "props": {
+  "children": {
+   "defaultValue": null,
+   "description": "Used to render icon or text elements inside the CardCover if `src` is not set.\nThis can be an element, or just a string.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CardCover/CardCoverProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CardCover/CardCoverProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  }
+ }
+}

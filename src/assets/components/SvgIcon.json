@@ -1,0 +1,167 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/SvgIcon.tsx",
+ "description": "",
+ "displayName": "SvgIcon",
+ "methods": [],
+ "props": {
+  "children": {
+   "defaultValue": null,
+   "description": "Node passed into the SVG element.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/SvgIcon/SvgIconProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "classes": {
+   "defaultValue": null,
+   "description": "Override or extend the styles applied to the component.",
+   "name": "classes",
+   "declarations": [
+    {
+     "fileName": "radiant/src/SvgIcon/SvgIconProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "Partial<SvgIconClasses>"
+   }
+  },
+  "color": {
+   "defaultValue": {
+    "value": "'inherit'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.\nYou can use the `htmlColor` prop to apply a color attribute to the SVG element.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/SvgIcon/SvgIconProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\" | \"inherit\""
+   }
+  },
+  "fontSize": {
+   "defaultValue": {
+    "value": "'xl'"
+   },
+   "description": "The fontSize applied to the icon. Defaults to 1rem, but can be configure to inherit font size.",
+   "name": "fontSize",
+   "declarations": [
+    {
+     "fileName": "radiant/src/SvgIcon/SvgIconProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"inherit\" | \"lg\" | \"xl\" | \"xl2\""
+   }
+  },
+  "htmlColor": {
+   "defaultValue": null,
+   "description": "Applies a color attribute to the SVG element.",
+   "name": "htmlColor",
+   "declarations": [
+    {
+     "fileName": "radiant/src/SvgIcon/SvgIconProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "inheritViewBox": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the root node will inherit the custom `component`'s viewBox and the `viewBox`\nprop will be ignored.\nUseful when you want to reference a custom `component` and have `SvgIcon` pass that\n`component`'s viewBox to the root node.",
+   "name": "inheritViewBox",
+   "declarations": [
+    {
+     "fileName": "radiant/src/SvgIcon/SvgIconProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "shapeRendering": {
+   "defaultValue": null,
+   "description": "The shape-rendering attribute. The behavior of the different options is described on the\n[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/shape-rendering).\nIf you are having issues with blurry icons you should investigate this prop.",
+   "name": "shapeRendering",
+   "declarations": [
+    {
+     "fileName": "radiant/src/SvgIcon/SvgIconProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/SvgIcon/SvgIconProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "titleAccess": {
+   "defaultValue": null,
+   "description": "Provides a human-readable title for the element that contains it.\nhttps://www.w3.org/TR/SVG-access/#Equivalent",
+   "name": "titleAccess",
+   "declarations": [
+    {
+     "fileName": "radiant/src/SvgIcon/SvgIconProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "viewBox": {
+   "defaultValue": {
+    "value": "'0 0 24 24'"
+   },
+   "description": "Allows you to redefine what the coordinates without units mean inside an SVG element.\nFor example, if the SVG element is 500 (width) by 200 (height),\nand you pass viewBox=\"0 0 50 20\",\nthis means that the coordinates inside the SVG will go from the top left corner (0,0)\nto bottom right (50,20) and each unit will be worth 10px.",
+   "name": "viewBox",
+   "declarations": [
+    {
+     "fileName": "radiant/src/SvgIcon/SvgIconProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  }
+ }
+}

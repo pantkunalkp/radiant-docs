@@ -1,0 +1,152 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/ListItem.tsx",
+ "description": "",
+ "displayName": "ListItem",
+ "methods": [],
+ "props": {
+  "color": {
+   "defaultValue": {
+    "value": "'neutral'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItem/ListItemProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "children": {
+   "defaultValue": null,
+   "description": "The content of the component.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItem/ListItemProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "classes": {
+   "defaultValue": null,
+   "description": "Override or extend the styles applied to the component.",
+   "name": "classes",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItem/ListItemProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "Partial<ListItemClasses>"
+   }
+  },
+  "startAction": {
+   "defaultValue": null,
+   "description": "The element to display at the start of ListItem.",
+   "name": "startAction",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItem/ListItemProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "endAction": {
+   "defaultValue": null,
+   "description": "The element to display at the end of ListItem.",
+   "name": "endAction",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItem/ListItemProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "nested": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the component can contain NestedList.",
+   "name": "nested",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItem/ListItemProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "sticky": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the component has sticky position (with top = 0).",
+   "name": "sticky",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItem/ListItemProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'plain'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItem/ListItemProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListItem/ListItemProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  }
+ }
+}
