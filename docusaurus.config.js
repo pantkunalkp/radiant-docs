@@ -19,8 +19,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'intugine-technologies', // Usually your GitHub org/user name.
-  projectName: 'radiant-design-system', // Usually your repo name.
+  organizationName: 'radiant-design', // Usually your GitHub org/user name.
+  projectName: 'radiant', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -91,7 +91,7 @@ const config = {
           {to: '/blog', label: 'Components', position: 'left'},
           {to: '/blog', label: 'Icons', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/radiant-design/radiant',
             label: 'GitHub',
             position: 'right',
           },

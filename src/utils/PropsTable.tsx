@@ -1,18 +1,17 @@
-import React, { useEffect, useState } from 'react'
-import Button from '../assets/components/Button.json'
+import React, { useEffect, useMemo, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 
-function PropsTable({ component }) {
+function PropsTableRoot({ name }) {
     const [doc, setDoc] = useState(null)
 
     useEffect(() => {
-        setDoc(Object.values(Button.props))
-    }, [component])
-    
+        import(`../assets/components/${name}.json`)
+            .then(component => setDoc(Object.values(component.props)))
+    }, [name])
+
     if (!doc) return <></>
     return (
         <div>
-            {doc.displayName}
             <table>
                 <thead>
                     <tr>
@@ -40,6 +39,10 @@ function PropsTable({ component }) {
 
         </div>
     )
+}
+
+const PropsTable = ({ name }) => {
+    return useMemo(() => <PropsTableRoot name={name} />, name)
 }
 
 export default PropsTable
