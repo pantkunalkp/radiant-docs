@@ -1,0 +1,72 @@
+---
+sidebar_position: 2
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
+
+
+# Getting Started
+
+Install the Radiant library to use all the components.
+
+### 🏁 Install
+
+<Tabs>
+  <TabItem value="npm" label="npm" default>
+    Run the command below to install Radinat using <code>npm</code>
+    <CodeBlock language="bash">
+      npm install @intugine-technologies/radiant @emotion/react @emotion/styled
+    </CodeBlock>
+    This theme is build considering `Poppins` as a default theme. To install the same 👇
+    <CodeBlock language="bash">
+      npm install @fontsource/poppins
+    </CodeBlock>
+  </TabItem>
+  <TabItem value="yarn" label="yarn">
+    Run the command below to install Radiant using <code>yarn</code>
+    <CodeBlock language="bash">
+     yarn add @intugine-technologies/radiant @emotion/react @emotion/styled
+    </CodeBlock>
+    This theme is build considering `Poppins` as a default theme. To install the same 👇
+    <CodeBlock language="bash">
+      yarn add @fontsource/poppins
+    </CodeBlock>
+  </TabItem>
+</Tabs>
+
+More info about fontsource [here](#).
+
+Import the Poppins font into root file.
+
+```jsx
+    # Only import the following fontweight since we only be using below fontweights
+
+    import '@fontsource/poppins/400.css'
+    import '@fontsource/poppins/500.css'
+    import '@fontsource/poppins/600.css'
+    import '@fontsource/poppins/700.css'
+```
+
+### 🎈 Usage
+
+1. Import CssVarsProvider and wrap the main `App` component with it.
+
+```jsx
+import { CssVarsProvider } from "@intugine-technologies/radiant";
+
+ReactDOM.render(
+  <CssVarsProvider>
+    <App />
+  </CssVarsProvider>
+)
+```
+
+2. Import the component and use it like any other React component.
+
+```jsx
+import Button from '@intugine-technologies/radiant/Button'
+
+<Button>Click Me!</Button>
+```

@@ -42,7 +42,7 @@ function PropsTableRoot({ name }) {
 }
 
 const PropsTable = ({ name }) => {
-    return useMemo(() => <PropsTableRoot name={name} />, name)
+    return useMemo(() => <PropsTableRoot name={name} />, [name])
 }
 
 export default PropsTable
