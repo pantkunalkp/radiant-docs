@@ -1,0 +1,155 @@
+---
+sidebar_position: 6
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# Chip
+
+A Chip, when clicked or tapped (if clickable) triggers an action or a series of actions.
+
+Below are the relevant attributes for all chip types.
+
+### Sizes
+
+Chips are available in 2 sizes: `sm`, `md` (default) and `md`
+
+The hierarchy for text size in radio labels is:
+
+- **Body1** for medium radios
+- **Body2** for small radios
+
+```jsx live
+function ChipSizes() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <Box
+          sx={{
+            display: "flex",
+            gap: 2,
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+          <Chip size="sm" variant="solid">
+            Chip
+          </Chip>
+          <Chip
+            size="md"
+            variant="solid"
+            endDecorator={
+              <ChipDelete size="md" onClick={() => alert("Hi There")} />
+            }
+          >
+            Chip
+          </Chip>
+        </Box>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Variants
+
+Chips are available in 4 global variants: `solid`(default) , `soft`, `outlined` and `plain`
+
+```jsx live
+function ChipVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <Box
+          sx={{
+            display: "flex",
+            gap: 2,
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+          <Chip size="md" variant="solid" onClick={() => alert("Hi There")}>
+            Chip
+          </Chip>
+          <Chip size="md" variant="soft" onClick={() => alert("Hi There")}>
+            Chip
+          </Chip>
+          <Chip size="md" variant="outlined" onClick={() => alert("Hi There")}>
+            Chip
+          </Chip>
+          <Chip size="md" variant="plain" onClick={() => alert("Hi There")}>
+            Chip
+          </Chip>
+        </Box>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Colors
+
+All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, `success` and `warning`
+
+```jsx live
+function ChipVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <Box
+          sx={{
+            display: "flex",
+            gap: 2,
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+          <Chip color="primary">Chip</Chip>
+          <Chip color="neutral">Chip</Chip>
+          <Chip variant="outlined" color="primary">
+            Chip
+          </Chip>
+          <Chip variant="outlined" color="danger">
+            Chip
+          </Chip>
+        </Box>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Disabled
+
+Chips in disabled mode-
+
+```jsx live
+function ChipVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <Box
+          sx={{
+            display: "flex",
+            gap: 2,
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+          <Chip disabled>Chip</Chip>
+          <Chip
+            disabled
+            endDecorator={<ChipDelete onClick={() => alert("Hi There")} />}
+          >
+            Chip
+          </Chip>
+        </Box>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+## Props
+
+<PropsTable name="Chip" />
