@@ -24,14 +24,7 @@ function ChipSizes() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Chip size="sm" variant="solid">
             Chip
           </Chip>
@@ -44,7 +37,7 @@ function ChipSizes() {
           >
             Chip
           </Chip>
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
@@ -60,14 +53,7 @@ function ChipVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Chip size="md" variant="solid" onClick={() => alert("Hi There")}>
             Chip
           </Chip>
@@ -80,7 +66,7 @@ function ChipVariants() {
           <Chip size="md" variant="plain" onClick={() => alert("Hi There")}>
             Chip
           </Chip>
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
@@ -96,14 +82,7 @@ function ChipVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Chip color="primary">Chip</Chip>
           <Chip color="neutral">Chip</Chip>
           <Chip variant="outlined" color="primary">
@@ -112,7 +91,7 @@ function ChipVariants() {
           <Chip variant="outlined" color="danger">
             Chip
           </Chip>
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
@@ -128,14 +107,7 @@ function ChipVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Chip disabled>Chip</Chip>
           <Chip
             disabled
@@ -143,7 +115,7 @@ function ChipVariants() {
           >
             Chip
           </Chip>
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );

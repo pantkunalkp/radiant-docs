@@ -19,17 +19,10 @@ function SwitchSizes() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Switch size="sm" color="primary" />
           <Switch size="md" color="primary" />
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
@@ -45,19 +38,12 @@ function SwitchVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Switch variant="solid" defaultChecked={true} />
           <Switch variant="soft" defaultChecked={true} />
           <Switch variant="outlined" defaultChecked={true} />
           <Switch variant="plain" defaultChecked={true} />
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
@@ -73,21 +59,14 @@ function SwitchVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Switch variant="solid" color="primary" />
           <Switch variant="solid" color="neutral" />
           <Switch variant="solid" color="danger" />
           <Switch variant="solid" color="info" />
           <Switch variant="solid" color="success" />
           <Switch variant="solid" color="warning" />
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );

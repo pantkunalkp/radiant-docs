@@ -24,17 +24,10 @@ function RadioSizes() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Radio size="sm" color="primary" label="This is radio" />
           <Radio size="md" color="primary" label="This is radio" />
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
@@ -50,17 +43,10 @@ function RadioVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Radio size="sm" variant="outlined" />
           <Radio size="md" variant="outlined" />
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
@@ -76,21 +62,14 @@ function RadioVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Radio size="md" color="primary" defaultChecked />
           <Radio size="md" color="danger" defaultChecked />
           <Radio size="md" color="neutral" defaultChecked />
           <Radio size="md" color="success" defaultChecked />
           <Radio size="md" color="info" defaultChecked />
           <Radio size="md" color="warning" defaultChecked />
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
@@ -106,14 +85,7 @@ function RadioVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Radio size="md" disabled />
           <Radio size="md" defaultChecked disabled />
           <Radio
@@ -122,7 +94,7 @@ function RadioVariants() {
             defaultChecked
             disabled
           />
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );

@@ -25,18 +25,11 @@ function ButtonSizes() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Button size="lg">Large</Button>
           <Button size="md">Medium</Button>
           <Button size="sm">Small</Button>
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
@@ -52,19 +45,12 @@ function ButtonVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Button variant="solid">Solid</Button>
           <Button variant="soft">Soft</Button>
           <Button variant="outlined">Outlined</Button>
           <Button variant="plain">Plain</Button>
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
@@ -80,14 +66,7 @@ function ButtonVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Button
             size="sm"
             startIcon={
@@ -118,7 +97,7 @@ function ButtonVariants() {
           >
             This is Button
           </Button>
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
@@ -134,21 +113,14 @@ function ButtonVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <Button color="primary">primary</Button>
           <Button color="neutral">neutral</Button>
           <Button color="danger">danger</Button>
           <Button color="info">info</Button>
           <Button color="success">success</Button>
           <Button color="warning">warning</Button>
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );

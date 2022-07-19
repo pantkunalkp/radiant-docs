@@ -19,19 +19,12 @@ function ChipDeleteVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <ChipDelete variant="solid" onClick={() => alert("Hi There")} />
           <ChipDelete variant="outlined" onClick={() => alert("Hi There")} />
           <ChipDelete variant="soft" onClick={() => alert("Hi There")} />
           <ChipDelete variant="plain" onClick={() => alert("Hi There")} />
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
@@ -47,19 +40,12 @@ function ChipDeleteVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <ChipDelete color="primary" />
           <ChipDelete color="danger" />
           <ChipDelete variant="outlined" color="primary" />
           <ChipDelete variant="outlined" color="danger" />
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
@@ -75,17 +61,10 @@ function ChipDeleteVariants() {
   return (
     <div>
       <CssVarsProvider>
-        <Box
-          sx={{
-            display: "flex",
-            gap: 2,
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
+        <StyledBox>
           <ChipDelete color="danger" disabled />
           <ChipDelete variant="outlined" color="primary" disabled />
-        </Box>
+        </StyledBox>
       </CssVarsProvider>
     </div>
   );
