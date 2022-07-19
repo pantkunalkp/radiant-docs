@@ -1,0 +1,99 @@
+---
+sidebar_position: 6
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# Switch
+
+A switch, when clicked or tapped triggers an action or a series of actions.
+
+Below are the relevant attributes for all switch types.
+
+### Sizes
+
+Switches are available in 2 sizes: `sm`, `md` (default) and `md`
+
+```jsx live
+function SwitchSizes() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <Box
+          sx={{
+            display: "flex",
+            gap: 2,
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+          <Switch size="sm" color="primary" />
+          <Switch size="md" color="primary" />
+        </Box>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Variants
+
+Switches are available in 4 global variants: `solid` (default), `soft`, `outlined` and `plain`
+
+```jsx live
+function SwitchVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <Box
+          sx={{
+            display: "flex",
+            gap: 2,
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+          <Switch variant="solid" defaultChecked={true} />
+          <Switch variant="soft" defaultChecked={true} />
+          <Switch variant="outlined" defaultChecked={true} />
+          <Switch variant="plain" defaultChecked={true} />
+        </Box>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Colors
+
+All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, `success` and `warning`
+
+```jsx live
+function SwitchVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <Box
+          sx={{
+            display: "flex",
+            gap: 2,
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+          <Switch variant="solid" color="primary" />
+          <Switch variant="solid" color="neutral" />
+          <Switch variant="solid" color="danger" />
+          <Switch variant="solid" color="info" />
+          <Switch variant="solid" color="success" />
+          <Switch variant="solid" color="warning" />
+        </Box>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+## Props
+
+<PropsTable name="Switch" />

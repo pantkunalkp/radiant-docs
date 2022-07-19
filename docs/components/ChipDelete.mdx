@@ -1,0 +1,97 @@
+---
+sidebar_position: 6
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# ChipDelete
+
+A ChipDelete, when clicked or tapped triggers an action or a series of actions.
+
+Below are the relevant attributes for all chip types.
+
+### Variants
+
+Chips are available in 4 global variants: `solid`(default) , `soft`, `outlined` and `plain`
+
+```jsx live
+function ChipDeleteVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <Box
+          sx={{
+            display: "flex",
+            gap: 2,
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+          <ChipDelete variant="solid" onClick={() => alert("Hi There")} />
+          <ChipDelete variant="outlined" onClick={() => alert("Hi There")} />
+          <ChipDelete variant="soft" onClick={() => alert("Hi There")} />
+          <ChipDelete variant="plain" onClick={() => alert("Hi There")} />
+        </Box>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Colors
+
+All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, `success` and `warning`
+
+```jsx live
+function ChipDeleteVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <Box
+          sx={{
+            display: "flex",
+            gap: 2,
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+          <ChipDelete color="primary" />
+          <ChipDelete color="danger" />
+          <ChipDelete variant="outlined" color="primary" />
+          <ChipDelete variant="outlined" color="danger" />
+        </Box>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Disabled
+
+Chips in disabled mode-
+
+```jsx live
+function ChipDeleteVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <Box
+          sx={{
+            display: "flex",
+            gap: 2,
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+          <ChipDelete color="danger" disabled />
+          <ChipDelete variant="outlined" color="primary" disabled />
+        </Box>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+## Props
+
+<PropsTable name="ChipDelete" />
