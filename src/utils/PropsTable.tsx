@@ -27,7 +27,7 @@ function PropsTableRoot({ name }) {
                             return (
                                 <tr>
                                     <td>{docProp.name}</td>
-                                    <td style={{ color: 'rgb(147, 41, 129)' }}>{docProp.type?.name}</td>
+                                    <td style={{ color: 'rgb(147, 41, 129)', maxWidth: '250px' }}>{docProp.type?.name}</td>
                                     <td>{docProp.defaultValue?.value}</td>
                                     <td><ReactMarkdown>{docProp.description}</ReactMarkdown></td>
                                 </tr>

@@ -14,40 +14,40 @@ Install the Radiant library to use all the components.
 ### 🏁 Install
 
 <Tabs>
-  <TabItem value="npm" label="npm" default>
-    Run the command below to install Radinat using <code>npm</code>
-    <CodeBlock language="bash">
-      npm install @intugine-technologies/radiant @emotion/react @emotion/styled
-    </CodeBlock>
-    This theme is build considering `Poppins` as a default theme. To install the same 👇
-    <CodeBlock language="bash">
-      npm install @fontsource/poppins
-    </CodeBlock>
-  </TabItem>
-  <TabItem value="yarn" label="yarn">
-    Run the command below to install Radiant using <code>yarn</code>
-    <CodeBlock language="bash">
-     yarn add @intugine-technologies/radiant @emotion/react @emotion/styled
-    </CodeBlock>
-    This theme is build considering `Poppins` as a default theme. To install the same 👇
-    <CodeBlock language="bash">
-      yarn add @fontsource/poppins
-    </CodeBlock>
-  </TabItem>
+<TabItem value="npm" label="npm" default>
+
+Run the command below to install Radinat using `npm`
+
+```bash
+npm install @intugine-technologies/radiant @emotion/react @emotion/styled
+```
+
+This theme is build considering `Poppins` as a default theme. To install the same 👇
+
+```bash
+npm install @fontsource/poppins
+```
+
+</TabItem>
+<TabItem value="yarn" label="yarn">
+
+Run the command below to install Radiant using `yarn`
+
+```bash
+yarn add @intugine-technologies/radiant @emotion/react @emotion/styled
+```
+
+This theme is build considering `Poppins` as a default theme. To install the same 👇
+
+```bash
+yarn add @fontsource/poppins
+```
+    
+</TabItem>
 </Tabs>
 
 More info about fontsource [here](#).
 
-Import the Poppins font into root file.
-
-```jsx
-    # Only import the following fontweight since we only be using below fontweights
-
-    import '@fontsource/poppins/400.css'
-    import '@fontsource/poppins/500.css'
-    import '@fontsource/poppins/600.css'
-    import '@fontsource/poppins/700.css'
-```
 
 ### 🎈 Usage
 
@@ -63,7 +63,18 @@ ReactDOM.render(
 )
 ```
 
-2. Import the component and use it like any other React component.
+2. Import the Poppins font into root file.
+
+```jsx
+    # Only import the following fontweight since we only be using below fontweights
+
+    import '@fontsource/poppins/400.css'
+    import '@fontsource/poppins/500.css'
+    import '@fontsource/poppins/600.css'
+    import '@fontsource/poppins/700.css'
+```
+
+3. Import the component and use it like any other React component.
 
 ```jsx
 import Button from '@intugine-technologies/radiant/Button'
