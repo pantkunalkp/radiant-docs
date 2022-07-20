@@ -3,9 +3,15 @@
  * and scoped locally.
  */
 
+.hero {
+  background-color: transparent;
+  background-image: url('/img/cover-image.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 4rem;
   position: relative;
   overflow: hidden;
 }
@@ -14,10 +20,4 @@
   .heroBanner {
     padding: 2rem;
   }
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
