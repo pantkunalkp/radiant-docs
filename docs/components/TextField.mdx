@@ -1,0 +1,249 @@
+---
+sidebar_position: 6
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# TextField
+
+TextFields allow users to enter text into a UI. They typically appear in forms and dialogs.
+
+Below are the relevant attributes for all textfield types.
+
+### Sizes
+
+TextFields are available in 2 sizes: `sm`, `md` (default) and `md`
+
+The hierarchy for text size in textfield labels is:
+
+- **H5** for medium textfield
+- **H6** for small textfield
+
+```jsx live
+function TextFieldSizes() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <StyledBox>
+          <TextField
+            placeholder="Placeholder"
+            label="Enter your CTC"
+            size="sm"
+            sx={{ width: "312px" }}
+          />
+          <TextField
+            placeholder="Placeholder"
+            label="Enter your CTC"
+            size="md"
+            variant="outlined"
+            sx={{ width: "312px" }}
+          />
+          <TextField
+            placeholder="Placeholder"
+            label="Enter your CTC"
+            required
+            size="md"
+            variant="outlined"
+            sx={{ width: "312px" }}
+          />
+          <TextField
+            placeholder="Placeholder"
+            size="md"
+            variant="outlined"
+            sx={{ width: "312px" }}
+            error
+          />
+          <TextField
+            placeholder="Placeholder"
+            size="md"
+            helperText="Oppps"
+            variant="outlined"
+            sx={{ width: "312px" }}
+          />
+        </StyledBox>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Variants
+
+TextField are available in 4 global variants: `solid` , `soft`, `outlined`(default) and `plain`
+
+```jsx live
+function TextFieldVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <StyledBox>
+          <TextField
+            placeholder="Placeholder"
+            size="md"
+            variant="outlined"
+            sx={{ width: "312px" }}
+          />
+          <TextField
+            placeholder="Placeholder"
+            size="md"
+            variant="solid"
+            sx={{ width: "312px" }}
+          />
+          <TextField
+            placeholder="Placeholder"
+            size="md"
+            variant="soft"
+            sx={{ width: "312px" }}
+          />
+          <TextField
+            placeholder="Placeholder"
+            size="md"
+            variant="plain"
+            sx={{ width: "312px" }}
+          />
+        </StyledBox>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Colors
+
+All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, `success` and `warning`
+
+```jsx live
+function TextFieldVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <StyledBox>
+          <TextField
+            placeholder="Placeholder"
+            size="md"
+            color="primary"
+            variant="outlined"
+            sx={{ width: "312px" }}
+          />
+          <TextField
+            placeholder="Placeholder"
+            size="md"
+            color="neutral"
+            variant="outlined"
+            sx={{ width: "312px" }}
+          />
+
+          <TextField
+            placeholder="success"
+            size="md"
+            color="primary"
+            variant="outlined"
+            sx={{ width: "312px" }}
+          />
+          <TextField
+            placeholder="Placeholder"
+            size="md"
+            color="info"
+            variant="outlined"
+            sx={{ width: "312px" }}
+          />
+          <TextField
+            placeholder="Placeholder"
+            size="md"
+            color="warning"
+            variant="outlined"
+            sx={{ width: "312px" }}
+          />
+        </StyledBox>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Decorators
+
+```jsx live
+function TextFieldVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <StyledBox>
+          <TextField
+            placeholder="Placeholder"
+            size="md"
+            color="primary"
+            startDecorator={<ChipDelete variant="plain" />}
+            sx={{ width: "312px" }}
+          />
+          <TextField
+            placeholder="Placeholder"
+            size="md"
+            color="primary"
+            endDecorator={<ChipDelete variant="plain" />}
+            sx={{ width: "312px" }}
+          />
+
+          <TextField
+            placeholder="success"
+            size="md"
+            sx={{ width: "312px" }}
+            color="primary"
+            endDecorator={<ChipDelete variant="plain" />}
+            startDecorator={<ChipDelete variant="plain" />}
+          />
+          <TextField
+            placeholder="success"
+            size="md"
+            sx={{ width: "312px" }}
+            color="primary"
+            endDecorator={
+              <Button onClick={() => alert("Oopps clicked!")} variant="plain">
+                Action
+              </Button>
+            }
+          />
+        </StyledBox>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Disabled
+
+TextField in disabled mode-
+
+```jsx live
+function TextFieldVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <StyledBox>
+          <TextField
+            placeholder="Placeholder"
+            size="md"
+            color="primary"
+            disabled
+            variant="outlined"
+            sx={{ width: "312px" }}
+          />
+          <TextField
+            placeholder="Placeholder"
+            label="Enter your CTC"
+            size="md"
+            color="primary"
+            disabled
+            variant="outlined"
+            sx={{ width: "312px" }}
+          />
+        </StyledBox>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+## Props
+
+<PropsTable name="TextField" />

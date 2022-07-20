@@ -122,6 +122,73 @@ function ChipVariants() {
 }
 ```
 
+# ChipDelete
+
+A ChipDelete, when clicked or tapped triggers an action or a series of actions.
+
+Below are the relevant attributes for all chipDelete types.
+
+### Variants
+
+Chips are available in 4 global variants: `solid`(default) , `soft`, `outlined` and `plain`
+
+```jsx live
+function ChipDeleteVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <StyledBox>
+          <ChipDelete variant="solid" onClick={() => alert("Hi There")} />
+          <ChipDelete variant="outlined" onClick={() => alert("Hi There")} />
+          <ChipDelete variant="soft" onClick={() => alert("Hi There")} />
+          <ChipDelete variant="plain" onClick={() => alert("Hi There")} />
+        </StyledBox>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Colors
+
+All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, `success` and `warning`
+
+```jsx live
+function ChipDeleteVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <StyledBox>
+          <ChipDelete color="primary" />
+          <ChipDelete color="danger" />
+          <ChipDelete variant="outlined" color="primary" />
+          <ChipDelete variant="outlined" color="danger" />
+        </StyledBox>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Disabled
+
+Chips in disabled mode-
+
+```jsx live
+function ChipDeleteVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <StyledBox>
+          <ChipDelete color="danger" disabled />
+          <ChipDelete variant="outlined" color="primary" disabled />
+        </StyledBox>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
 ## Props
 
 <PropsTable name="Chip" />
