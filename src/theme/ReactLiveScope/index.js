@@ -11,6 +11,7 @@ import IconButton from "@intugine-technologies/radiant/IconButton";
 import Breadcrumbs from "@intugine-technologies/radiant/Breadcrumbs";
 import Link from "@intugine-technologies/radiant/Link";
 import Sheet from "@intugine-technologies/radiant/Sheet";
+import TextField from "@intugine-technologies/radiant/TextField";
 import { CssVarsProvider } from "@intugine-technologies/radiant";
 
 const StyledBox = ({ children }) => {
@@ -46,5 +47,6 @@ const ReactLiveScope = {
   Breadcrumbs,
   Link,
   Sheet,
+  TextField,
 };
 export default ReactLiveScope;
