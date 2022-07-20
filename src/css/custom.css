@@ -87,3 +87,8 @@ table th,
 table td {
   border: none;
 }
+
+/* Solves breadcrumbs alignment in live editor */
+.markdown li > p {
+  margin-top: 0;
+}
