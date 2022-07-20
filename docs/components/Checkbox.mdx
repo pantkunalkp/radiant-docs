@@ -1,0 +1,104 @@
+---
+sidebar_position: 6
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# Checkbox
+
+A checkbox, when clicked or tapped triggers an action or a series of actions.
+
+Below are the relevant attributes for all checkbox types.
+
+### Sizes
+
+Checkbox are available in 2 sizes: `sm`, `md` (default) and `md`
+
+The hierarchy for text size in radio labels is:
+
+- **Body1** for medium checkbox
+- **Body2** for small checkbox
+
+```jsx live
+function CheckboxSizes() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <StyledBox>
+          <Checkbox size="md" label="I am Checkbox" />
+          <Checkbox size="sm" label="I am Checkbox" />
+        </StyledBox>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Variants
+
+Checkbox are available in 4 global variants: `solid`(default) , `soft`, `outlined` and `plain`
+
+```jsx live
+function CheckboxVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <StyledBox>
+          <Checkbox size="md" variant="solid" />
+          <Checkbox size="md" variant="soft" />
+          <Checkbox size="md" variant="outlined" />
+          <Checkbox size="md" variant="plain" />
+          <Checkbox size="md" variant="solid" defaultChecked />
+          <Checkbox size="md" variant="soft" defaultChecked />
+          <Checkbox size="md" variant="outlined" defaultChecked />
+          <Checkbox size="md" variant="plain" defaultChecked />
+        </StyledBox>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Colors
+
+All components do support 2 color type: `primary`, `danger`
+
+```jsx live
+function CheckboxVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <StyledBox>
+          <Checkbox color="primary" defaultChecked />
+          <Checkbox color="danger" defaultChecked />
+        </StyledBox>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+### Disabled
+
+Checkbox in disabled mode-
+
+```jsx live
+function CheckboxVariants() {
+  return (
+    <div>
+      <CssVarsProvider>
+        <StyledBox>
+          <Checkbox size="sm" disabled />
+          <Checkbox defaultChecked disabled />
+          <Checkbox size="sm" label="Disabled-sm" defaultChecked disabled />
+          <Checkbox size="md" label="Disabled-md" defaultChecked disabled />
+        </StyledBox>
+      </CssVarsProvider>
+    </div>
+  );
+}
+```
+
+## Props
+
+<PropsTable name="Checkbox" />
