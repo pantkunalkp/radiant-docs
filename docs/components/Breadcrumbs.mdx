@@ -12,19 +12,15 @@ Below are the relevant attributes for all breadcrumbs types.
 ```jsx live
 function BreadcrumbsSizes() {
   return (
-    <div>
-      <CssVarsProvider>
-        <Box>
-          <Breadcrumbs>
-            <Link href="#">User</Link>
-            <Link href="#">Kunal</Link>
-            <Link href="#">Office</Link>
-            <Link href="#">Package</Link>
-            <Typography>Radiant</Typography>
-          </Breadcrumbs>
-        </Box>
-      </CssVarsProvider>
-    </div>
+    <Box>
+      <Breadcrumbs>
+        <Link href="#">User</Link>
+        <Link href="#">Kunal</Link>
+        <Link href="#">Office</Link>
+        <Link href="#">Package</Link>
+        <Typography>Radiant</Typography>
+      </Breadcrumbs>
+    </Box>
   );
 }
 ```
@@ -36,26 +32,22 @@ Breadcrumbs Separator - You can pass any
 ```jsx live
 function ButtonVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Breadcrumbs separator={<ChipDelete variant="plain" />}>
-            <Link href="#">User</Link>
-            <Link href="#">Kunal</Link>
-            <Link href="#">Office</Link>
-            <Link href="#">Package</Link>
-            <Typography>Radiant</Typography>
-          </Breadcrumbs>
-          <Breadcrumbs separator=">">
-            <Link href="#">User</Link>
-            <Link href="#">Kunal</Link>
-            <Link href="#">Office</Link>
-            <Link href="#">Package</Link>
-            <Typography>Radiant</Typography>
-          </Breadcrumbs>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <Box>
+      <Breadcrumbs separator={<ChipDelete variant="plain" />}>
+        <Link href="#">User</Link>
+        <Link href="#">Kunal</Link>
+        <Link href="#">Office</Link>
+        <Link href="#">Package</Link>
+        <Typography>Radiant</Typography>
+      </Breadcrumbs>
+      <Breadcrumbs separator=">">
+        <Link href="#">User</Link>
+        <Link href="#">Kunal</Link>
+        <Link href="#">Office</Link>
+        <Link href="#">Package</Link>
+        <Typography>Radiant</Typography>
+      </Breadcrumbs>
+    </Box>
   );
 }
 ```

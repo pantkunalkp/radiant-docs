@@ -28,42 +28,18 @@ The hierarchy for text size in Link -
 ```jsx live
 function LinkSizes() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Link href="#" level="h1">
-            H1
-          </Link>
-          <Link href="#" level="h2">
-            H2
-          </Link>
-          <Link href="#" level="h3">
-            H3
-          </Link>
-          <Link href="#" level="h4">
-            H4
-          </Link>
-          <Link href="#" level="h5">
-            H5
-          </Link>
-          <Link href="#" level="h6">
-            H6
-          </Link>
-          <Link href="#" level="subtitle1">
-            Subtitle1
-          </Link>
-          <Link href="#" level="subtitle2">
-            Subtitle2
-          </Link>
-          <Link href="#" level="body1">
-            Body1
-          </Link>
-          <Link href="#" level="body2">
-            Body2
-          </Link>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+        <Link href="#" level="h1">H1</Link>
+        <Link href="#" level="h2">H2</Link>
+        <Link href="#" level="h3">H3</Link>
+        <Link href="#" level="h4">H4</Link>
+        <Link href="#" level="h5">H5</Link>
+        <Link href="#" level="h6">H6</Link>
+        <Link href="#" level="subtitle1">Subtitle1</Link>
+        <Link href="#" level="subtitle2">Subtitle2</Link>
+        <Link href="#" level="body1">Body1</Link>
+        <Link href="#" level="body2">Body2</Link>
+    </StyledBox>
   );
 }
 ```
@@ -75,24 +51,12 @@ Radios are available in 4 global variants: `solid` , `soft`, `outlined` and `pla
 ```jsx live
 function LinkVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Link href="#" variant="solid" level="h4">
-            H4
-          </Link>
-          <Link href="#" variant="soft" level="h4">
-            H4
-          </Link>
-          <Link href="#" variant="outlined" level="h4">
-            H4
-          </Link>
-          <Link href="#" level="h4">
-            H4
-          </Link>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Link href="#" variant="solid" level="h4">H4</Link>
+      <Link href="#" variant="soft" level="h4">H4</Link>
+      <Link href="#" variant="outlined" level="h4">H4</Link>
+      <Link href="#" level="h4">H4</Link>
+    </StyledBox>
   );
 }
 ```
@@ -104,30 +68,14 @@ All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, 
 ```jsx live
 function LinkVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Link color="primary" level="h4">
-            H4
-          </Link>
-          <Link color="neutral" level="h4">
-            H4
-          </Link>
-          <Link color="danger" level="h4">
-            H4
-          </Link>
-          <Link color="info" level="h4">
-            H4
-          </Link>
-          <Link color="success" level="h4">
-            H4
-          </Link>
-          <Link color="warning" level="h4">
-            H4
-          </Link>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Link color="primary" level="h4">H4</Link>
+      <Link color="neutral" level="h4">H4</Link>
+      <Link color="danger" level="h4">H4</Link>
+      <Link color="info" level="h4">H4</Link>
+      <Link color="success" level="h4">H4</Link>
+      <Link color="warning" level="h4">H4</Link>
+    </StyledBox>
   );
 }
 ```

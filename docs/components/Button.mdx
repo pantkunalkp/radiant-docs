@@ -23,13 +23,11 @@ The hierarchy for text size in button labels is:
 ```jsx live
 function ButtonSizes() {
   return (
-    <div>
-        <StyledBox>
-          <Button size="lg">Large</Button>
-          <Button size="md">Medium</Button>
-          <Button size="sm">Small</Button>
-        </StyledBox>
-    </div>
+    <StyledBox>
+      <Button size="lg">Large</Button>
+      <Button size="md">Medium</Button>
+      <Button size="sm">Small</Button>
+    </StyledBox>
   );
 }
 ```
@@ -41,16 +39,12 @@ Buttons are available in 4 global variants: `solid` (default), `soft`, `outlined
 ```jsx live
 function ButtonVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Button variant="solid">Solid</Button>
-          <Button variant="soft">Soft</Button>
-          <Button variant="outlined">Outlined</Button>
-          <Button variant="plain">Plain</Button>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Button variant="solid">Solid</Button>
+      <Button variant="soft">Soft</Button>
+      <Button variant="outlined">Outlined</Button>
+      <Button variant="plain">Plain</Button>
+    </StyledBox>
   );
 }
 ```
@@ -62,42 +56,38 @@ Buttons do have startIcon and endIcon props
 ```jsx live
 function ButtonVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Button
-            size="sm"
-            startIcon={
-              <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
-            }
-            variant="outlined"
-          >
-            This is Button
-          </Button>
-          <Button
-            size="sm"
-            endIcon={
-              <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
-            }
-            variant="outlined"
-          >
-            This is Button
-          </Button>
-          <Button
-            size="sm"
-            endIcon={
-              <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
-            }
-            startIcon={
-              <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
-            }
-            variant="outlined"
-          >
-            This is Button
-          </Button>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Button
+        size="sm"
+        startIcon={
+          <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
+        }
+        variant="outlined"
+      >
+        This is Button
+      </Button>
+      <Button
+        size="sm"
+        endIcon={
+          <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
+        }
+        variant="outlined"
+      >
+        This is Button
+      </Button>
+      <Button
+        size="sm"
+        endIcon={
+          <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
+        }
+        startIcon={
+          <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
+        }
+        variant="outlined"
+      >
+        This is Button
+      </Button>
+    </StyledBox>
   );
 }
 ```
@@ -109,18 +99,14 @@ All components do support 6 color type: `primary` (default), `neutral`, `danger`
 ```jsx live
 function ButtonVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Button color="primary">primary</Button>
-          <Button color="neutral">neutral</Button>
-          <Button color="danger">danger</Button>
-          <Button color="info">info</Button>
-          <Button color="success">success</Button>
-          <Button color="warning">warning</Button>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Button color="primary">primary</Button>
+      <Button color="neutral">neutral</Button>
+      <Button color="danger">danger</Button>
+      <Button color="info">info</Button>
+      <Button color="success">success</Button>
+      <Button color="warning">warning</Button>
+    </StyledBox>
   );
 }
 ```

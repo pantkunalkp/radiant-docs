@@ -17,14 +17,10 @@ Switches are available in 2 sizes: `sm`, `md` (default) and `md`
 ```jsx live
 function SwitchSizes() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Switch size="sm" />
-          <Switch size="md" />
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Switch size="sm" />
+      <Switch size="md" />
+    </StyledBox>
   );
 }
 ```
@@ -36,16 +32,12 @@ Switches are available in 4 global variants: `solid` (default), `soft`, `outline
 ```jsx live
 function SwitchVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Switch variant="solid" defaultChecked={true} />
-          <Switch variant="soft" defaultChecked={true} />
-          <Switch variant="outlined" defaultChecked={true} />
-          <Switch variant="plain" defaultChecked={true} />
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Switch variant="solid" defaultChecked={true} />
+      <Switch variant="soft" defaultChecked={true} />
+      <Switch variant="outlined" defaultChecked={true} />
+      <Switch variant="plain" defaultChecked={true} />
+    </StyledBox>
   );
 }
 ```
@@ -57,18 +49,14 @@ All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, 
 ```jsx live
 function SwitchVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Switch variant="solid" color="primary" />
-          <Switch variant="solid" color="neutral" />
-          <Switch variant="solid" color="danger" />
-          <Switch variant="solid" color="info" />
-          <Switch variant="solid" color="success" />
-          <Switch variant="solid" color="warning" />
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Switch variant="solid" color="primary" />
+      <Switch variant="solid" color="neutral" />
+      <Switch variant="solid" color="danger" />
+      <Switch variant="solid" color="info" />
+      <Switch variant="solid" color="success" />
+      <Switch variant="solid" color="warning" />
+    </StyledBox>
   );
 }
 ```

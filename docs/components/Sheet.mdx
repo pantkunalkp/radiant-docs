@@ -13,18 +13,14 @@ Below are the relevant attributes for all sheet types.
 ```jsx live
 function SheetSizes() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Sheet sx={{ width: "200px", height: "200px", background: "pink" }}>
-            No elevation(shadow)
-          </Sheet>
-          <Sheet shadow="sm" sx={{ width: "200px", height: "200px" }} />
-          <Sheet shadow="md" sx={{ width: "200px", height: "200px" }} />
-          <Sheet shadow="lg" sx={{ width: "200px", height: "200px" }} />
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Sheet sx={{ width: "200px", height: "200px", background: "pink" }}>
+        No elevation(shadow)
+      </Sheet>
+      <Sheet shadow="sm" sx={{ width: "200px", height: "200px" }} />
+      <Sheet shadow="md" sx={{ width: "200px", height: "200px" }} />
+      <Sheet shadow="lg" sx={{ width: "200px", height: "200px" }} />
+    </StyledBox>
   );
 }
 ```
@@ -36,20 +32,16 @@ Sheets are available in 4 global variants: `solid` , `soft`, `outlined` and `pla
 ```jsx live
 function SheetVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Sheet variant="solid" sx={{ width: "200px", height: "200px" }} />
-          <Sheet variant="outlined" sx={{ width: "200px", height: "200px" }} />
-          <Sheet variant="soft" sx={{ width: "200px", height: "200px" }} />
-          <Sheet
-            shadow="lg"
-            variant="plain"
-            sx={{ width: "200px", height: "200px" }}
-          />
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Sheet variant="solid" sx={{ width: "200px", height: "200px" }} />
+      <Sheet variant="outlined" sx={{ width: "200px", height: "200px" }} />
+      <Sheet variant="soft" sx={{ width: "200px", height: "200px" }} />
+      <Sheet
+        shadow="lg"
+        variant="plain"
+        sx={{ width: "200px", height: "200px" }}
+      />
+    </StyledBox>
   );
 }
 ```
@@ -61,17 +53,13 @@ All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, 
 ```jsx live
 function SheetVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Sheet color="primary">HI There</Sheet>
-          <Sheet color="neutral">HI There</Sheet>
-          <Sheet color="info">HI There</Sheet>
-          <Sheet color="danger">HI There</Sheet>
-          <Sheet color="warning">HI There</Sheet>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Sheet color="primary">HI There</Sheet>
+      <Sheet color="neutral">HI There</Sheet>
+      <Sheet color="info">HI There</Sheet>
+      <Sheet color="danger">HI There</Sheet>
+      <Sheet color="warning">HI There</Sheet>
+    </StyledBox>
   );
 }
 ```

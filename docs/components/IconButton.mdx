@@ -17,21 +17,17 @@ Buttons are available in 3 sizes: `sm`(default), `md` and `lg`
 ```jsx live
 function ButtonSizes() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <IconButton>
-            <ChipDelete variant="plain" sx={{ color: "#fff" }} />
-          </IconButton>
-          <IconButton size="md">
-            <ChipDelete variant="plain" sx={{ color: "#fff" }} />
-          </IconButton>
-          <IconButton size="lg">
-            <ChipDelete variant="plain" sx={{ color: "#fff" }} />
-          </IconButton>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <IconButton>
+        <ChipDelete variant="plain" sx={{ color: "#fff" }} />
+      </IconButton>
+      <IconButton size="md">
+        <ChipDelete variant="plain" sx={{ color: "#fff" }} />
+      </IconButton>
+      <IconButton size="lg">
+        <ChipDelete variant="plain" sx={{ color: "#fff" }} />
+      </IconButton>
+    </StyledBox>
   );
 }
 ```
@@ -43,24 +39,20 @@ Buttons are available in 4 global variants: `solid` (default), `soft`, `outlined
 ```jsx live
 function ButtonVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <IconButton>
-            <ChipDelete variant="plain" sx={{ color: "#fff" }} />
-          </IconButton>
-          <IconButton size="md" variant="outlined">
-            <ChipDelete variant="plain" />
-          </IconButton>
-          <IconButton size="lg" variant="soft">
-            <ChipDelete variant="plain" sx={{ color: "#fff" }} />
-          </IconButton>
-          <IconButton size="lg" variant="plain">
-            <ChipDelete variant="plain" />
-          </IconButton>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <IconButton>
+        <ChipDelete variant="plain" sx={{ color: "#fff" }} />
+      </IconButton>
+      <IconButton size="md" variant="outlined">
+        <ChipDelete variant="plain" />
+      </IconButton>
+      <IconButton size="lg" variant="soft">
+        <ChipDelete variant="plain" sx={{ color: "#fff" }} />
+      </IconButton>
+      <IconButton size="lg" variant="plain">
+        <ChipDelete variant="plain" />
+      </IconButton>
+    </StyledBox>
   );
 }
 ```
@@ -72,30 +64,26 @@ All components do support 6 color type: `primary` (default), `neutral`, `danger`
 ```jsx live
 function ButtonVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <IconButton color="primary">
-            <ChipDelete variant="plain" sx={{ color: "#fff" }} />
-          </IconButton>
-          <IconButton color="neutral">
-            <ChipDelete variant="plain" sx={{ color: "#fff" }} />
-          </IconButton>
-          <IconButton color="danger">
-            <ChipDelete variant="plain" sx={{ color: "#fff" }} />
-          </IconButton>
-          <IconButton color="info">
-            <ChipDelete variant="plain" sx={{ color: "#fff" }} />
-          </IconButton>
-          <IconButton color="success">
-            <ChipDelete variant="plain" sx={{ color: "#fff" }} />
-          </IconButton>
-          <IconButton color="warning">
-            <ChipDelete variant="plain" sx={{ color: "#fff" }} />
-          </IconButton>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <IconButton color="primary">
+        <ChipDelete variant="plain" sx={{ color: "#fff" }} />
+      </IconButton>
+      <IconButton color="neutral">
+        <ChipDelete variant="plain" sx={{ color: "#fff" }} />
+      </IconButton>
+      <IconButton color="danger">
+        <ChipDelete variant="plain" sx={{ color: "#fff" }} />
+      </IconButton>
+      <IconButton color="info">
+        <ChipDelete variant="plain" sx={{ color: "#fff" }} />
+      </IconButton>
+      <IconButton color="success">
+        <ChipDelete variant="plain" sx={{ color: "#fff" }} />
+      </IconButton>
+      <IconButton color="warning">
+        <ChipDelete variant="plain" sx={{ color: "#fff" }} />
+      </IconButton>
+    </StyledBox>
   );
 }
 ```
@@ -107,18 +95,14 @@ IconButtons in Disabled mode-
 ```jsx live
 function ButtonVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <IconButton color="primary" disabled onClick={() => alert("Clicked")}>
-            <ChipDelete variant="plain" sx={{ color: "#fff" }} />
-          </IconButton>
-          <IconButton variant="outlined">
-            <ChipDelete variant="plain" />
-          </IconButton>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <IconButton color="primary" disabled onClick={() => alert("Clicked")}>
+        <ChipDelete variant="plain" sx={{ color: "#fff" }} />
+      </IconButton>
+      <IconButton variant="outlined">
+        <ChipDelete variant="plain" />
+      </IconButton>
+    </StyledBox>
   );
 }
 ```

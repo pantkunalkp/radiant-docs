@@ -22,24 +22,18 @@ The hierarchy for text size in radio labels is:
 ```jsx live
 function ChipSizes() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Chip size="sm" variant="solid">
-            Chip
-          </Chip>
-          <Chip
-            size="md"
-            variant="solid"
-            endDecorator={
-              <ChipDelete size="md" onClick={() => alert("Hi There")} />
-            }
-          >
-            Chip
-          </Chip>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Chip size="sm" variant="solid">Chip</Chip>
+      <Chip
+        size="md"
+        variant="solid"
+        endDecorator={
+          <ChipDelete size="md" onClick={() => alert("Hi There")} />
+        }
+      >
+        Chip
+      </Chip>
+    </StyledBox>
   );
 }
 ```
@@ -51,24 +45,20 @@ Chips are available in 4 global variants: `solid`(default) , `soft`, `outlined` 
 ```jsx live
 function ChipVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Chip size="md" variant="solid" onClick={() => alert("Hi There")}>
-            Chip
-          </Chip>
-          <Chip size="md" variant="soft" onClick={() => alert("Hi There")}>
-            Chip
-          </Chip>
-          <Chip size="md" variant="outlined" onClick={() => alert("Hi There")}>
-            Chip
-          </Chip>
-          <Chip size="md" variant="plain" onClick={() => alert("Hi There")}>
-            Chip
-          </Chip>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Chip size="md" variant="solid" onClick={() => alert("Hi There")}>
+        Chip
+      </Chip>
+      <Chip size="md" variant="soft" onClick={() => alert("Hi There")}>
+        Chip
+      </Chip>
+      <Chip size="md" variant="outlined" onClick={() => alert("Hi There")}>
+        Chip
+      </Chip>
+      <Chip size="md" variant="plain" onClick={() => alert("Hi There")}>
+        Chip
+      </Chip>
+    </StyledBox>
   );
 }
 ```
@@ -80,20 +70,16 @@ All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, 
 ```jsx live
 function ChipVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Chip color="primary">Chip</Chip>
-          <Chip color="neutral">Chip</Chip>
-          <Chip variant="outlined" color="primary">
-            Chip
-          </Chip>
-          <Chip variant="outlined" color="danger">
-            Chip
-          </Chip>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Chip color="primary">Chip</Chip>
+      <Chip color="neutral">Chip</Chip>
+      <Chip variant="outlined" color="primary">
+        Chip
+      </Chip>
+      <Chip variant="outlined" color="danger">
+        Chip
+      </Chip>
+    </StyledBox>
   );
 }
 ```
@@ -105,19 +91,15 @@ Chips in disabled mode-
 ```jsx live
 function ChipVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Chip disabled>Chip</Chip>
-          <Chip
-            disabled
-            endDecorator={<ChipDelete onClick={() => alert("Hi There")} />}
-          >
-            Chip
-          </Chip>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Chip disabled>Chip</Chip>
+      <Chip
+        disabled
+        endDecorator={<ChipDelete onClick={() => alert("Hi There")} />}
+      >
+        Chip
+      </Chip>
+    </StyledBox>
   );
 }
 ```
@@ -135,16 +117,12 @@ Chips are available in 4 global variants: `solid`(default) , `soft`, `outlined` 
 ```jsx live
 function ChipDeleteVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <ChipDelete variant="solid" onClick={() => alert("Hi There")} />
-          <ChipDelete variant="outlined" onClick={() => alert("Hi There")} />
-          <ChipDelete variant="soft" onClick={() => alert("Hi There")} />
-          <ChipDelete variant="plain" onClick={() => alert("Hi There")} />
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <ChipDelete variant="solid" onClick={() => alert("Hi There")} />
+      <ChipDelete variant="outlined" onClick={() => alert("Hi There")} />
+      <ChipDelete variant="soft" onClick={() => alert("Hi There")} />
+      <ChipDelete variant="plain" onClick={() => alert("Hi There")} />
+    </StyledBox>
   );
 }
 ```
@@ -156,16 +134,12 @@ All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, 
 ```jsx live
 function ChipDeleteVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <ChipDelete color="primary" />
-          <ChipDelete color="danger" />
-          <ChipDelete variant="outlined" color="primary" />
-          <ChipDelete variant="outlined" color="danger" />
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <ChipDelete color="primary" />
+      <ChipDelete color="danger" />
+      <ChipDelete variant="outlined" color="primary" />
+      <ChipDelete variant="outlined" color="danger" />
+    </StyledBox>
   );
 }
 ```
@@ -177,14 +151,10 @@ Chips in disabled mode-
 ```jsx live
 function ChipDeleteVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <ChipDelete color="danger" disabled />
-          <ChipDelete variant="outlined" color="primary" disabled />
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <ChipDelete color="danger" disabled />
+      <ChipDelete variant="outlined" color="primary" disabled />
+    </StyledBox>
   );
 }
 ```

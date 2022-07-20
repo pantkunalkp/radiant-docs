@@ -22,47 +22,43 @@ The hierarchy for text size in textfield labels is:
 ```jsx live
 function TextFieldSizes() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <TextField
-            placeholder="Placeholder"
-            label="Enter your CTC"
-            size="sm"
-            sx={{ width: "312px" }}
-          />
-          <TextField
-            placeholder="Placeholder"
-            label="Enter your CTC"
-            size="md"
-            variant="outlined"
-            sx={{ width: "312px" }}
-          />
-          <TextField
-            placeholder="Placeholder"
-            label="Enter your CTC"
-            required
-            size="md"
-            variant="outlined"
-            sx={{ width: "312px" }}
-          />
-          <TextField
-            placeholder="Placeholder"
-            size="md"
-            variant="outlined"
-            sx={{ width: "312px" }}
-            error
-          />
-          <TextField
-            placeholder="Placeholder"
-            size="md"
-            helperText="Oppps"
-            variant="outlined"
-            sx={{ width: "312px" }}
-          />
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <TextField
+        placeholder="Placeholder"
+        label="Enter your CTC"
+        size="sm"
+        sx={{ width: "312px" }}
+      />
+      <TextField
+        placeholder="Placeholder"
+        label="Enter your CTC"
+        size="md"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+      <TextField
+        placeholder="Placeholder"
+        label="Enter your CTC"
+        required
+        size="md"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+      <TextField
+        placeholder="Placeholder"
+        size="md"
+        variant="outlined"
+        sx={{ width: "312px" }}
+        error
+      />
+      <TextField
+        placeholder="Placeholder"
+        size="md"
+        helperText="Oppps"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+    </StyledBox>
   );
 }
 ```
@@ -74,36 +70,32 @@ TextField are available in 4 global variants: `solid` , `soft`, `outlined`(defau
 ```jsx live
 function TextFieldVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <TextField
-            placeholder="Placeholder"
-            size="md"
-            variant="outlined"
-            sx={{ width: "312px" }}
-          />
-          <TextField
-            placeholder="Placeholder"
-            size="md"
-            variant="solid"
-            sx={{ width: "312px" }}
-          />
-          <TextField
-            placeholder="Placeholder"
-            size="md"
-            variant="soft"
-            sx={{ width: "312px" }}
-          />
-          <TextField
-            placeholder="Placeholder"
-            size="md"
-            variant="plain"
-            sx={{ width: "312px" }}
-          />
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <TextField
+        placeholder="Placeholder"
+        size="md"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+      <TextField
+        placeholder="Placeholder"
+        size="md"
+        variant="solid"
+        sx={{ width: "312px" }}
+      />
+      <TextField
+        placeholder="Placeholder"
+        size="md"
+        variant="soft"
+        sx={{ width: "312px" }}
+      />
+      <TextField
+        placeholder="Placeholder"
+        size="md"
+        variant="plain"
+        sx={{ width: "312px" }}
+      />
+    </StyledBox>
   );
 }
 ```
@@ -115,48 +107,44 @@ All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, 
 ```jsx live
 function TextFieldVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <TextField
-            placeholder="Placeholder"
-            size="md"
-            color="primary"
-            variant="outlined"
-            sx={{ width: "312px" }}
-          />
-          <TextField
-            placeholder="Placeholder"
-            size="md"
-            color="neutral"
-            variant="outlined"
-            sx={{ width: "312px" }}
-          />
+    <StyledBox>
+      <TextField
+        placeholder="Placeholder"
+        size="md"
+        color="primary"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+      <TextField
+        placeholder="Placeholder"
+        size="md"
+        color="neutral"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
 
-          <TextField
-            placeholder="success"
-            size="md"
-            color="primary"
-            variant="outlined"
-            sx={{ width: "312px" }}
-          />
-          <TextField
-            placeholder="Placeholder"
-            size="md"
-            color="info"
-            variant="outlined"
-            sx={{ width: "312px" }}
-          />
-          <TextField
-            placeholder="Placeholder"
-            size="md"
-            color="warning"
-            variant="outlined"
-            sx={{ width: "312px" }}
-          />
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+      <TextField
+        placeholder="success"
+        size="md"
+        color="primary"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+      <TextField
+        placeholder="Placeholder"
+        size="md"
+        color="info"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+      <TextField
+        placeholder="Placeholder"
+        size="md"
+        color="warning"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+    </StyledBox>
   );
 }
 ```
@@ -166,46 +154,42 @@ function TextFieldVariants() {
 ```jsx live
 function TextFieldVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <TextField
-            placeholder="Placeholder"
-            size="md"
-            color="primary"
-            startDecorator={<ChipDelete variant="plain" />}
-            sx={{ width: "312px" }}
-          />
-          <TextField
-            placeholder="Placeholder"
-            size="md"
-            color="primary"
-            endDecorator={<ChipDelete variant="plain" />}
-            sx={{ width: "312px" }}
-          />
+    <StyledBox>
+      <TextField
+        placeholder="Placeholder"
+        size="md"
+        color="primary"
+        startDecorator={<ChipDelete variant="plain" />}
+        sx={{ width: "312px" }}
+      />
+      <TextField
+        placeholder="Placeholder"
+        size="md"
+        color="primary"
+        endDecorator={<ChipDelete variant="plain" />}
+        sx={{ width: "312px" }}
+      />
 
-          <TextField
-            placeholder="success"
-            size="md"
-            sx={{ width: "312px" }}
-            color="primary"
-            endDecorator={<ChipDelete variant="plain" />}
-            startDecorator={<ChipDelete variant="plain" />}
-          />
-          <TextField
-            placeholder="success"
-            size="md"
-            sx={{ width: "312px" }}
-            color="primary"
-            endDecorator={
-              <Button onClick={() => alert("Oopps clicked!")} variant="plain">
-                Action
-              </Button>
-            }
-          />
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+      <TextField
+        placeholder="success"
+        size="md"
+        sx={{ width: "312px" }}
+        color="primary"
+        endDecorator={<ChipDelete variant="plain" />}
+        startDecorator={<ChipDelete variant="plain" />}
+      />
+      <TextField
+        placeholder="success"
+        size="md"
+        sx={{ width: "312px" }}
+        color="primary"
+        endDecorator={
+          <Button onClick={() => alert("Oopps clicked!")} variant="plain">
+            Action
+          </Button>
+        }
+      />
+    </StyledBox>
   );
 }
 ```
@@ -217,29 +201,25 @@ TextField in disabled mode-
 ```jsx live
 function TextFieldVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <TextField
-            placeholder="Placeholder"
-            size="md"
-            color="primary"
-            disabled
-            variant="outlined"
-            sx={{ width: "312px" }}
-          />
-          <TextField
-            placeholder="Placeholder"
-            label="Enter your CTC"
-            size="md"
-            color="primary"
-            disabled
-            variant="outlined"
-            sx={{ width: "312px" }}
-          />
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <TextField
+        placeholder="Placeholder"
+        size="md"
+        color="primary"
+        disabled
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+      <TextField
+        placeholder="Placeholder"
+        label="Enter your CTC"
+        size="md"
+        color="primary"
+        disabled
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+    </StyledBox>
   );
 }
 ```

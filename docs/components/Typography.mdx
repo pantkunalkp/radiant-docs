@@ -28,22 +28,18 @@ The hierarchy for text size in typography -
 ```jsx live
 function TypographySizes() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Typography level="h1">H1</Typography>
-          <Typography level="h2">H2</Typography>
-          <Typography level="h3">H3</Typography>
-          <Typography level="h4">H4</Typography>
-          <Typography level="h5">H5</Typography>
-          <Typography level="h6">H6</Typography>
-          <Typography level="subtitle1">Subtitle1</Typography>
-          <Typography level="subtitle2">Subtitle2</Typography>
-          <Typography level="body1">Body1</Typography>
-          <Typography level="body2">Body2</Typography>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Typography level="h1">H1</Typography>
+      <Typography level="h2">H2</Typography>
+      <Typography level="h3">H3</Typography>
+      <Typography level="h4">H4</Typography>
+      <Typography level="h5">H5</Typography>
+      <Typography level="h6">H6</Typography>
+      <Typography level="subtitle1">Subtitle1</Typography>
+      <Typography level="subtitle2">Subtitle2</Typography>
+      <Typography level="body1">Body1</Typography>
+      <Typography level="body2">Body2</Typography>
+    </StyledBox>
   );
 }
 ```
@@ -55,24 +51,20 @@ Radios are available in 4 global variants: `solid`(default) , `soft`, `outlined`
 ```jsx live
 function TypographyVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Typography variant="solid" level="h4">
-            H4
-          </Typography>
-          <Typography variant="soft" level="h4">
-            H4
-          </Typography>
-          <Typography variant="outlined" level="h4">
-            H4
-          </Typography>
-          <Typography variant="plain" level="h4">
-            H4
-          </Typography>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Typography variant="solid" level="h4">
+        H4
+      </Typography>
+      <Typography variant="soft" level="h4">
+        H4
+      </Typography>
+      <Typography variant="outlined" level="h4">
+        H4
+      </Typography>
+      <Typography variant="plain" level="h4">
+        H4
+      </Typography>
+    </StyledBox>
   );
 }
 ```
@@ -84,30 +76,26 @@ All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, 
 ```jsx live
 function TypographyVariants() {
   return (
-    <div>
-      <CssVarsProvider>
-        <StyledBox>
-          <Typography color="primary" level="h4">
-            H4
-          </Typography>
-          <Typography color="neutral" level="h4">
-            H4
-          </Typography>
-          <Typography color="danger" level="h4">
-            H4
-          </Typography>
-          <Typography color="info" level="h4">
-            H4
-          </Typography>
-          <Typography color="success" level="h4">
-            H4
-          </Typography>
-          <Typography color="warning" level="h4">
-            H4
-          </Typography>
-        </StyledBox>
-      </CssVarsProvider>
-    </div>
+    <StyledBox>
+      <Typography color="primary" level="h4">
+        H4
+      </Typography>
+      <Typography color="neutral" level="h4">
+        H4
+      </Typography>
+      <Typography color="danger" level="h4">
+        H4
+      </Typography>
+      <Typography color="info" level="h4">
+        H4
+      </Typography>
+      <Typography color="success" level="h4">
+        H4
+      </Typography>
+      <Typography color="warning" level="h4">
+        H4
+      </Typography>
+    </StyledBox>
   );
 }
 ```
