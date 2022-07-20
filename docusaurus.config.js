@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/okaidia');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Radiant',
-  tagline: 'Radiant Design System by Intugine Technologies',
+  tagline: 'Component library - Web App',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
