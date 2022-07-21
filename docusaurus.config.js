@@ -71,7 +71,7 @@ const config = {
         title: 'Radiant',
         logo: {
           alt: 'Radiant Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
