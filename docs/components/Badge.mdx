@@ -1,0 +1,66 @@
+---
+sidebar_position: 6
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# Badge
+
+Badge generates a small badge to the top-right of its child(ren).
+
+### Sizes
+
+Badge are available in 3 sizes: `sm`, `md` (default) and `lg`
+
+```jsx live
+function ButtonSizes() {
+  return (
+    <StyledBox>
+      <Badge  size = "sm" badgeContent={4} color="primary">
+        <Button size= "lg" variant ="outlined"> Small </Button>
+      </Badge>
+      <Badge size = "md"  badgeContent={4} color="primary">
+        <Button size="lg" variant ="outlined"> Medium </Button>
+      </Badge>
+      <Badge size = "lg" badgeContent={4} color="primary">
+        <Button size="lg" variant ="outlined">Large</Button>
+      </Badge>
+    </StyledBox>
+  );
+}
+```
+
+### Colors
+
+All components do support 6 color type: `primary` (default), `neutral`, `danger`, `info`, `success` and `warning`
+
+```jsx live
+function ButtonVariants() {
+  return (
+      <StyledBox>
+        <Badge color="primary">
+          <Button variant ="outlined" size = "lg"> Primary </Button>
+        </Badge>
+        <Badge color="neutral">
+          <Button variant ="outlined" size = "lg"> Netural </Button>
+        </Badge>
+        <Badge color="danger">
+          <Button variant ="outlined" size = "lg"> Danger </Button>
+        </Badge>
+        <Badge color="info">
+          <Button variant ="outlined" size = "lg"> Info </Button>
+        </Badge>
+        <Badge color="success">
+          <Button variant ="outlined" size = "lg"> Success </Button>
+        </Badge>
+        <Badge color="warning">
+          <Button variant ="outlined" size = "lg"> Warning </Button>
+        </Badge>
+      </StyledBox>
+  );
+}
+```
+
+## Props
+
+<PropsTable name="Badge" />
