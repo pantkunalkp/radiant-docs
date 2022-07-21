@@ -12,6 +12,10 @@ import Breadcrumbs from "@intugine-technologies/radiant/Breadcrumbs";
 import Link from "@intugine-technologies/radiant/Link";
 import Sheet from "@intugine-technologies/radiant/Sheet";
 import TextField from "@intugine-technologies/radiant/TextField";
+import Avatar from "@intugine-technologies/radiant/Avatar";
+import Badge from "@intugine-technologies/radiant/Badge";
+import Card from "@intugine-technologies/radiant/Card";
+import CardContent from "@intugine-technologies/radiant/CardContent";
 import { CssVarsProvider } from "@intugine-technologies/radiant";
 
 const StyledBox = ({ children }) => {
@@ -48,5 +52,9 @@ const ReactLiveScope = {
   Link,
   Sheet,
   TextField,
+  Avatar,
+  Badge,
+  Card,
+  CardContent,
 };
 export default ReactLiveScope;
