@@ -1,0 +1,31 @@
+---
+sidebar_position: 6
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# Box
+
+The Box component serves as a wrapper component for most of the CSS utility needs.
+
+### The sx prop
+
+```jsx live
+
+function Boxsx(){
+    return(
+      <div>
+      <CssVarsProvider>
+        <Box sx = {{
+            width: 300,
+            height: 300,
+            backgroundColor: "blue"
+        }}/>
+      </CssVarsProvider>
+    </div>
+    )
+}
+```
+## Props
+
+<PropsTable name="Box" />
