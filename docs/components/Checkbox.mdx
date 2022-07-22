@@ -12,41 +12,35 @@ Below are the relevant attributes for all checkbox types.
 
 ### Sizes
 
-Checkbox are available in 2 sizes: `sm`, `md` (default) and `md`
-
-The hierarchy for text size in radio labels is:
-
-- **Body1** for medium checkbox
-- **Body2** for small checkbox
+Checkbox are available in 3 sizes: `sm`, `md` (default) and `md`
 
 ```jsx live
 function CheckboxSizes() {
   return (
-    <StyledBox>
-      <Checkbox size="md" label="I am Checkbox" />
-      <Checkbox size="sm" label="I am Checkbox" />
-    </StyledBox>
+    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+      <Checkbox size="sm" label="sm Checkbox" />
+      <Checkbox size="md" label="md Checkbox" />
+      <Checkbox size="lg" label="lg Checkbox" />
+    </Box>
   );
 }
 ```
 
-### Variants
+### States
 
-Checkbox are available in 4 global variants: `solid`(default) , `soft`, `outlined` and `plain`
+Checkbox component only has three states: `checked`, `unchecked` and `indeterminate`.
 
 ```jsx live
-function CheckboxVariants() {
+function CheckboxStates() {
   return (
-    <StyledBox>
-      <Checkbox size="md" variant="solid" />
-      <Checkbox size="md" variant="soft" />
-      <Checkbox size="md" variant="outlined" />
-      <Checkbox size="md" variant="plain" />
-      <Checkbox size="md" variant="solid" defaultChecked />
-      <Checkbox size="md" variant="soft" defaultChecked />
-      <Checkbox size="md" variant="outlined" defaultChecked />
-      <Checkbox size="md" variant="plain" defaultChecked />
-    </StyledBox>
+    <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+      <Checkbox checked={false} label="Default checkbox"/>
+      <Checkbox checked={false} indeterminate label="Indeterminate checkbox"/>
+      <Checkbox checked label="Checked checkbox"/>
+      <Checkbox disabled label="Disabled checkbox" />
+      <Checkbox disabled checked label="Disabled checked checkbox" />
+      <Checkbox disabled indeterminate label="Disabled indeterminate checkbox" />
+    </Box>
   );
 }
 ```
@@ -56,32 +50,21 @@ function CheckboxVariants() {
 All components do support 2 color type: `primary`, `danger`
 
 ```jsx live
-function CheckboxVariants() {
+function CheckboxColor() {
   return (
     <StyledBox>
       <Checkbox color="primary" defaultChecked />
+      <Checkbox color="neutral" defaultChecked />
       <Checkbox color="danger" defaultChecked />
+      <Checkbox color="info" defaultChecked />
+      <Checkbox color="success" defaultChecked />
+      <Checkbox color="warning" defaultChecked />
     </StyledBox>
   );
 }
 ```
 
-### Disabled
-
-Checkbox in disabled mode-
-
-```jsx live
-function CheckboxVariants() {
-  return (
-    <StyledBox>
-      <Checkbox size="sm" disabled />
-      <Checkbox defaultChecked disabled />
-      <Checkbox size="sm" label="Disabled-sm" defaultChecked disabled />
-      <Checkbox size="md" label="Disabled-md" defaultChecked disabled />
-    </StyledBox>
-  );
-}
-```
+---
 
 ## Props
 

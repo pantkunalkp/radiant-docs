@@ -12,52 +12,15 @@ Below are the relevant attributes for all chip types.
 
 ### Sizes
 
-Chips are available in 2 sizes: `sm`, `md` (default) and `md`
-
-The hierarchy for text size in radio labels is:
-
-- **Body1** for medium radios
-- **Body2** for small radios
+Chips are available in 2 sizes: `sm`, `md` (default) and `lg`
 
 ```jsx live
 function ChipSizes() {
   return (
     <StyledBox>
-      <Chip size="sm" variant="solid">Chip</Chip>
-      <Chip
-        size="md"
-        variant="solid"
-        endDecorator={
-          <ChipDelete size="md" onClick={() => alert("Hi There")} />
-        }
-      >
-        Chip
-      </Chip>
-    </StyledBox>
-  );
-}
-```
-
-### Variants
-
-Chips are available in 4 global variants: `solid`(default) , `soft`, `outlined` and `plain`
-
-```jsx live
-function ChipVariants() {
-  return (
-    <StyledBox>
-      <Chip size="md" variant="solid" onClick={() => alert("Hi There")}>
-        Chip
-      </Chip>
-      <Chip size="md" variant="soft" onClick={() => alert("Hi There")}>
-        Chip
-      </Chip>
-      <Chip size="md" variant="outlined" onClick={() => alert("Hi There")}>
-        Chip
-      </Chip>
-      <Chip size="md" variant="plain" onClick={() => alert("Hi There")}>
-        Chip
-      </Chip>
+      <Chip size="sm">small</Chip>
+      <Chip size="md">medium</Chip>
+      <Chip size="lg">large</Chip>
     </StyledBox>
   );
 }
@@ -71,13 +34,36 @@ All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, 
 function ChipVariants() {
   return (
     <StyledBox>
-      <Chip color="primary">Chip</Chip>
-      <Chip color="neutral">Chip</Chip>
-      <Chip variant="outlined" color="primary">
-        Chip
+      <Chip variant="outlined" color="primary">Primary</Chip>
+      <Chip variant="outlined" color="neutral">Neutral</Chip>
+      <Chip variant="outlined" color="danger">Danger</Chip>
+      <Chip variant="outlined" color="info">Info</Chip>
+      <Chip variant="outlined" color="success">Success</Chip>
+      <Chip variant="outlined" color="warning">Warning</Chip>
+    </StyledBox>
+  );
+}
+```
+
+### Delete Button
+
+To add a delete action inside a chip, use the complementary `ChipDelete` component. 
+Note that its design will automatically adapt to the parent `Chip`.
+
+
+```jsx live
+function DeleteButtonChip() {
+  return (
+    <StyledBox>
+      <Chip variant="outlined" color="danger" endDecorator={<ChipDelete />}>
+        Remove
       </Chip>
-      <Chip variant="outlined" color="danger">
-        Chip
+      <Chip
+        variant="soft"
+        color="danger"
+        endDecorator={<ChipDelete variant="plain" />}
+      >
+        Delete
       </Chip>
     </StyledBox>
   );
@@ -86,7 +72,7 @@ function ChipVariants() {
 
 ### Disabled
 
-Chips in disabled mode-
+Chips in disabled mode
 
 ```jsx live
 function ChipVariants() {
@@ -104,61 +90,12 @@ function ChipVariants() {
 }
 ```
 
-# ChipDelete
-
-A ChipDelete, when clicked or tapped triggers an action or a series of actions.
-
-Below are the relevant attributes for all chipDelete types.
-
-### Variants
-
-Chips are available in 4 global variants: `solid`(default) , `soft`, `outlined` and `plain`
-
-```jsx live
-function ChipDeleteVariants() {
-  return (
-    <StyledBox>
-      <ChipDelete variant="solid" onClick={() => alert("Hi There")} />
-      <ChipDelete variant="outlined" onClick={() => alert("Hi There")} />
-      <ChipDelete variant="soft" onClick={() => alert("Hi There")} />
-      <ChipDelete variant="plain" onClick={() => alert("Hi There")} />
-    </StyledBox>
-  );
-}
-```
-
-### Colors
-
-All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, `success` and `warning`
-
-```jsx live
-function ChipDeleteVariants() {
-  return (
-    <StyledBox>
-      <ChipDelete color="primary" />
-      <ChipDelete color="danger" />
-      <ChipDelete variant="outlined" color="primary" />
-      <ChipDelete variant="outlined" color="danger" />
-    </StyledBox>
-  );
-}
-```
-
-### Disabled
-
-Chips in disabled mode-
-
-```jsx live
-function ChipDeleteVariants() {
-  return (
-    <StyledBox>
-      <ChipDelete color="danger" disabled />
-      <ChipDelete variant="outlined" color="primary" disabled />
-    </StyledBox>
-  );
-}
-```
+---
 
 ## Props
 
+#### Chip
 <PropsTable name="Chip" />
+
+#### ChipDelete
+<PropsTable name="ChipDelete" />

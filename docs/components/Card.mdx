@@ -12,10 +12,11 @@ Below are the relevant attributes for all Card types.
 
 ### Basic Card
 
+Card is a surface-level component that can house multiple others. 
+The most common components you'd use with it are `Typography`, `AspectRatio`, and `Button`.
+
 ```jsx live
-
 function BasicCard() {
-
   return (
     <Card sx={{ maxWidth: 275 }}>
       <CardContent>
@@ -30,27 +31,133 @@ function BasicCard() {
   );
 }
 ```
-### Outlined Card
+
+### Overflow
+To have content spanning from edge to edge of the card, wrap it with the `CardOverflow` component. 
+It automatically takes care of the top and bottom edges if rendered as the first or last child of the parent card.
 
 ```jsx live
-
-function BasicCard() {
-    
+function CardVariant() {  
   return (
-    <Card sx={{ maxWidth: 275 }} variant = "outlined">
-      <CardContent> 
-         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-          Best Design Library
+    <Card variant="outlined" sx={{ minWidth: '320px', maxWidth: '560px' }}>
+      <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5 }}>
+        <Typography level="h2" fontSize="md" sx={{ alignSelf: 'flex-start' }}>
+          Yosemite National Park
         </Typography>
-        <Typography variant="h5" component="div">
-          Hi, This is radiant.
-        </Typography>
-      </CardContent>
+        <Typography level="body2">April 24 to May 02, 2021</Typography>
+      </Box>
+      <IconButton
+        aria-label="bookmark Bahamas Islands"
+        variant="plain"
+        color="neutral"
+        size="sm"
+        sx={{ position: 'absolute', top: '0.5rem', right: '0.5rem' }}
+      >
+        +
+      </IconButton>
+      <CardOverflow>
+      <AspectRatio minHeight="120px" maxHeight="200px" sx={{ my: 2 }}>
+        <img
+          src="https://images.unsplash.com/photo-1527549993586-dff825b37782?crop=entropy&auto=format&fit=crop&w=3270"
+          alt=""
+        />
+      </AspectRatio>
+        </CardOverflow>
+      <Box sx={{ display: 'flex' }}>
+        <div>
+          <Typography level="body3">Total price:</Typography>
+          <Typography fontSize="lg" fontWeight="lg">
+            $2900
+          </Typography>
+        </div>
+        <Button
+          variant="solid"
+          size="sm"
+          color="primary"
+          aria-label="Explore Bahamas Islands"
+          sx={{ ml: 'auto', fontWeight: 600 }}
+        >
+          Explore
+        </Button>
+      </Box>
     </Card>
   );
 }
 ```
 
+### Media
+
+Use a plain image or a video element inside the CardCover to display media. It uses object-fit: cover on the image as a default value.
+
+```jsx live
+
+function MediaCard() {  
+  return (
+    <Box
+      component="ul"
+      sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', p: 0, m: 0 }}
+    >
+      <Card component="li" sx={{ minWidth: 300, flexGrow: 1 }}>
+        <CardCover>
+          <img
+            src="https://images.unsplash.com/photo-1502657877623-f66bf489d236?auto=format&fit=crop&w=800"
+            srcSet="https://images.unsplash.com/photo-1502657877623-f66bf489d236?auto=format&fit=crop&w=800&dpr=2 2x"
+            alt=""
+          />
+        </CardCover>
+        <CardContent sx={{ justifyContent: 'center', gap: 1 }}>
+          <Typography
+            level="h6"
+            fontWeight="lg"
+            textColor="#fff"
+            mt={{ xs: 12, sm: 18 }}
+          >
+            Image
+          </Typography>
+        </CardContent>
+      </Card>
+      <Card component="li" sx={{ minWidth: 300, flexGrow: 1 }}>
+        <CardCover>
+          <video
+            autoPlay
+            loop
+            muted
+            poster="https://assets.codepen.io/6093409/river.jpg"
+          >
+            <source
+              src="https://assets.codepen.io/6093409/river.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </CardCover>
+        <CardContent sx={{ justifyContent: 'center', gap: 1 }}>
+          <Typography
+            level="h6"
+            fontWeight="lg"
+            textColor="#fff"
+            mt={{ xs: 12, sm: 18 }}
+          >
+            Video
+          </Typography>
+        </CardContent>
+      </Card>
+    </Box>
+  );
+}
+```
+
+---
+
 ## Props
 
+#### Card
 <PropsTable name="Card" />
+
+#### CardContent
+<PropsTable name="CardContent" />
+
+#### CardCover
+<PropsTable name="CardCover" />
+
+#### CardOverflow
+<PropsTable name="CardOverflow" />

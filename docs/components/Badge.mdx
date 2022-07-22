@@ -13,17 +13,17 @@ Badge generates a small badge to the top-right of its child(ren).
 Badge are available in 3 sizes: `sm`, `md` (default) and `lg`
 
 ```jsx live
-function ButtonSizes() {
+function BadgeSizes() {
   return (
     <StyledBox>
-      <Badge  size = "sm" badgeContent={4} color="primary">
-        <Button size= "lg" variant ="outlined"> Small </Button>
+      <Badge size="sm" badgeContent={4}>
+        <Button variant="outlined">Small</Button>
       </Badge>
-      <Badge size = "md"  badgeContent={4} color="primary">
-        <Button size="lg" variant ="outlined"> Medium </Button>
+      <Badge size="md" badgeContent={4}>
+        <Button variant="outlined">Medium</Button>
       </Badge>
-      <Badge size = "lg" badgeContent={4} color="primary">
-        <Button size="lg" variant ="outlined">Large</Button>
+      <Badge size="lg" badgeContent={4}>
+        <Button variant="outlined">Large</Button>
       </Badge>
     </StyledBox>
   );
@@ -35,31 +35,55 @@ function ButtonSizes() {
 All components do support 6 color type: `primary` (default), `neutral`, `danger`, `info`, `success` and `warning`
 
 ```jsx live
-function ButtonVariants() {
+function BadgeVariants() {
   return (
       <StyledBox>
         <Badge color="primary">
-          <Button variant ="outlined" size = "lg"> Primary </Button>
+          <Button variant="outlined" size="lg">Primary</Button>
         </Badge>
         <Badge color="neutral">
-          <Button variant ="outlined" size = "lg"> Netural </Button>
+          <Button variant="outlined" size="lg">Netural</Button>
         </Badge>
         <Badge color="danger">
-          <Button variant ="outlined" size = "lg"> Danger </Button>
+          <Button variant="outlined" size="lg">Danger</Button>
         </Badge>
         <Badge color="info">
-          <Button variant ="outlined" size = "lg"> Info </Button>
+          <Button variant="outlined" size="lg">Info</Button>
         </Badge>
         <Badge color="success">
-          <Button variant ="outlined" size = "lg"> Success </Button>
+          <Button variant="outlined" size="lg">Success</Button>
         </Badge>
         <Badge color="warning">
-          <Button variant ="outlined" size = "lg"> Warning </Button>
+          <Button variant="outlined" size="lg">Warning</Button>
         </Badge>
       </StyledBox>
   );
 }
 ```
+
+### Maximum value
+
+Use the max prop to cap the content to a maximum value.
+
+```jsx live
+function BadgeSizes() {
+  return (
+    <StyledBox>
+      <Badge size="sm" badgeContent={99}>
+        <Button variant="outlined">+</Button>
+      </Badge>
+      <Badge size="md" badgeContent={100}>
+        <Button variant="outlined">+</Button>
+      </Badge>
+      <Badge size="lg" badgeContent={1000} max={999}>
+        <Button variant="outlined">+</Button>
+      </Badge>
+    </StyledBox>
+  );
+}
+```
+
+---
 
 ## Props
 

@@ -15,7 +15,10 @@ import TextField from "@intugine-technologies/radiant/TextField";
 import Avatar from "@intugine-technologies/radiant/Avatar";
 import Badge from "@intugine-technologies/radiant/Badge";
 import Card from "@intugine-technologies/radiant/Card";
+import CardCover from "@intugine-technologies/radiant/CardCover";
 import CardContent from "@intugine-technologies/radiant/CardContent";
+import CardOverflow from "@intugine-technologies/radiant/CardOverflow";
+import AspectRatio from "@intugine-technologies/radiant/AspectRatio";
 import { CssVarsProvider } from "@intugine-technologies/radiant";
 
 const StyledBox = ({ children }) => {
@@ -38,6 +41,7 @@ const ReactLiveScope = {
   React,
   ...React,
   CssVarsProvider,
+  AspectRatio,
   Button,
   Box,
   StyledBox,
@@ -55,6 +59,8 @@ const ReactLiveScope = {
   Avatar,
   Badge,
   Card,
+  CardCover,
   CardContent,
+  CardOverflow
 };
 export default ReactLiveScope;

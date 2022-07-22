@@ -59,31 +59,31 @@ function ButtonVariants() {
     <StyledBox>
       <Button
         size="sm"
+        variant="outlined"
         startIcon={
           <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
         }
-        variant="outlined"
       >
         This is Button
       </Button>
       <Button
         size="sm"
+        variant="outlined"
         endIcon={
           <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
         }
-        variant="outlined"
       >
         This is Button
       </Button>
       <Button
         size="sm"
-        endIcon={
-          <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
-        }
+        variant="outlined"
         startIcon={
           <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
         }
-        variant="outlined"
+        endIcon={
+          <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
+        }
       >
         This is Button
       </Button>
@@ -111,6 +111,29 @@ function ButtonVariants() {
 }
 ```
 
+### IconButton
+
+Use the `IconButton` component if you want width and height to be the same while not having a label.
+Every prop previously covered are available for this component as well.
+
+```jsx live
+function ButtonSizes() {
+  return (
+    <StyledBox>
+      <IconButton size="sm"><ChipDelete /></IconButton>
+      <IconButton size="md"><ChipDelete /></IconButton>
+      <IconButton size="lg"><ChipDelete /></IconButton>
+    </StyledBox>
+  );
+}
+```
+
+---
+
 ## Props
 
+#### Button
 <PropsTable name="Button" />
+
+#### IconButton
+All the button props are available.
