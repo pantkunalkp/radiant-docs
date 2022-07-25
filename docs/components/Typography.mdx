@@ -12,23 +12,12 @@ Below are the relevant attributes for all typography types.
 
 ### Sizes
 
-The hierarchy for text size in typography -
-
-- **H6**
-- **H5**
-- **H4**
-- **H3**
-- **H2**
-- **H1**
-- **Subtitle1**
-- **Subtitle2**
-- **Body1**
-- **Body2**
+The hierarchy for text size in typography - h1 > h2 > h3 > h4 > h5 > h6 > subtitle1 > subtitle2 > body1 > body2
 
 ```jsx live
 function TypographySizes() {
   return (
-    <StyledBox>
+    <Box>
       <Typography level="h1">H1</Typography>
       <Typography level="h2">H2</Typography>
       <Typography level="h3">H3</Typography>
@@ -39,7 +28,7 @@ function TypographySizes() {
       <Typography level="subtitle2">Subtitle2</Typography>
       <Typography level="body1">Body1</Typography>
       <Typography level="body2">Body2</Typography>
-    </StyledBox>
+    </Box>
   );
 }
 ```

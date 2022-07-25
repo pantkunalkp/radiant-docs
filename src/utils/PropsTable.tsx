@@ -6,7 +6,12 @@ function PropsTableRoot({ name }) {
 
     useEffect(() => {
         import(`../assets/components/${name}.json`)
-            .then(component => setDoc(Object.values(component.props)))
+            .then(component => setDoc(
+                Object.values(component.props)
+                    .filter(
+                        (props: any) => !props.parent?.fileName.includes("node_modules/@types/react/index.d.ts")
+                    )
+            ))
     }, [name])
 
     if (!doc) return <></>

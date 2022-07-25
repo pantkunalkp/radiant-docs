@@ -69,6 +69,30 @@ function LinkVariants() {
 }
 ```
 
+### Third-party routing library
+
+#### Next.js
+```tsx
+import NextLink from 'next/link';
+import RadiantLink from '@intugine-technologies/radiant/Link';
+
+<NextLink href="/docs" passHref>
+  <RadiantLink>Read doc</RadiantLink>
+</NextLink>
+```
+
+#### React router
+```tsx
+import { Link as RouterLink } from 'react-router-dom';
+import RadiantLink from '@intugine-technologies/radiant/Link';
+
+<RadiantLink component={RouterLink} to="/docs">
+  Read doc
+</RadiantLink>;
+```
+
+---
+
 ## Props
 
 <PropsTable name="Link" />

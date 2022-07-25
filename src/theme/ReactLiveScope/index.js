@@ -19,6 +19,9 @@ import CardCover from "@intugine-technologies/radiant/CardCover";
 import CardContent from "@intugine-technologies/radiant/CardContent";
 import CardOverflow from "@intugine-technologies/radiant/CardOverflow";
 import AspectRatio from "@intugine-technologies/radiant/AspectRatio";
+import Menu from "@intugine-technologies/radiant/Menu";
+import MenuItem from "@intugine-technologies/radiant/MenuItem";
+import MenuList from "@intugine-technologies/radiant/MenuList";
 import { CssVarsProvider } from "@intugine-technologies/radiant";
 
 const StyledBox = ({ children }) => {
@@ -61,6 +64,9 @@ const ReactLiveScope = {
   Card,
   CardCover,
   CardContent,
-  CardOverflow
+  CardOverflow,
+  Menu,
+  MenuItem,
+  MenuList
 };
 export default ReactLiveScope;

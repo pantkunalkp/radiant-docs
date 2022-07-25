@@ -1,0 +1,132 @@
+---
+sidebar_position: 6
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# Menu
+
+Menu are toggleable, contextual overlays for displaying lists of links and more.
+
+Below are the relevant attributes for all button types.
+
+### Basic Menu
+
+The basic version of the menu opens over the anchor element by default.
+
+```jsx live
+function BasicMenu() {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  return (
+    <div>
+      <Button
+        id="basic-demo-button"
+        aria-controls={open ? 'basic-menu' : undefined}
+        aria-haspopup="true"
+        aria-expanded={open ? 'true' : undefined}
+        variant="outlined"
+        color="neutral"
+        onClick={handleClick}
+      >
+        Dashboard
+      </Button>
+      <Menu
+        id="basic-menu"
+        anchorEl={anchorEl}
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="basic-demo-button"
+        sx={{ backgroundColor: 'white' }}
+      >
+        <MenuItem onClick={handleClose}>Profile</MenuItem>
+        <MenuItem onClick={handleClose}>My account</MenuItem>
+        <MenuItem onClick={handleClose}>Logout</MenuItem>
+      </Menu>
+    </div>
+  );
+}
+```
+
+### Selected
+
+Buttons do have startIcon and endIcon props
+
+```jsx live
+function SelectedMenu() {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [selectedIndex, setSelectedIndex] = React.useState(1);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const createHandleClose = (index) => () => {
+    setAnchorEl(null);
+    if (typeof index === 'number') {
+      setSelectedIndex(index);
+    }
+  };
+
+  return (
+    <div>
+      <Button
+        id="selected-demo-button"
+        aria-controls={open ? 'selected-demo-menu' : undefined}
+        aria-haspopup="true"
+        aria-expanded={open ? 'true' : undefined}
+        variant="outlined"
+        color="neutral"
+        onClick={handleClick}
+      >
+        Apps
+      </Button>
+      <Menu
+        id="selected-demo-menu"
+        anchorEl={anchorEl}
+        open={open}
+        onClose={createHandleClose()}
+        aria-labelledby="selected-demo-button"
+        sx={{ backgroundColor: 'white' }}
+      >
+        <MenuItem
+          {...(selectedIndex === 0 && { selected: true, variant: 'soft' })}
+          onClick={createHandleClose(0)}
+        >
+          Random project
+        </MenuItem>
+        <MenuItem
+          {...(selectedIndex === 1 && { selected: true, variant: 'soft' })}
+          onClick={createHandleClose(1)}
+        >
+          Production - web
+        </MenuItem>
+        <MenuItem
+          {...(selectedIndex === 2 && { selected: true, variant: 'soft' })}
+          onClick={createHandleClose(2)}
+        >
+          Staging - web
+        </MenuItem>
+      </Menu>
+    </div>
+  );
+}
+```
+
+---
+
+## Props
+#### Menu
+<PropsTable name="Menu" />
+
+#### MenuList
+<PropsTable name="MenuList" />
+
+#### MenuItem
+<PropsTable name="MenuItem" />
