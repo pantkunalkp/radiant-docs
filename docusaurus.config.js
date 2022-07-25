@@ -67,6 +67,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false
+      },
       navbar: {
         title: 'Radiant',
         logo: {
@@ -77,11 +82,11 @@ const config = {
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
+            position: 'right',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Components', position: 'left'},
-          {to: '/blog', label: 'Icons', position: 'left'},
+          // {to: '/blog', label: 'Components', position: 'left'},
+          // {to: '/blog', label: 'Icons', position: 'left'},
           {
             href: 'https://github.com/radiant-design/radiant',
             label: 'GitHub',
