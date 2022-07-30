@@ -1,0 +1,81 @@
+---
+sidebar_position: 8
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# CssVarProvider
+
+The avatar component is usually seen for displaying user information in places such as menus, tables, and chats.
+
+### Sizes
+
+Avatars are available in 3 sizes: `sm`, `md` (default) and `lg`
+
+```jsx live
+function Avatarizes() {
+  return (
+    <StyledBox>
+      <Avatar size="lg">L</Avatar>
+      <Avatar size="md">M</Avatar>
+      <Avatar size="sm">S</Avatar>
+    </StyledBox>
+  );
+}
+```
+### Variants
+
+Avatars are available in 4 global variants: `solid` (default), `soft`, `outlined` and `plain`
+
+```jsx live
+function AvatarVariants() {
+  return (
+    <StyledBox>
+      <Avatar variant="solid"></Avatar>
+      <Avatar variant="soft"></Avatar>
+      <Avatar variant="outlined"></Avatar>
+      <Avatar variant="plain"></Avatar>
+    </StyledBox>
+  );
+}
+```
+
+### Letter Avatars
+
+Use a string as children to display its initials on the avatar component.
+
+```jsx live
+function LetterAvatars() {
+  return (
+    <StyledBox>
+      <Avatar sx ={{bgcolor: 'red', color: 'white'}}>H</Avatar>
+      <Avatar sx ={{bgcolor: 'cyan'}}>N</Avatar>
+      <Avatar sx ={{bgcolor: 'orange', color: 'white'}}>AT</Avatar>
+    </StyledBox>
+  );
+}
+```
+
+### Image Avatars
+
+Insert images in the avatar by using a path inside the src prop, similar to how you'd do in the HTML `<img>` element. 
+Make sure to to write a meaningful description in the alt prop.
+
+
+```jsx live
+function ImageAvatars() {
+  return (
+    <StyledBox>
+      <Avatar alt="Remy Sharp" src="https://mui.com/static/images/avatar/1.jpg" />
+      <Avatar alt="Travis Howard" src="https://mui.com/static/images/avatar/2.jpg" />
+      <Avatar alt="Cindy Baker" src="https://mui.com/static/images/avatar/3.jpg" />
+    </StyledBox>
+  );
+}
+```
+
+---
+
+## Props
+
+<PropsTable name="Avatar" />

@@ -11,6 +11,16 @@ function PropsTableRoot({ name }) {
                     .filter(
                         (props: any) => !props.parent?.fileName.includes("node_modules/@types/react/index.d.ts")
                     )
+                    .map(
+                        (props: any) => {
+                            return props.type?.name === 'SxProps' ? {
+                                ...props,
+                                description: props.description 
+                                    + " " 
+                                    + "Radiant uses `@mui/system` as its CSS Utility. More detail about [SxProps here](https://mui.com/system/the-sx-prop/)."
+                            } : props
+                        }
+                    )
             ))
     }, [name])
 
@@ -34,7 +44,7 @@ function PropsTableRoot({ name }) {
                                     <td>{docProp.name}</td>
                                     <td style={{ color: 'rgb(147, 41, 129)', maxWidth: '250px' }}>{docProp.type?.name}</td>
                                     <td>{docProp.defaultValue?.value}</td>
-                                    <td><ReactMarkdown>{docProp.description}</ReactMarkdown></td>
+                                    <td><ReactMarkdown linkTarget={"_blank"}>{docProp.description}</ReactMarkdown></td>
                                 </tr>
                             )
                         })

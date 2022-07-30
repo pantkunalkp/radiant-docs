@@ -1,0 +1,10 @@
+{
+  "label": "Components",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Components are interactive building blocks for creating a user interface."
+  }
+}

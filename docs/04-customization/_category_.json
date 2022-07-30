@@ -1,0 +1,11 @@
+{
+    "label": "Customization",
+    "position": 4,
+    "collapsible": true,
+    "collapsed": true,
+    "link": {
+      "type": "generated-index",
+      "description": "Customization are interactive building blocks for creating a user interface."
+    }
+  }
+  

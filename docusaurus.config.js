@@ -52,7 +52,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          sidebarCollapsed: false
+          // sidebarCollapsed: false
         },
         blog: {
           showReadingTime: true
