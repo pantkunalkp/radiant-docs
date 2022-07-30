@@ -70,13 +70,13 @@ function BadgeSizes() {
   return (
     <StyledBox>
       <Badge size="sm" badgeContent={99}>
-        <Button variant="outlined">+</Button>
+        <IconButton variant="outlined"><BellIcon/></IconButton>
       </Badge>
-      <Badge size="md" badgeContent={100}>
-        <Button variant="outlined">+</Button>
+      <Badge size="sm" badgeContent={100}>
+        <IconButton variant="outlined"><BellIcon/></IconButton>
       </Badge>
-      <Badge size="lg" badgeContent={1000} max={999}>
-        <Button variant="outlined">+</Button>
+      <Badge size="sm" badgeContent={1000} max={999}>
+        <IconButton variant="outlined"><BellIcon/></IconButton>
       </Badge>
     </StyledBox>
   );

@@ -58,32 +58,28 @@ function ButtonVariants() {
   return (
     <StyledBox>
       <Button
-        size="sm"
         variant="outlined"
-        startIcon={
-          <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
-        }
+        startIcon={<DockIcon />}
       >
         This is Button
       </Button>
       <Button
-        size="sm"
-        variant="outlined"
-        endIcon={
-          <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
-        }
+        variant="solid"
+        endIcon={<DockIcon />}
       >
         This is Button
       </Button>
       <Button
-        size="sm"
-        variant="outlined"
-        startIcon={
-          <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
-        }
-        endIcon={
-          <ChipDelete variant="plain" sx={{ width: 16, height: 16 }} />
-        }
+        variant="soft"
+        startIcon={<DockIcon />}
+        endIcon={<DockIcon />}
+      >
+        This is Button
+      </Button>
+      <Button
+        variant="plain"
+        startIcon={<DockIcon />}
+        endIcon={<DockIcon />}
       >
         This is Button
       </Button>
@@ -120,9 +116,9 @@ Every prop previously covered are available for this component as well.
 function ButtonSizes() {
   return (
     <StyledBox>
-      <IconButton size="sm"><ChipDelete /></IconButton>
-      <IconButton size="md"><ChipDelete /></IconButton>
-      <IconButton size="lg"><ChipDelete /></IconButton>
+      <IconButton><DockIcon /></IconButton>
+      <IconButton><TruckMovingIcon /></IconButton>
+      <IconButton><EpodIcon /></IconButton>
     </StyledBox>
   );
 }

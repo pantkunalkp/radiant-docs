@@ -23,6 +23,7 @@ import Menu from "@intugine-technologies/radiant/Menu";
 import MenuItem from "@intugine-technologies/radiant/MenuItem";
 import MenuList from "@intugine-technologies/radiant/MenuList";
 import { CssVarsProvider } from "@intugine-technologies/radiant";
+import { Dock as DockIcon, TruckMoving as TruckMovingIcon, Epod as EpodIcon, Bell as BellIcon, Aeroplane1 as Aeroplane1Icon, Cross as CrossIcon } from '@intugine-technologies/radiant-icons'
 
 const StyledBox = ({ children }) => {
   return (
@@ -67,6 +68,12 @@ const ReactLiveScope = {
   CardOverflow,
   Menu,
   MenuItem,
-  MenuList
+  MenuList,
+  DockIcon,
+  TruckMovingIcon,
+  EpodIcon,
+  BellIcon,
+  Aeroplane1Icon,
+  CrossIcon
 };
 export default ReactLiveScope;
