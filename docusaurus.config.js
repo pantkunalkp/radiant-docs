@@ -85,7 +85,7 @@ const config = {
             position: 'right',
             label: 'Docs',
           },
-          {to: '/icons', label: 'Icons', position: 'right'},
+          // {to: '/icons', label: 'Icons', position: 'right'},
           // {to: '/blog', label: 'Icons', position: 'left'},
           {
             href: 'https://github.com/radiant-design/radiant',
