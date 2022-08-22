@@ -1767,10 +1767,10 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
-"@intugine-technologies/radiant-icons@^0.0.1-rc.4":
-  version "0.0.1-rc.4"
-  resolved "https://registry.yarnpkg.com/@intugine-technologies/radiant-icons/-/radiant-icons-0.0.1-rc.4.tgz#fb304fe1c11f18a736ed7f0f01961558323c7b1f"
-  integrity sha512-sb8HvUTfS87owvCGeJSvwhvk8ABmbMesKQr177uOcf7SlhfyZ/jR3R6Lhpvkc/gRizcjUrhnpzoPeno2a5T6Rg==
+"@intugine-technologies/radiant-icons@^0.0.1-rc.5":
+  version "0.0.1-rc.5"
+  resolved "https://registry.yarnpkg.com/@intugine-technologies/radiant-icons/-/radiant-icons-0.0.1-rc.5.tgz#792a5eab6826180a2d3262dcb5493bd075598817"
+  integrity sha512-iSC8sCXrbD/Fz+2Y6WDpzryZlUbTOaMFMOYtUJqhfzgz9jQlUx0lEs7wZ20RHK9gcK3i5oKx/hpCTFlZcjwjsQ==
   dependencies:
     "@intugine-technologies/radiant" "^2.0.0-alpha.4"
     "@mui/base" "^5.0.0-alpha.80"
