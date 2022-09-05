@@ -1,0 +1,171 @@
+---
+sidebar_position: 6
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# Select
+
+Select components are used for collecting user provided information from a list of options. 
+
+## Introduction
+
+The Select component is used to trigger a popup that displays a list of Option components.
+
+## Component
+
+Below are the relevant attributes for all Select types.
+
+### Sizes
+
+Select is available in 3 sizes: `sm`, `md` (default) and `lg`
+
+The hierarchy for text size in select labels is:
+
+- **Body2** for small radios
+- **Body1** for medium and large radios
+
+```jsx live
+function selectSizes() {
+  return (
+    <StyledBox>
+      <Select size="sm" value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+      <Select size="md" value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+      <Select size="lg" value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+    </StyledBox>
+  );
+}
+```
+
+### Variants
+
+Select is available in 3 global variants: `solid`, `outlined`(default) and `plain`
+
+```jsx live
+function selectVariants() {
+  return (
+    <StyledBox>
+      <Select variant="solid" value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+      <Select variant="outlined" value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+      <Select variant="plain" value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+    </StyledBox>
+  );
+}
+```
+
+### Colors
+
+All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, `success` and `warning`
+
+```jsx live
+function selectColors() {
+  return (
+    <StyledBox>
+      <Select color="primary" value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+      <Select color="neutral" value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+      <Select color="danger" value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+      <Select color="info" value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+      <Select color="success" value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+      <Select color="warning" value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+    </StyledBox>
+  );
+}
+```
+
+### Decorators
+
+Select do have startDecorator and endDecorator props
+
+```jsx live
+function selectDecorators() {
+  return (
+    <StyledBox>
+      <Select startDecorator={<DockIcon />} value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+      <Select endDecorator={<DockIcon />} value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+      <Select startDecorator={<DockIcon />} endDecorator={<DockIcon />} value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+    </StyledBox>
+  );
+}
+```
+
+### Disabled
+
+Select in disabled mode-
+
+```jsx live
+function selectDisabled() {
+  return (
+    <StyledBox>
+      <Select disabled value={10}>
+        <Option value={10}>10</Option>
+        <Option value={50}>50</Option>
+        <Option value={100}>100</Option>
+      </Select>
+    </StyledBox>
+  );
+}
+```
+
+## Props
+
+<PropsTable name="Radio" />
