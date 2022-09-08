@@ -1,0 +1,137 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Tab.tsx",
+ "description": "",
+ "displayName": "Tab",
+ "methods": [],
+ "props": {
+  "action": {
+   "defaultValue": null,
+   "description": "A ref for imperative actions. It currently only supports `focusVisible()` action.",
+   "name": "action",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Tab/TabProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "Ref<{ focusVisible(): void; }>"
+   }
+  },
+  "color": {
+   "defaultValue": {
+    "value": "'neutral'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Tab/TabProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "disabled": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the component is disabled.",
+   "name": "disabled",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Tab/TabProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "orientation": {
+   "defaultValue": {
+    "value": "'horizontal'"
+   },
+   "description": "The content direction flow.",
+   "name": "orientation",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Tab/TabProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"horizontal\" | \"vertical\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Tab/TabProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "value": {
+   "defaultValue": null,
+   "description": "You can provide your own value. Otherwise, we fall back to the child position index.",
+   "name": "value",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Tab/TabProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string | number"
+   }
+  },
+  "onChange": {
+   "defaultValue": null,
+   "description": "Callback invoked when new value is being set.",
+   "name": "onChange",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Tab/TabProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "(event: SyntheticEvent<Element, Event>, value: string | number) => void"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'plain'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Tab/TabProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  }
+ }
+}

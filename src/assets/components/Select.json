@@ -1,0 +1,460 @@
+{
+    "tags": {},
+    "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Select.tsx",
+    "description": "",
+    "displayName": "Select",
+    "methods": [],
+    "props": {
+     "defaultValue": {
+      "defaultValue": null,
+      "description": "The default selected value. Use when the component is not controlled.",
+      "name": "defaultValue",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectOwnProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectOwnProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "{}"
+      }
+     },
+     "onChange": {
+      "defaultValue": null,
+      "description": "Callback fired when an option is selected.",
+      "name": "onChange",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectOwnProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectOwnProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "(value: {}) => void"
+      }
+     },
+     "renderValue": {
+      "defaultValue": null,
+      "description": "Function that customizes the rendering of the selected value.",
+      "name": "renderValue",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectOwnProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectOwnProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "(option: SelectOption<{}>) => React.ReactNode"
+      }
+     },
+     "value": {
+      "defaultValue": null,
+      "description": "The selected value.\nSet to `null` to deselect all options.",
+      "name": "value",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectOwnProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectOwnProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "{}"
+      }
+     },
+     "action": {
+      "defaultValue": null,
+      "description": "A ref for imperative actions. It currently only supports `focusVisible()` action.",
+      "name": "action",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectStaticProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectStaticProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "React.Ref<{ focusVisible(): void; }>"
+      }
+     },
+     "color": {
+      "defaultValue": {
+       "value": "'primary'"
+      },
+      "description": "The color of the component. It supports those theme colors that make sense for this component.",
+      "name": "color",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectStaticProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectStaticProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+      }
+     },
+     "componentsProps": {
+      "defaultValue": {
+       "value": "{}"
+      },
+      "description": "The props used for each slot inside the component.",
+      "name": "componentsProps",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectStaticProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectStaticProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "ComponentsProps"
+      }
+     },
+     "disabled": {
+      "defaultValue": {
+       "value": "false"
+      },
+      "description": "If `true`, the component is disabled.",
+      "name": "disabled",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectStaticProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectStaticProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "boolean"
+      }
+     },
+     "endDecorator": {
+      "defaultValue": null,
+      "description": "Trailing adornment for the select.",
+      "name": "endDecorator",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectStaticProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectStaticProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "React.ReactNode"
+      }
+     },
+     "indicator": {
+      "defaultValue": null,
+      "description": "The indicator(*) for the select.\n   ________________\n  [ value        * ]\n   ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾",
+      "name": "indicator",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectStaticProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectStaticProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "React.ReactNode"
+      }
+     },
+     "onClose": {
+      "defaultValue": null,
+      "description": "Triggered when focus leaves the menu and the menu should close.",
+      "name": "onClose",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectStaticProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectStaticProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "() => void"
+      }
+     },
+     "placeholder": {
+      "defaultValue": null,
+      "description": "Text to show when there is no selected value.",
+      "name": "placeholder",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectStaticProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectStaticProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "React.ReactNode"
+      }
+     },
+     "size": {
+      "defaultValue": null,
+      "description": "The size of the component.",
+      "name": "size",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectStaticProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectStaticProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "\"sm\" | \"md\" | \"lg\""
+      }
+     },
+     "startDecorator": {
+      "defaultValue": null,
+      "description": "Leading adornment for the select.",
+      "name": "startDecorator",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectStaticProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectStaticProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "React.ReactNode"
+      }
+     },
+     "sx": {
+      "defaultValue": null,
+      "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+      "name": "sx",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectStaticProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectStaticProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "SxProps"
+      }
+     },
+     "variant": {
+      "defaultValue": {
+       "value": "'solid'"
+      },
+      "description": "The variant to use.",
+      "name": "variant",
+      "parent": {
+       "fileName": "radiant/src/Select/SelectProps.ts",
+       "name": "SelectStaticProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/src/Select/SelectProps.ts",
+        "name": "SelectStaticProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+      }
+     },
+     "autoFocus": {
+      "defaultValue": {
+       "value": "false"
+      },
+      "description": "If `true`, the select element is focused during the first mount",
+      "name": "autoFocus",
+      "parent": {
+       "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+       "name": "SelectUnstyledCommonProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+        "name": "SelectUnstyledCommonProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "boolean"
+      }
+     },
+     "className": {
+      "defaultValue": null,
+      "description": "",
+      "name": "className",
+      "parent": {
+       "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+       "name": "SelectUnstyledCommonProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+        "name": "SelectUnstyledCommonProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "string"
+      }
+     },
+     "defaultListboxOpen": {
+      "defaultValue": {
+       "value": "false"
+      },
+      "description": "If `true`, the select will be initially open.",
+      "name": "defaultListboxOpen",
+      "parent": {
+       "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+       "name": "SelectUnstyledCommonProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+        "name": "SelectUnstyledCommonProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "boolean"
+      }
+     },
+     "listboxId": {
+      "defaultValue": null,
+      "description": "`id` attribute of the listbox element.\nAlso used to derive the `id` attributes of options.",
+      "name": "listboxId",
+      "parent": {
+       "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+       "name": "SelectUnstyledCommonProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+        "name": "SelectUnstyledCommonProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "string"
+      }
+     },
+     "listboxOpen": {
+      "defaultValue": {
+       "value": "undefined"
+      },
+      "description": "Controls the open state of the select's listbox.",
+      "name": "listboxOpen",
+      "parent": {
+       "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+       "name": "SelectUnstyledCommonProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+        "name": "SelectUnstyledCommonProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "boolean"
+      }
+     },
+     "name": {
+      "defaultValue": null,
+      "description": "Name of the element. For example used by the server to identify the fields in form submits.\nIf the name is provided, the component will render a hidden input element that can be submitted to a server.",
+      "name": "name",
+      "parent": {
+       "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+       "name": "SelectUnstyledCommonProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+        "name": "SelectUnstyledCommonProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "string"
+      }
+     },
+     "onListboxOpenChange": {
+      "defaultValue": null,
+      "description": "Callback fired when the component requests to be opened.\nUse in controlled mode (see listboxOpen).",
+      "name": "onListboxOpenChange",
+      "parent": {
+       "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+       "name": "SelectUnstyledCommonProps"
+      },
+      "declarations": [
+       {
+        "fileName": "radiant/node_modules/@mui/base/SelectUnstyled/SelectUnstyled.types.d.ts",
+        "name": "SelectUnstyledCommonProps"
+       }
+      ],
+      "required": false,
+      "type": {
+       "name": "(isOpen: boolean) => void"
+      }
+     }
+    }
+   }

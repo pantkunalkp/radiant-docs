@@ -1,25 +1,10 @@
 {
  "tags": {},
- "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Card.tsx",
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/TabList.tsx",
  "description": "",
- "displayName": "Card",
+ "displayName": "TabList",
  "methods": [],
  "props": {
-  "children": {
-   "defaultValue": null,
-   "description": "Used to render icon or text elements inside the Card if `src` is not set.\nThis can be an element, or just a string.",
-   "name": "children",
-   "declarations": [
-    {
-     "fileName": "radiant/src/Card/CardProps.ts",
-     "name": "TypeLiteral"
-    }
-   ],
-   "required": false,
-   "type": {
-    "name": "ReactNode"
-   }
-  },
   "color": {
    "defaultValue": {
     "value": "'neutral'"
@@ -28,7 +13,7 @@
    "name": "color",
    "declarations": [
     {
-     "fileName": "radiant/src/Card/CardProps.ts",
+     "fileName": "radiant/src/TabList/TabListProps.ts",
      "name": "TypeLiteral"
     }
    ],
@@ -37,32 +22,28 @@
     "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
    }
   },
-  "row": {
-   "defaultValue": {
-    "value": "false"
-   },
-   "description": "If `true`, flex direction is set to 'row'.",
-   "name": "row",
+  "children": {
+   "defaultValue": null,
+   "description": "Used to render icon or text elements inside the TabList if `src` is not set.\nThis can be an element, or just a string.",
+   "name": "children",
    "declarations": [
     {
-     "fileName": "radiant/src/Card/CardProps.ts",
+     "fileName": "radiant/src/TabList/TabListProps.ts",
      "name": "TypeLiteral"
     }
    ],
    "required": false,
    "type": {
-    "name": "boolean"
+    "name": "ReactNode"
    }
   },
   "size": {
-   "defaultValue": {
-    "value": "'md'"
-   },
-   "description": "The size of the component.\nIt accepts theme values between 'sm' and 'lg'.",
+   "defaultValue": null,
+   "description": "The size of the component.",
    "name": "size",
    "declarations": [
     {
-     "fileName": "radiant/src/Card/CardProps.ts",
+     "fileName": "radiant/src/TabList/TabListProps.ts",
      "name": "TypeLiteral"
     }
    ],
@@ -77,7 +58,7 @@
    "name": "sx",
    "declarations": [
     {
-     "fileName": "radiant/src/Card/CardProps.ts",
+     "fileName": "radiant/src/TabList/TabListProps.ts",
      "name": "TypeLiteral"
     }
    ],
@@ -88,13 +69,13 @@
   },
   "variant": {
    "defaultValue": {
-    "value": "'plain'"
+    "value": "'soft'"
    },
    "description": "The variant to use.",
    "name": "variant",
    "declarations": [
     {
-     "fileName": "radiant/src/Card/CardProps.ts",
+     "fileName": "radiant/src/TabList/TabListProps.ts",
      "name": "TypeLiteral"
     }
    ],

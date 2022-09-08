@@ -1,0 +1,96 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/TabPanel.tsx",
+ "description": "",
+ "displayName": "TabPanel",
+ "methods": [],
+ "props": {
+  "children": {
+   "defaultValue": null,
+   "description": "The content of the component.",
+   "name": "children",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/TabPanelUnstyled/TabPanelUnstyled.types.d.ts",
+    "name": "TabPanelUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/TabPanelUnstyled/TabPanelUnstyled.types.d.ts",
+     "name": "TabPanelUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "className": {
+   "defaultValue": null,
+   "description": "",
+   "name": "className",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/TabPanelUnstyled/TabPanelUnstyled.types.d.ts",
+    "name": "TabPanelUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/TabPanelUnstyled/TabPanelUnstyled.types.d.ts",
+     "name": "TabPanelUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "value": {
+   "defaultValue": null,
+   "description": "The value of the TabPanel. It will be shown when the Tab with the corresponding value is selected.",
+   "name": "value",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/TabPanelUnstyled/TabPanelUnstyled.types.d.ts",
+    "name": "TabPanelUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/TabPanelUnstyled/TabPanelUnstyled.types.d.ts",
+     "name": "TabPanelUnstyledOwnProps"
+    }
+   ],
+   "required": true,
+   "type": {
+    "name": "string | number"
+   }
+  },
+  "size": {
+   "defaultValue": null,
+   "description": "The size of the component.",
+   "name": "size",
+   "declarations": [
+    {
+     "fileName": "radiant/src/TabPanel/TabPanelProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"sm\" | \"md\" | \"lg\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/TabPanel/TabPanelProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  }
+ }
+}

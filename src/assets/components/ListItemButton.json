@@ -116,21 +116,6 @@
     "name": "string"
    }
   },
-  "inset": {
-   "defaultValue": null,
-   "description": "The empty space on the side(s) of the separator.",
-   "name": "inset",
-   "declarations": [
-    {
-     "fileName": "radiant/src/ListItemButton/ListItemButtonProps.ts",
-     "name": "TypeLiteral"
-    }
-   ],
-   "required": false,
-   "type": {
-    "name": "\"gutter\" | \"leftGutter\" | \"startAdornment\""
-   }
-  },
   "selected": {
    "defaultValue": {
     "value": "false"

@@ -1,0 +1,229 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Tabs.tsx",
+ "description": "",
+ "displayName": "Tabs",
+ "methods": [],
+ "props": {
+  "children": {
+   "defaultValue": null,
+   "description": "The content of the component.",
+   "name": "children",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+    "name": "TabsUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+     "name": "TabsUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.ReactNode"
+   }
+  },
+  "value": {
+   "defaultValue": null,
+   "description": "The value of the currently selected `Tab`.\nIf you don't want any selected `Tab`, you can set this prop to `false`.",
+   "name": "value",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+    "name": "TabsUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+     "name": "TabsUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string | number | false"
+   }
+  },
+  "defaultValue": {
+   "defaultValue": null,
+   "description": "The default value. Use when the component is not controlled.",
+   "name": "defaultValue",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+    "name": "TabsUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+     "name": "TabsUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string | number | false"
+   }
+  },
+  "orientation": {
+   "defaultValue": {
+    "value": "'horizontal'"
+   },
+   "description": "The component orientation (layout flow direction).",
+   "name": "orientation",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+    "name": "TabsUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+     "name": "TabsUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "TabsUnstyledOrientation"
+   }
+  },
+  "direction": {
+   "defaultValue": {
+    "value": "'ltr'"
+   },
+   "description": "The direction of the text.",
+   "name": "direction",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+    "name": "TabsUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+     "name": "TabsUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "TabsUnstyledDirection"
+   }
+  },
+  "className": {
+   "defaultValue": null,
+   "description": "",
+   "name": "className",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+    "name": "TabsUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+     "name": "TabsUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string"
+   }
+  },
+  "onChange": {
+   "defaultValue": null,
+   "description": "Callback invoked when new value is being set.",
+   "name": "onChange",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+    "name": "TabsUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+     "name": "TabsUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "(event: React.SyntheticEvent, value: string | number | boolean) => void"
+   }
+  },
+  "selectionFollowsFocus": {
+   "defaultValue": null,
+   "description": "If `true` the selected tab changes on focus. Otherwise it only\nchanges on activation.",
+   "name": "selectionFollowsFocus",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+    "name": "TabsUnstyledOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/TabsUnstyled/TabsUnstyled.types.d.ts",
+     "name": "TabsUnstyledOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "color": {
+   "defaultValue": {
+    "value": "'neutral'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Tabs/TabsProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "size": {
+   "defaultValue": null,
+   "description": "The size of the component.",
+   "name": "size",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Tabs/TabsProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"sm\" | \"md\" | \"lg\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Tabs/TabsProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'plain'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Tabs/TabsProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  }
+ }
+}

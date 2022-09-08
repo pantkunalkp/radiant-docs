@@ -20,10 +20,12 @@
     "name": "ReactNode"
    }
   },
-  "classes": {
-   "defaultValue": null,
-   "description": "Override or extend the styles applied to the component.",
-   "name": "classes",
+  "color": {
+   "defaultValue": {
+    "value": "'neutral'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
    "declarations": [
     {
      "fileName": "radiant/src/List/ListProps.ts",
@@ -32,11 +34,13 @@
    ],
    "required": false,
    "type": {
-    "name": "Partial<ListClasses>"
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
    }
   },
   "row": {
-   "defaultValue": null,
+   "defaultValue": {
+    "value": "false"
+   },
    "description": "If `true`, display the list in horizontal direction.",
    "name": "row",
    "declarations": [
@@ -51,7 +55,9 @@
    }
   },
   "size": {
-   "defaultValue": null,
+   "defaultValue": {
+    "value": "'md'"
+   },
    "description": "The size of the component (affect other nested list* components).",
    "name": "size",
    "declarations": [
@@ -78,6 +84,40 @@
    "required": false,
    "type": {
     "name": "SxProps"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'plain'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/List/ListProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  },
+  "wrap": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "Only for horizontal list.\nIf `true`, the list sets the flex-wrap to \"wrap\" and adjust margin to have gap-like behavior (will move to `gap` in the future).",
+   "name": "wrap",
+   "declarations": [
+    {
+     "fileName": "radiant/src/List/ListProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
    }
   }
  }

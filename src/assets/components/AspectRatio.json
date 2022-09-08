@@ -41,7 +41,7 @@
    "defaultValue": {
     "value": "{}"
    },
-   "description": "The props used for each slot inside the AspectRatio.",
+   "description": "The props used for each slot inside the component.",
    "name": "componentsProps",
    "declarations": [
     {
@@ -51,7 +51,7 @@
    ],
    "required": false,
    "type": {
-    "name": "{ content: HTMLAttributes<HTMLDivElement> & { sx: SxProps; }; }"
+    "name": "ComponentsProps"
    }
   },
   "minHeight": {
