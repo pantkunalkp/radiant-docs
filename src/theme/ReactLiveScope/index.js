@@ -22,6 +22,12 @@ import AspectRatio from "@intugine-technologies/radiant/AspectRatio";
 import Menu from "@intugine-technologies/radiant/Menu";
 import MenuItem from "@intugine-technologies/radiant/MenuItem";
 import MenuList from "@intugine-technologies/radiant/MenuList";
+import Select from "@intugine-technologies/radiant/Select";
+import Option from "@intugine-technologies/radiant/Option";
+import Tabs from "@intugine-technologies/radiant/Tabs";
+import Tab from "@intugine-technologies/radiant/Tab";
+import TabList from "@intugine-technologies/radiant/TabList";
+import TabPanel from "@intugine-technologies/radiant/TabPanel";
 import { CssVarsProvider } from "@intugine-technologies/radiant";
 import { Dock as DockIcon, TruckMoving as TruckMovingIcon, Epod as EpodIcon, Bell as BellIcon, Aeroplane1 as Aeroplane1Icon, Cross as CrossIcon } from '@intugine-technologies/radiant-icons'
 
@@ -74,6 +80,12 @@ const ReactLiveScope = {
   EpodIcon,
   BellIcon,
   Aeroplane1Icon,
-  CrossIcon
+  CrossIcon,
+  Select,
+  Option,
+  Tabs,
+  Tab,
+  TabList,
+  TabPanel
 };
 export default ReactLiveScope;
