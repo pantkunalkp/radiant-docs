@@ -1,0 +1,315 @@
+---
+sidebar_position: 6
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# Tabs
+
+Tabs make it easy to explore and switch between different views.
+
+## Introduction
+
+Radiant UI provides four tabs-related components:
+
+- `Tabs` : A context provider that synchronizes the selected Tab with the corresponding TabPanel.
+- `TabList` : A container that consists of Tab items.
+- `Tab` : A button to toggle a selected tab.
+- `TabPanel` : A pane that displays on the screen when its value matches with the selected tab.
+
+## Component
+
+Below are the relevant attributes for all Tabs types.
+
+```jsx live
+function tabsComponent() {
+  return (
+    <StyledBox>
+      <Tabs defaultValue={1}>
+        <TabList>
+          <Tab value={1}>Tab A</Tab>
+          <Tab value={2}>Tab B</Tab>
+          <Tab value={3}>Tab C</Tab>
+        </TabList>
+      </Tabs>
+    </StyledBox>
+  );
+}
+```
+
+## Basic usage
+
+The tabs structure follows WAI ARIA design pattern. To target the initially selected tab, specify the `value` prop to the `TabPanel` and use `Tabs`'s `defaultValue`.
+
+```jsx live
+function tabsComponent() {
+  return (
+    <StyledBox>
+      <Tabs aria-label="Basic tabs" defaultValue={0}>
+        <TabList>
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+        <TabPanel value={0}>
+          <b>First</b> tab panel
+        </TabPanel>
+        <TabPanel value={1}>
+          <b>Second</b> tab panel
+        </TabPanel>
+        <TabPanel value={2}>
+          <b>Third</b> tab panel
+        </TabPanel>
+      </Tabs>
+    </StyledBox>
+  );
+}
+```
+
+### Sizes
+
+Tabs are available in 3 sizes: `sm`, `md` (default) and `lg`
+
+The hierarchy for text size in tab labels is:
+
+- **Body2** for small radios
+- **Body1** for medium and large radios
+
+```jsx live
+function tabsSizes() {
+  return (
+    <StyledBox>
+      <Tabs size="sm" defaultValue={0}>
+        <TabList>
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+      <Tabs size="md" defaultValue={0}>
+        <TabList>
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+      <Tabs size="lg" defaultValue={0}>
+        <TabList>
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+    </StyledBox>
+  );
+}
+```
+
+### Variants
+
+Tabs is available in 3 global variants: `solid`(default), `outlined` and `plain`
+
+```jsx live
+function tabsVariants() {
+  return (
+    <StyledBox>
+      <Tabs defaultValue={0}>
+        <TabList variant="solid">
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+      <Tabs defaultValue={0}>
+        <TabList variant="outlined">
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+      <Tabs defaultValue={0}>
+        <TabList variant="plain">
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+    </StyledBox>
+  );
+}
+```
+
+### Colors
+
+All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, `success` and `warning`
+
+```jsx live
+function tabsVariants() {
+  return (
+    <StyledBox>
+      <Tabs defaultValue={0}>
+        <TabList color="primary">
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+      <Tabs defaultValue={0}>
+        <TabList color="neutral">
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+      <Tabs defaultValue={0}>
+        <TabList color="danger">
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+      <Tabs defaultValue={0}>
+        <TabList color="info">
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+      <Tabs defaultValue={0}>
+        <TabList color="success">
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+      <Tabs defaultValue={0}>
+        <TabList color="warning">
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+    </StyledBox>
+  );
+}
+```
+
+### Disabled
+
+Select in disabled mode-
+
+```jsx live
+function tabsDisabled() {
+  return (
+    <StyledBox>
+      <Tabs defaultValue={0}>
+        <TabList>
+          <Tab>First tab</Tab>
+          <Tab disabled>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+    </StyledBox>
+  );
+}
+```
+
+### Vertical
+
+To set the tabs orientation to vertical, use the `orientation="vertical"` on the `Tabs` component. Keyboard navigation (e.g. arrow keys) will adapt automatically to the used orientation.
+
+```jsx live
+function tabsDisabled() {
+  return (
+    <StyledBox>
+      <Tabs orientation="vertical" defaultValue={0}>
+        <TabList>
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+    </StyledBox>
+  );
+}
+```
+
+### Icon
+
+Since `TabList` uses the same style as the `List` component, you can use the icon directly as a child or use `ListItemDecorator` with a text.
+
+```jsx live
+function tabsIcon() {
+  return (
+    <StyledBox>
+      <Tabs defaultValue={0}>
+        <TabList>
+          <Tab>
+            <Aeroplane1Icon />
+          </Tab>
+          <Tab>
+            <BellIcon />
+          </Tab>
+          <Tab>
+            <EpodIcon />
+          </Tab>
+        </TabList>
+      </Tabs>
+    </StyledBox>
+  );
+}
+```
+
+## Customization
+
+You can customize the `active` tab css using the `sx props`. override the particular RadiantUI classes in the sx props for the desired results.
+
+```jsx live
+function tabsIcon() {
+  return (
+    <StyledBox>
+      <Tabs defaultValue={0}>
+        <TabList
+          variant="plain"
+          color="primary"
+          sx={{
+            width: "100%",
+            "& .RadTab-root": {
+              bgcolor: "#F5F8FF",
+              boxShadow: "none",
+              "&:hover": {
+                bgcolor: "#F5F8FF",
+                color: "#2C63E5",
+              },
+            },
+            "& .Rad-selected": {
+              fontWeight: "sm",
+              color: "#2C63E5",
+              "&:before": {
+                content: '""',
+                display: "block",
+                position: "absolute",
+                zIndex: 1,
+                bottom: "-1px",
+                height: "2px",
+                width: "100%",
+                borderTopLeftRadius: "3px",
+                borderTopRightRadius: "3px",
+                bgcolor: "#2C63E5",
+              },
+            },
+          }}
+        >
+          <Tab>First tab</Tab>
+          <Tab>Second tab</Tab>
+          <Tab>Third tab</Tab>
+        </TabList>
+      </Tabs>
+    </StyledBox>
+  );
+}
+```
+
+## Props
+
+<PropsTable name="Radio" />
