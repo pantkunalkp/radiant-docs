@@ -12,6 +12,7 @@ import Breadcrumbs from "@intugine-technologies/radiant/Breadcrumbs";
 import Link from "@intugine-technologies/radiant/Link";
 import Sheet from "@intugine-technologies/radiant/Sheet";
 import TextField from "@intugine-technologies/radiant/TextField";
+import Textarea from "@intugine-technologies/radiant/Textarea";
 import Avatar from "@intugine-technologies/radiant/Avatar";
 import Badge from "@intugine-technologies/radiant/Badge";
 import Card from "@intugine-technologies/radiant/Card";
@@ -29,7 +30,14 @@ import Tab from "@intugine-technologies/radiant/Tab";
 import TabList from "@intugine-technologies/radiant/TabList";
 import TabPanel from "@intugine-technologies/radiant/TabPanel";
 import { CssVarsProvider } from "@intugine-technologies/radiant";
-import { Dock as DockIcon, TruckMoving as TruckMovingIcon, Epod as EpodIcon, Bell as BellIcon, Aeroplane1 as Aeroplane1Icon, Cross as CrossIcon } from '@intugine-technologies/radiant-icons'
+import {
+  Dock as DockIcon,
+  TruckMoving as TruckMovingIcon,
+  Epod as EpodIcon,
+  Bell as BellIcon,
+  Aeroplane1 as Aeroplane1Icon,
+  Cross as CrossIcon,
+} from "@intugine-technologies/radiant-icons";
 
 const StyledBox = ({ children }) => {
   return (
@@ -66,6 +74,7 @@ const ReactLiveScope = {
   Link,
   Sheet,
   TextField,
+  Textarea,
   Avatar,
   Badge,
   Card,
@@ -86,6 +95,6 @@ const ReactLiveScope = {
   Tabs,
   Tab,
   TabList,
-  TabPanel
+  TabPanel,
 };
 export default ReactLiveScope;

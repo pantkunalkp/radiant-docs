@@ -1847,10 +1847,10 @@
     clsx "^1.1.1"
     csstype "^3.1.0"
 
-"@intugine-technologies/radiant@^2.0.0-beta.5":
-  version "2.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@intugine-technologies/radiant/-/radiant-2.0.0-beta.5.tgz#fc0e27e283a0c9653a8774166f3a794f433a8cfa"
-  integrity sha512-0mdeYw9ANVeqCPAGM8azTBVhzPkFlwRlcKwCGmi0pTeleFMYovT9Gs/xg465h7Z7oOE16fCVWG/rG35VTveVkg==
+"@intugine-technologies/radiant@^2.0.0-beta.6":
+  version "2.0.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@intugine-technologies/radiant/-/radiant-2.0.0-beta.6.tgz#45e1436a409c2c11b48b0dccb44c1ab9450dbe3f"
+  integrity sha512-bWLCDGp8dBBxfses1PbsDBoc+CrZmikkCYex4DvWnXN1rNKc9t1hyvirK7TD7ylJZIC5v2uqaAIwbMRw9fKONQ==
   dependencies:
     "@mui/base" "^5.0.0-alpha.96"
     "@mui/system" "^5.10.4"
