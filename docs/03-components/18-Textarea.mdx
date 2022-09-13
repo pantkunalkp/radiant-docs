@@ -1,0 +1,124 @@
+---
+sidebar_position: 6
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# Textarea
+
+Textareas allow users to enter text into a UI. They typically appear in forms and dialogs.
+
+Below are the relevant attributes for all Textarea types.
+
+### Sizes
+
+Textareas are available in 1 sizes: `sm`
+
+```jsx live
+function TextareaSizes() {
+  return (
+    <Textarea placeholder="Placeholder" label="Enter your CTC" maxRows={10} />
+  );
+}
+```
+
+### Variants
+
+Textarea are available in 4 global variants: `solid` , `soft`, `outlined`(default) and `plain`
+
+```jsx live
+function TextareaVariants() {
+  return (
+    <StyledBox>
+      <Textarea
+        placeholder="Placeholder"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+      <Textarea
+        placeholder="Placeholder"
+        variant="solid"
+        sx={{ width: "312px" }}
+      />
+      <Textarea
+        placeholder="Placeholder"
+        variant="soft"
+        sx={{ width: "312px" }}
+      />
+      <Textarea
+        placeholder="Placeholder"
+        variant="plain"
+        sx={{ width: "312px" }}
+      />
+    </StyledBox>
+  );
+}
+```
+
+### Colors
+
+All components do support 6 color type: `primary`, `neutral`, `danger`, `info`, `success` and `warning`
+
+```jsx live
+function TextareaVariants() {
+  return (
+    <StyledBox>
+      <Textarea
+        placeholder="Placeholder"
+        color="primary"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+      <Textarea
+        placeholder="Placeholder"
+        color="neutral"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+
+      <Textarea
+        placeholder="success"
+        color="danger"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+      <Textarea
+        placeholder="Placeholder"
+        color="info"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+      <Textarea
+        placeholder="Placeholder"
+        color="warning"
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+    </StyledBox>
+  );
+}
+```
+
+### Disabled
+
+Textarea in disabled mode-
+
+```jsx live
+function TextareaVariants() {
+  return (
+    <StyledBox>
+      <Textarea
+        placeholder="Placeholder"
+        color="primary"
+        disabled
+        variant="outlined"
+        sx={{ width: "312px" }}
+      />
+    </StyledBox>
+  );
+}
+```
+
+## Props
+
+<PropsTable name="Textarea" />
