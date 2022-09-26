@@ -37,6 +37,23 @@
     "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
    }
   },
+  "componentsProps": {
+   "defaultValue": {
+    "value": "{}"
+   },
+   "description": "The props used for each slot inside the component.",
+   "name": "componentsProps",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Button/ButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ComponentsProps"
+   }
+  },
   "disabled": {
    "defaultValue": {
     "value": "false"
@@ -54,10 +71,10 @@
     "name": "boolean"
    }
   },
-  "endIcon": {
+  "endDecorator": {
    "defaultValue": null,
    "description": "Element placed after the children.",
-   "name": "endIcon",
+   "name": "endDecorator",
    "declarations": [
     {
      "fileName": "radiant/src/Button/ButtonProps.ts",
@@ -116,10 +133,10 @@
     "name": "\"sm\" | \"md\" | \"lg\""
    }
   },
-  "startIcon": {
+  "startDecorator": {
    "defaultValue": null,
    "description": "Element placed before the children.",
-   "name": "startIcon",
+   "name": "startDecorator",
    "declarations": [
     {
      "fileName": "radiant/src/Button/ButtonProps.ts",

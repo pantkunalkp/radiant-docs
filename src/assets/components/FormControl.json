@@ -1,0 +1,139 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/FormControl.tsx",
+ "description": "",
+ "displayName": "FormControl",
+ "methods": [],
+ "props": {
+  "children": {
+   "defaultValue": null,
+   "description": "The content of the component.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormControl/FormControlProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "color": {
+   "defaultValue": null,
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormControl/FormControlProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "disabled": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the children are in disabled state.",
+   "name": "disabled",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormControl/FormControlProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "error": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the children will indicate an error.",
+   "name": "error",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormControl/FormControlProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "orientation": {
+   "defaultValue": {
+    "value": "'vertical'"
+   },
+   "description": "The content direction flow.",
+   "name": "orientation",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormControl/FormControlProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"vertical\" | \"horizontal\""
+   }
+  },
+  "required": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the user must specify a value for the input before the owning form can be submitted.\nIf `true`, the asterisk appears on the FormLabel.",
+   "name": "required",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormControl/FormControlProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "size": {
+   "defaultValue": {
+    "value": "'md'"
+   },
+   "description": "The size of the component.",
+   "name": "size",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormControl/FormControlProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"sm\" | \"md\" | \"lg\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormControl/FormControlProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  }
+ }
+}

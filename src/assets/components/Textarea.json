@@ -1,0 +1,364 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Textarea.tsx",
+ "description": "",
+ "displayName": "Textarea",
+ "methods": [],
+ "props": {
+  "autoComplete": {
+   "defaultValue": null,
+   "description": "",
+   "name": "autoComplete",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "autoFocus": {
+   "defaultValue": null,
+   "description": "",
+   "name": "autoFocus",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "onClick": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onClick",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "color": {
+   "defaultValue": {
+    "value": "'neutral'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "any"
+   }
+  },
+  "onChange": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onChange",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "onKeyDown": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onKeyDown",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "onKeyUp": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onKeyUp",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "onFocus": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onFocus",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "onBlur": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onBlur",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "defaultValue": {
+   "defaultValue": null,
+   "description": "",
+   "name": "defaultValue",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "value": {
+   "defaultValue": null,
+   "description": "",
+   "name": "value",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "placeholder": {
+   "defaultValue": null,
+   "description": "",
+   "name": "placeholder",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "readOnly": {
+   "defaultValue": null,
+   "description": "",
+   "name": "readOnly",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "required": {
+   "defaultValue": null,
+   "description": "",
+   "name": "required",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "name": {
+   "defaultValue": null,
+   "description": "",
+   "name": "name",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "id": {
+   "defaultValue": null,
+   "description": "The id of the `input` element.\nUse this prop to make `label` and `helperText` accessible for screen readers.",
+   "name": "id",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "any"
+   }
+  },
+  "disabled": {
+   "defaultValue": null,
+   "description": "",
+   "name": "disabled",
+   "required": true,
+   "type": {
+    "name": "React.TextareaHTMLAttributes<HTMLTextAreaElement>"
+   }
+  },
+  "components": {
+   "defaultValue": {
+    "value": "{}"
+   },
+   "description": "The props used for each slot inside the component.",
+   "name": "components",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "{ Root?: React.ElementType; Label?: React.ElementType; Input?: React.ElementType; HelperText?: React.ElementType; }"
+   }
+  },
+  "componentsProps": {
+   "defaultValue": null,
+   "description": "",
+   "name": "componentsProps",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ComponentsProps"
+   }
+  },
+  "endDecorator": {
+   "defaultValue": null,
+   "description": "Trailing adornment for this input.",
+   "name": "endDecorator",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.ReactNode"
+   }
+  },
+  "label": {
+   "defaultValue": null,
+   "description": "The label content.",
+   "name": "label",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.ReactNode"
+   }
+  },
+  "error": {
+   "defaultValue": null,
+   "description": "",
+   "name": "error",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "maxRows": {
+   "defaultValue": null,
+   "description": "Maximum number of rows to display.",
+   "name": "maxRows",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string | number"
+   }
+  },
+  "minRows": {
+   "defaultValue": {
+    "value": "1"
+   },
+   "description": "Minimum number of rows to display.",
+   "name": "minRows",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string | number"
+   }
+  },
+  "startDecorator": {
+   "defaultValue": null,
+   "description": "Leading adornment for this input.",
+   "name": "startDecorator",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.ReactNode"
+   }
+  },
+  "size": {
+   "defaultValue": {
+    "value": "'md'"
+   },
+   "description": "The size of the component.",
+   "name": "size",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"sm\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "helperText": {
+   "defaultValue": null,
+   "description": "",
+   "name": "helperText",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.ReactNode"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'outlined'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Textarea/TextareaProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  }
+ }
+}

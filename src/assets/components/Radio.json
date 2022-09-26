@@ -225,7 +225,7 @@
    "defaultValue": {
     "value": "{}"
    },
-   "description": "The props used for each slot inside the Input.",
+   "description": "The props used for each slot inside the component.",
    "name": "componentsProps",
    "declarations": [
     {
@@ -235,7 +235,7 @@
    ],
    "required": false,
    "type": {
-    "name": "{ root?: Pick<DetailedHTMLProps<HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>, \"key\" | keyof HTMLAttributes<...>> & { ...; }; radio?: Pick<...> & { ...; }; action?: Pick<...> & { ...; }; input?: Pick<...> & { ...; }; label?: Pick<...> & { ...; }; }"
+    "name": "ComponentsProps"
    }
   },
   "color": {

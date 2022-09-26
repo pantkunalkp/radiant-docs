@@ -20,10 +20,42 @@
     "name": "ReactNode"
    }
   },
+  "componentsProps": {
+   "defaultValue": {
+    "value": "{}"
+   },
+   "description": "The props used for each slot inside the component.",
+   "name": "componentsProps",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormLabel/FormLabelProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ComponentsProps"
+   }
+  },
   "required": {
    "defaultValue": null,
    "description": "The asterisk is added if required=`true`",
    "name": "required",
+   "declarations": [
+    {
+     "fileName": "radiant/src/FormLabel/FormLabelProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "disabled": {
+   "defaultValue": null,
+   "description": "",
+   "name": "disabled",
    "declarations": [
     {
      "fileName": "radiant/src/FormLabel/FormLabelProps.ts",
