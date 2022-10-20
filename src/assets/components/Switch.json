@@ -4,5 +4,290 @@
  "description": "",
  "displayName": "Switch",
  "methods": [],
- "props": {}
+ "props": {
+  "checked": {
+   "defaultValue": null,
+   "description": "If `true`, the component is checked.",
+   "name": "checked",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+    "name": "UseSwitchParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+     "name": "UseSwitchParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "defaultChecked": {
+   "defaultValue": null,
+   "description": "The default checked state. Use when the component is not controlled.",
+   "name": "defaultChecked",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+    "name": "UseSwitchParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+     "name": "UseSwitchParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "disabled": {
+   "defaultValue": null,
+   "description": "If `true`, the component is disabled.",
+   "name": "disabled",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+    "name": "UseSwitchParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+     "name": "UseSwitchParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "onBlur": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onBlur",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+    "name": "UseSwitchParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+     "name": "UseSwitchParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.FocusEventHandler"
+   }
+  },
+  "onChange": {
+   "defaultValue": null,
+   "description": "Callback fired when the state is changed.\n@param event The event source of the callback.\nYou can pull out the new value by accessing `event.target.value` (string).\nYou can pull out the new checked state by accessing `event.target.checked` (boolean).",
+   "name": "onChange",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+    "name": "UseSwitchParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+     "name": "UseSwitchParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.ChangeEventHandler<HTMLInputElement>"
+   }
+  },
+  "onFocus": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onFocus",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+    "name": "UseSwitchParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+     "name": "UseSwitchParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.FocusEventHandler"
+   }
+  },
+  "onFocusVisible": {
+   "defaultValue": null,
+   "description": "",
+   "name": "onFocusVisible",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+    "name": "UseSwitchParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+     "name": "UseSwitchParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.FocusEventHandler"
+   }
+  },
+  "readOnly": {
+   "defaultValue": null,
+   "description": "If `true`, the component is read only.",
+   "name": "readOnly",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+    "name": "UseSwitchParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+     "name": "UseSwitchParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "required": {
+   "defaultValue": null,
+   "description": "If `true`, the `input` element is required.",
+   "name": "required",
+   "parent": {
+    "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+    "name": "UseSwitchParameters"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/node_modules/@mui/base/SwitchUnstyled/useSwitch.types.d.ts",
+     "name": "UseSwitchParameters"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "color": {
+   "defaultValue": {
+    "value": "'neutral'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Switch/SwitchProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "componentsProps": {
+   "defaultValue": {
+    "value": "{}"
+   },
+   "description": "The props used for each slot inside the component.",
+   "name": "componentsProps",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Switch/SwitchProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ComponentsProps"
+   }
+  },
+  "endDecorator": {
+   "defaultValue": null,
+   "description": "The element that appears at the end of the switch.",
+   "name": "endDecorator",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Switch/SwitchProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode | ((ownerState: SwitchOwnerState) => ReactNode)"
+   }
+  },
+  "size": {
+   "defaultValue": {
+    "value": "'md'"
+   },
+   "description": "The size of the component.",
+   "name": "size",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Switch/SwitchProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"sm\" | \"md\" | \"lg\""
+   }
+  },
+  "startDecorator": {
+   "defaultValue": null,
+   "description": "The element that appears at the end of the switch.",
+   "name": "startDecorator",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Switch/SwitchProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode | ((ownerState: SwitchOwnerState) => ReactNode)"
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Switch/SwitchProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'solid'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Switch/SwitchProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  }
+ }
 }

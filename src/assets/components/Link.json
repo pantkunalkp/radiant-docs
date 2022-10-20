@@ -847,6 +847,23 @@
     "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
    }
   },
+  "componentsProps": {
+   "defaultValue": {
+    "value": "{}"
+   },
+   "description": "The props used for each slot inside the component.",
+   "name": "componentsProps",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Link/LinkProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ComponentsProps"
+   }
+  },
   "disabled": {
    "defaultValue": {
     "value": "false"

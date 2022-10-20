@@ -5,23 +5,6 @@
  "displayName": "Chip",
  "methods": [],
  "props": {
-  "componentsProps": {
-   "defaultValue": {
-    "value": "{}"
-   },
-   "description": "The props used for each slot inside the Input.",
-   "name": "componentsProps",
-   "declarations": [
-    {
-     "fileName": "radiant/src/Chip/ChipProps.ts",
-     "name": "TypeLiteral"
-    }
-   ],
-   "required": false,
-   "type": {
-    "name": "{ root?: DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>; label?: DetailedHTMLProps<HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>; action?: HTMLAttributes<...> & { ...; }; startDecorator?: DetailedHTMLProps<...>; endDecorator?: DetailedHTMLProps<...>; }"
-   }
-  },
   "children": {
    "defaultValue": null,
    "description": "The content of the component.",
@@ -35,6 +18,23 @@
    "required": false,
    "type": {
     "name": "ReactNode"
+   }
+  },
+  "componentsProps": {
+   "defaultValue": {
+    "value": "{}"
+   },
+   "description": "The props used for each slot inside the component.",
+   "name": "componentsProps",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Chip/ChipProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ComponentsProps"
    }
   },
   "color": {
@@ -84,6 +84,21 @@
    "required": false,
    "type": {
     "name": "ReactNode"
+   }
+  },
+  "onClick": {
+   "defaultValue": null,
+   "description": "Element action click handler.",
+   "name": "onClick",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Chip/ChipProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "MouseEventHandler<HTMLButtonElement>"
    }
   },
   "size": {

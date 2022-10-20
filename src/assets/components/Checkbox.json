@@ -208,26 +208,11 @@
     "name": "string"
    }
   },
-  "component": {
-   "defaultValue": null,
-   "description": "The component used for the Root slot.\nEither a string to use a HTML element or a component.",
-   "name": "component",
-   "declarations": [
-    {
-     "fileName": "radiant/src/Checkbox/CheckboxProps.ts",
-     "name": "TypeLiteral"
-    }
-   ],
-   "required": false,
-   "type": {
-    "name": "ElementType<any>"
-   }
-  },
   "componentsProps": {
    "defaultValue": {
     "value": "{}"
    },
-   "description": "The props used for each slot inside the Input.",
+   "description": "The props used for each slot inside the component.",
    "name": "componentsProps",
    "declarations": [
     {
@@ -237,7 +222,7 @@
    ],
    "required": false,
    "type": {
-    "name": "{ root?: Pick<DetailedHTMLProps<HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>, \"key\" | keyof HTMLAttributes<...>> & { ...; }; action?: Pick<...> & ... 1 more ... & { ...; }; checkbox?: Pick<...> & ... 1 more ... & { ...; }; input?: Pick<...> & ... 1 more ... & { ...; }; label?: Pick<...> & ... 1 more ... & { ......"
+    "name": "ComponentsProps"
    }
   },
   "color": {
@@ -417,6 +402,21 @@
    "required": false,
    "type": {
     "name": "ReactNode"
+   }
+  },
+  "value": {
+   "defaultValue": null,
+   "description": "The value of the component. The DOM API casts this to a string.\nThe browser uses \"on\" as the default value.",
+   "name": "value",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Checkbox/CheckboxProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "string | number | readonly string[]"
    }
   }
  }

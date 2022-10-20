@@ -1,19 +1,19 @@
 {
  "tags": {},
- "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/ChipDelete.tsx",
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/ListSubheader.tsx",
  "description": "",
- "displayName": "ChipDelete",
+ "displayName": "ListSubheader",
  "methods": [],
  "props": {
   "color": {
    "defaultValue": {
-    "value": "'primary'"
+    "value": "'neutral'"
    },
    "description": "The color of the component. It supports those theme colors that make sense for this component.",
    "name": "color",
    "declarations": [
     {
-     "fileName": "radiant/src/ChipDelete/ChipDeleteProps.ts",
+     "fileName": "radiant/src/ListSubheader/ListSubheaderProps.ts",
      "name": "TypeLiteral"
     }
    ],
@@ -24,11 +24,11 @@
   },
   "children": {
    "defaultValue": null,
-   "description": "If provided, it will replace the default icon.",
+   "description": "The content of the component.",
    "name": "children",
    "declarations": [
     {
-     "fileName": "radiant/src/ChipDelete/ChipDeleteProps.ts",
+     "fileName": "radiant/src/ListSubheader/ListSubheaderProps.ts",
      "name": "TypeLiteral"
     }
    ],
@@ -37,28 +37,13 @@
     "name": "ReactNode"
    }
   },
-  "disabled": {
-   "defaultValue": null,
-   "description": "If `true`, the component is disabled.\nIf `undefined`, the value inherits from the parent chip via a React context.",
-   "name": "disabled",
-   "declarations": [
-    {
-     "fileName": "radiant/src/ChipDelete/ChipDeleteProps.ts",
-     "name": "TypeLiteral"
-    }
-   ],
-   "required": false,
-   "type": {
-    "name": "boolean"
-   }
-  },
   "sx": {
    "defaultValue": null,
    "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
    "name": "sx",
    "declarations": [
     {
-     "fileName": "radiant/src/ChipDelete/ChipDeleteProps.ts",
+     "fileName": "radiant/src/ListSubheader/ListSubheaderProps.ts",
      "name": "TypeLiteral"
     }
    ],
@@ -67,15 +52,32 @@
     "name": "SxProps"
    }
   },
+  "sticky": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the component has sticky position (with top = 0).",
+   "name": "sticky",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ListSubheader/ListSubheaderProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
   "variant": {
    "defaultValue": {
-    "value": "'solid'"
+    "value": "'plain'"
    },
    "description": "The variant to use.",
    "name": "variant",
    "declarations": [
     {
-     "fileName": "radiant/src/ChipDelete/ChipDeleteProps.ts",
+     "fileName": "radiant/src/ListSubheader/ListSubheaderProps.ts",
      "name": "TypeLiteral"
     }
    ],

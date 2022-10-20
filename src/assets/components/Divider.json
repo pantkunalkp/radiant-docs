@@ -1,0 +1,86 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/Divider.tsx",
+ "description": "",
+ "displayName": "Divider",
+ "methods": [],
+ "props": {
+  "children": {
+   "defaultValue": null,
+   "description": "The content of the component.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Divider/DividerProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "classes": {
+   "defaultValue": null,
+   "description": "Override or extend the styles applied to the component.",
+   "name": "classes",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Divider/DividerProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "Partial<DividerClasses>"
+   }
+  },
+  "inset": {
+   "defaultValue": null,
+   "description": "The styles applied to the divider to shrink or stretch the line based on the orientation.",
+   "name": "inset",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Divider/DividerProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"none\" | \"context\""
+   }
+  },
+  "orientation": {
+   "defaultValue": {
+    "value": "'horizontal'"
+   },
+   "description": "The component orientation.",
+   "name": "orientation",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Divider/DividerProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"horizontal\" | \"vertical\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Divider/DividerProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  }
+ }
+}

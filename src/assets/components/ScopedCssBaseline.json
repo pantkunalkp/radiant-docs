@@ -1,0 +1,56 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/ScopedCssBaseline.tsx",
+ "description": "",
+ "displayName": "ScopedCssBaseline",
+ "methods": [],
+ "props": {
+  "children": {
+   "defaultValue": null,
+   "description": "You can wrap a node.",
+   "name": "children",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ScopedCssBaseline/ScopedCssBaselineProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ReactNode"
+   }
+  },
+  "disableColorScheme": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "Disable `color-scheme` CSS property.\n\nFor more details, check out https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme\nFor browser support, check out https://caniuse.com/?search=color-scheme",
+   "name": "disableColorScheme",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ScopedCssBaseline/ScopedCssBaselineProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/ScopedCssBaseline/ScopedCssBaselineProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  }
+ }
+}

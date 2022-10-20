@@ -24,6 +24,25 @@
     "name": "{}"
    }
   },
+  "getSerializedValue": {
+   "defaultValue": null,
+   "description": "A function to convert the currently selected value to a string.\nUsed to set a value of a hidden input associated with the select,\nso that the selected value can be posted with a form.",
+   "name": "getSerializedValue",
+   "parent": {
+    "fileName": "radiant/src/Select/SelectProps.ts",
+    "name": "SelectOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/src/Select/SelectProps.ts",
+     "name": "SelectOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "(option: SelectOption<{}>) => React.InputHTMLAttributes<HTMLInputElement>"
+   }
+  },
   "onChange": {
    "defaultValue": null,
    "description": "Callback fired when an option is selected.",

@@ -37,21 +37,6 @@
     "name": "ReactNode"
    }
   },
-  "classes": {
-   "defaultValue": null,
-   "description": "Override or extend the styles applied to the component.",
-   "name": "classes",
-   "declarations": [
-    {
-     "fileName": "radiant/src/ListItem/ListItemProps.ts",
-     "name": "TypeLiteral"
-    }
-   ],
-   "required": false,
-   "type": {
-    "name": "Partial<ListItemClasses>"
-   }
-  },
   "startAction": {
    "defaultValue": null,
    "description": "The element to display at the start of ListItem.",

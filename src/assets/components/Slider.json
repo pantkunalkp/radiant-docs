@@ -27,7 +27,7 @@
    ],
    "required": false,
    "type": {
-    "name": "{ root?: SlotComponentProps<\"span\", SliderComponentsPropsOverrides, SliderOwnerState>; track?: SlotComponentProps<\"span\", SliderComponentsPropsOverrides, SliderOwnerState>; ... 5 more ...; input?: SlotComponentProps<...>; } & { ...; }"
+    "name": "{ root?: SlotComponentProps<\"span\", { sx?: SxProps; }, SliderOwnerState>; track?: SlotComponentProps<\"span\", { sx?: SxProps; }, SliderOwnerState>; ... 5 more ...; input?: SlotComponentProps<...>; } & { ...; }"
    }
   },
   "color": {
@@ -89,6 +89,27 @@
    "required": false,
    "type": {
     "name": "SxProps"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'solid'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "parent": {
+    "fileName": "radiant/src/Slider/SliderProps.ts",
+    "name": "SliderOwnProps"
+   },
+   "declarations": [
+    {
+     "fileName": "radiant/src/Slider/SliderProps.ts",
+     "name": "SliderOwnProps"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
    }
   },
   "aria-label": {

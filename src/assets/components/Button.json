@@ -196,6 +196,57 @@
    "type": {
     "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
    }
+  },
+  "loading": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "If `true`, the loading indicator is shown.",
+   "name": "loading",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Button/ButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "loadingIndicator": {
+   "defaultValue": {
+    "value": "<CircularProgress />"
+   },
+   "description": "The node should contain an element with `role=\"progressbar\"` with an accessible name.\nBy default we render a `CircularProgress` that is labelled by the button itself.",
+   "name": "loadingIndicator",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Button/ButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "React.ReactNode"
+   }
+  },
+  "loadingPosition": {
+   "defaultValue": {
+    "value": "'center'"
+   },
+   "description": "The loading indicator can be positioned on the start, end, or the center of the button.",
+   "name": "loadingPosition",
+   "declarations": [
+    {
+     "fileName": "radiant/src/Button/ButtonProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"start\" | \"end\" | \"center\""
+   }
   }
  }
 }

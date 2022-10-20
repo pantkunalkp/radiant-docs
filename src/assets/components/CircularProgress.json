@@ -1,0 +1,139 @@
+{
+ "tags": {},
+ "filePath": "/Users/navneet/my-workspace/radiant/scripts/tmpf/CircularProgress.tsx",
+ "description": "",
+ "displayName": "CircularProgress",
+ "methods": [],
+ "props": {
+  "color": {
+   "defaultValue": {
+    "value": "'primary'"
+   },
+   "description": "The color of the component. It supports those theme colors that make sense for this component.",
+   "name": "color",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CircularProgress/CircularProgressProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"primary\" | \"neutral\" | \"danger\" | \"info\" | \"success\" | \"warning\""
+   }
+  },
+  "componentsProps": {
+   "defaultValue": {
+    "value": "{}"
+   },
+   "description": "The props used for each slot inside the CircularProgress.",
+   "name": "componentsProps",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CircularProgress/CircularProgressProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "ComponentsProps"
+   }
+  },
+  "determinate": {
+   "defaultValue": {
+    "value": "false"
+   },
+   "description": "The boolean to select a variant.\nUse indeterminate when there is no progress value.",
+   "name": "determinate",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CircularProgress/CircularProgressProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "boolean"
+   }
+  },
+  "size": {
+   "defaultValue": {
+    "value": "'md'"
+   },
+   "description": "The size of the component.\nIt accepts theme values between 'sm' and 'lg'.",
+   "name": "size",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CircularProgress/CircularProgressProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"sm\" | \"md\" | \"lg\""
+   }
+  },
+  "sx": {
+   "defaultValue": null,
+   "description": "The system prop that allows defining system overrides as well as additional CSS styles.",
+   "name": "sx",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CircularProgress/CircularProgressProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "SxProps"
+   }
+  },
+  "thickness": {
+   "defaultValue": null,
+   "description": "The thickness of the circle.",
+   "name": "thickness",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CircularProgress/CircularProgressProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "number"
+   }
+  },
+  "value": {
+   "defaultValue": null,
+   "description": "The value of the progress indicator for the determinate variant.\nValue between 0 and 100.\n\nFor indeterminate, @default 25",
+   "name": "value",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CircularProgress/CircularProgressProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "number"
+   }
+  },
+  "variant": {
+   "defaultValue": {
+    "value": "'soft'"
+   },
+   "description": "The variant to use.",
+   "name": "variant",
+   "declarations": [
+    {
+     "fileName": "radiant/src/CircularProgress/CircularProgressProps.ts",
+     "name": "TypeLiteral"
+    }
+   ],
+   "required": false,
+   "type": {
+    "name": "\"plain\" | \"outlined\" | \"soft\" | \"solid\""
+   }
+  }
+ }
+}
