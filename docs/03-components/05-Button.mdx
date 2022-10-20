@@ -51,35 +51,29 @@ function ButtonVariants() {
 
 ### Buttons with icons
 
-Buttons do have startIcon and endIcon props
+Buttons do have startDecorator and endDecorator props
 
 ```jsx live
 function ButtonVariants() {
   return (
     <StyledBox>
-      <Button
-        variant="outlined"
-        startIcon={<DockIcon />}
-      >
+      <Button variant="outlined" startDecorator={<DockIcon />}>
         This is Button
       </Button>
-      <Button
-        variant="solid"
-        endIcon={<DockIcon />}
-      >
+      <Button variant="solid" endDecorator={<DockIcon />}>
         This is Button
       </Button>
       <Button
         variant="soft"
-        startIcon={<DockIcon />}
-        endIcon={<DockIcon />}
+        startDecorator={<DockIcon />}
+        endDecorator={<DockIcon />}
       >
         This is Button
       </Button>
       <Button
         variant="plain"
-        startIcon={<DockIcon />}
-        endIcon={<DockIcon />}
+        startDecorator={<DockIcon />}
+        endDecorator={<DockIcon />}
       >
         This is Button
       </Button>
@@ -116,9 +110,15 @@ Every prop previously covered are available for this component as well.
 function ButtonSizes() {
   return (
     <StyledBox>
-      <IconButton><DockIcon /></IconButton>
-      <IconButton><TruckMovingIcon /></IconButton>
-      <IconButton><EpodIcon /></IconButton>
+      <IconButton>
+        <DockIcon />
+      </IconButton>
+      <IconButton>
+        <TruckMovingIcon />
+      </IconButton>
+      <IconButton>
+        <EpodIcon />
+      </IconButton>
     </StyledBox>
   );
 }
@@ -129,7 +129,9 @@ function ButtonSizes() {
 ## Props
 
 #### Button
+
 <PropsTable name="Button" />
 
 #### IconButton
+
 All the button props are available.
