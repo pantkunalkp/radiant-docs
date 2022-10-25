@@ -31,6 +31,7 @@ import Tab from "@intugine-technologies/radiant/Tab";
 import TabList from "@intugine-technologies/radiant/TabList";
 import TabPanel from "@intugine-technologies/radiant/TabPanel";
 import Divider from "@intugine-technologies/radiant/Divider";
+import Tooltip from "@intugine-technologies/radiant/Tooltip";
 import { CssVarsProvider } from "@intugine-technologies/radiant";
 import {
   Dock as DockIcon,
@@ -100,5 +101,6 @@ const ReactLiveScope = {
   TabList,
   TabPanel,
   Divider,
+  Tooltip,
 };
 export default ReactLiveScope;
