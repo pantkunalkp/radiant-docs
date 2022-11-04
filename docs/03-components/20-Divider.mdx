@@ -1,0 +1,54 @@
+---
+sidebar_position: 6
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# Divider
+
+A divider is a thin line that groups content in lists and layouts.
+
+### The sx prop
+
+```jsx live
+function DividerSx() {
+  return (
+    <StyledBox>
+      <Box>
+        <Checkbox label="horizontal" checked={false} sx={{ mb: 2 }} />
+        <Card
+          row={false}
+          variant="outlined"
+          sx={{ width: 400, maxWidth: "100%", gap: 1.5 }}
+        >
+          <Typography fontSize="lg" fontWeight="md">
+            Headline
+          </Typography>
+          <Divider />
+          <Box sx={{ display: false ? "block" : "contents" }}>
+            <Typography level="body2">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry standard dummy text
+              ever since the 1500s
+            </Typography>
+            <Button
+              size="sm"
+              variant="soft"
+              color="neutral"
+              sx={{ width: "100%", mt: false ? 2 : 0 }}
+            >
+              See more
+            </Button>
+          </Box>
+        </Card>
+      </Box>
+    </StyledBox>
+  );
+}
+```
+
+---
+
+## Props
+
+<PropsTable name="Divider" />

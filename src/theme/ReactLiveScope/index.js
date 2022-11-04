@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "@intugine-technologies/radiant/Button";
 import Box from "@intugine-technologies/radiant/Box";
+import Grid from "@intugine-technologies/radiant/Grid";
 import Switch from "@intugine-technologies/radiant/Switch";
 import Radio from "@intugine-technologies/radiant/Radio";
 import Chip from "@intugine-technologies/radiant/Chip";
@@ -29,6 +30,8 @@ import Tabs from "@intugine-technologies/radiant/Tabs";
 import Tab from "@intugine-technologies/radiant/Tab";
 import TabList from "@intugine-technologies/radiant/TabList";
 import TabPanel from "@intugine-technologies/radiant/TabPanel";
+import Divider from "@intugine-technologies/radiant/Divider";
+import Tooltip from "@intugine-technologies/radiant/Tooltip";
 import { CssVarsProvider } from "@intugine-technologies/radiant";
 import {
   Dock as DockIcon,
@@ -62,6 +65,7 @@ const ReactLiveScope = {
   AspectRatio,
   Button,
   Box,
+  Grid,
   StyledBox,
   Switch,
   Radio,
@@ -96,5 +100,7 @@ const ReactLiveScope = {
   Tab,
   TabList,
   TabPanel,
+  Divider,
+  Tooltip,
 };
 export default ReactLiveScope;
