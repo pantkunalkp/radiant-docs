@@ -1,0 +1,62 @@
+---
+sidebar_position: 6
+---
+
+import PropsTable from "@site/src/utils/PropsTable";
+
+# Grid
+
+The Grid component serves as a wrapper component for most of the CSS utility needs.
+
+### The sx prop
+
+```jsx live
+function GridSx() {
+  return (
+    <Grid container spacing={2}>
+      <Grid item xs={6} md={4}>
+        <Sheet
+          shadow="md"
+          sx={{
+            border: "1px solid black",
+            padding: "4px",
+            textAlign: "center",
+          }}
+        >
+          xs=6 md=4
+        </Sheet>
+      </Grid>
+      <Grid item xs={6} md={4}>
+        <Sheet
+          shadow="md"
+          sx={{
+            border: "1px solid black",
+            padding: "4px",
+            textAlign: "center",
+          }}
+        >
+          xs=6 md=4
+        </Sheet>
+      </Grid>
+      <Grid item xs={6} md={4}>
+        <Sheet
+          shadow="md"
+          sx={{
+            border: "1px solid black",
+            padding: "4px",
+            textAlign: "center",
+          }}
+        >
+          xs=6 md=4
+        </Sheet>
+      </Grid>
+    </Grid>
+  );
+}
+```
+
+---
+
+## Props
+
+<PropsTable name="Grid" />

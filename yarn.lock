@@ -2132,7 +2132,6 @@
     "@popperjs/core" "^2.11.6"
     clsx "^1.2.1"
     prop-types "^15.8.1"
-    react-is "^18.2.0"
 
 "@mui/private-theming@^5.10.16":
   version "5.10.16"
